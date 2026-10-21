@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puzzle-workout"
+version = "0.1.0"
+description = "A friendly, open puzzle trainer: 250+ reasoning puzzles with guided strategies, verified answers, explanations, difficulty levels, and grounded citations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "drwjkirkpatrick-web" }]
+keywords = ["puzzles", "critical-thinking", "reasoning", "brain-teasers", "logic"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Education",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Education",
+  "Topic :: Games/Entertainment :: Puzzle Games",
+]
+
+[project.urls]
+Repository = "https://github.com/drwjkirkpatrick-web/puzzle-workout"
+
+[project.scripts]
+puzzle-workout = "fun_problem.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

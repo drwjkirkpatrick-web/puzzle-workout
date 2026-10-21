@@ -1,0 +1,340 @@
+[
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 1,
+    "question": "On a standard die, the numbers on opposite faces always add up to 7 (so 1 is opposite 6, 2 is opposite 5, and 3 is opposite 4). A die rests on a table with the face showing 5 dots on top. How many dots are on the face that touches the table?",
+    "guidance": "When a puzzle involves a die, write down the opposite-face pairs (1-6, 2-5, 3-4) before anything else so they are at your fingertips. Then translate each spatial phrase in the story — 'on top', 'facing you', 'touching the table' — into a statement about which face is opposite which, and only then compute.",
+    "answer": "2",
+    "alt_answers": [
+      "2 dots"
+    ],
+    "explanation": "On a standard die the face opposite the 5 must carry 7 - 5 = 2 dots. The face touching the table is exactly the face opposite the top face, so the bottom of the die shows 2. The other two opposite pairs (1-6 and 3-4) play no role here, which shows that the convention alone forces the answer no matter how the die is turned on the table.",
+    "tags": [
+      "dice",
+      "opposite-faces",
+      "counting"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 1,
+    "question": "A solid has two parallel hexagonal ends joined together by six rectangular side faces. (This shape is called a hexagonal prism.) How many vertices (corner points) does this solid have?",
+    "guidance": "For any prism, the corners come only from the two end polygons: each corner of one end is matched to a corner of the other end by one of the rectangular sides. Count the end polygon's corners, account for both ends, and finish with Euler's relation — vertices minus edges plus faces equals 2 — as a safety check.",
+    "answer": "12",
+    "alt_answers": [
+      "12 vertices"
+    ],
+    "explanation": "Each hexagonal end is a flat polygon with 6 corner points, and the two ends are parallel copies that share no corners: 6 + 6 = 12. The six rectangles merely join corresponding corners and add none of their own. As a check, a hexagonal prism has 18 edges (6 around each end plus 6 connectors) and 8 faces, and Euler's relation gives 12 - 18 + 8 = 2, confirming the count is consistent.",
+    "tags": [
+      "solids",
+      "prism",
+      "counting"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 1,
+    "question": "On a standard die, opposite faces always add up to 7. A die sits on a table between two friends standing exactly opposite each other, each looking straight at it. One friend sees the face showing 4 dots facing her. How many dots are on the face directly facing the other friend?",
+    "guidance": "Convert the scene into face relations before calculating: two people viewing a cube from exactly opposite directions always look at two opposite faces. List the three opposite pairs (each sums to 7 on a standard die), match the story's facts onto those pairs, and only then answer.",
+    "answer": "3",
+    "alt_answers": [
+      "3 dots"
+    ],
+    "explanation": "Because the friends look from exactly opposite directions, the faces they see form an opposite pair. The face opposite the 4 is 7 - 4 = 3, so the other friend faces the 3. The top and bottom faces are irrelevant — neither friend can see them — and the answer is forced no matter how the die happens to be sitting.",
+    "tags": [
+      "dice",
+      "opposite-faces",
+      "visualization"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "On a standard die, opposite faces always add up to 7. A die rests with 3 on top. What is the sum of the numbers on its four vertical side faces?",
+    "guidance": "Use the die's totals: all six faces add to 21, and the top and bottom faces form one opposite pair that also adds to 7. Subtracting the pinned-down faces is usually faster than listing them, but listing the four remaining faces is a quick way to double-check.",
+    "answer": "14",
+    "alt_answers": [],
+    "explanation": "With 3 on top, the bottom must be its opposite, 7 - 3 = 4. The four vertical faces are therefore 1, 2, 5 and 6, and 1 + 2 + 5 + 6 = 14. The same answer comes from the total: all faces sum to 21, and 21 - 3 - 4 = 14. The vertical faces are exactly the ones that are neither the top nor the top's opposite, so the value is forced.",
+    "tags": [
+      "dice",
+      "sums",
+      "opposite-faces"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "On a standard die, opposite faces always add up to 7. You look at a die from one angle and can see exactly three faces meeting at one corner; they show 1, 2 and 3. What is the sum of the numbers on the three faces you cannot see?",
+    "guidance": "When three faces meet at a corner, the three faces hidden from you are always their three opposites. Two bookkeeping tricks work well: replace each visible number by 7 minus it, or subtract the visible total from the die's full total of 21.",
+    "answer": "15",
+    "alt_answers": [],
+    "explanation": "Each hidden face is the opposite of a visible one: the opposites of 1, 2 and 3 are 6, 5 and 4, which sum to 15. The same result comes from the total: the six faces add to 21, the visible three add to 1 + 2 + 3 = 6, and 21 - 6 = 15. Since a viewpoint showing three corner faces hides exactly their opposites, no other answer is possible.",
+    "tags": [
+      "dice",
+      "corners",
+      "sums"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "On a standard die, opposite faces always add up to 7. Four players each peek at the same stationary die from a different angle and report the three numbers they can see meeting at one corner:\n\nPlayer 1: \"I see 1, 2 and 4.\"\nPlayer 2: \"I see 2, 3 and 6.\"\nPlayer 3: \"I see 3, 4 and 5.\"\nPlayer 4: \"I see 1, 3 and 5.\"\n\nExactly one report is impossible, because those three numbers can never meet at one corner. Which player must be mistaken?",
+    "guidance": "For 'can these faces meet?' questions, list the opposite pairs (1-6, 2-5, 3-4) and check whether any reported triple contains a complete pair. Three faces taken from three different pairs always meet at some corner; a triple containing an opposite pair never can.",
+    "answer": "Player 3",
+    "alt_answers": [
+      "player 3",
+      "the player reporting 3, 4 and 5"
+    ],
+    "explanation": "Three faces share a corner only if no two of them are opposite. Player 3's set contains both 3 and 4, which are opposite faces (they sum to 7), so they can never meet at a corner — that report is impossible. Every other set draws at most one face from each opposite pair: {1,2,4}, {2,3,6} and {1,3,5} each use three different pairs, and any three faces from three different pairs meet at exactly one corner of the cube.",
+    "tags": [
+      "dice",
+      "deduction",
+      "opposite-faces"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "A large wooden cube is built from 27 identical small cubes, stacked 3 by 3 by 3, and its entire outer surface is then painted. How many of the small cubes have exactly one painted face?",
+    "guidance": "Sort the small cubes by position instead of counting one by one: corner cubes get three painted faces, cubes along edges (but not corners) get two, cubes in the middle of a face get one, and buried cubes get none. Sketch one face of the big cube as a 3-by-3 grid, and remember that edges and corners are shared between neighboring faces.",
+    "answer": "6",
+    "alt_answers": [
+      "six"
+    ],
+    "explanation": "A small cube has exactly one face on the outside only when it sits in the middle of one of the big cube's six faces: corner cubes show three painted faces and edge cubes show two. On a 3-by-3 face, the eight border squares are corners and edges, leaving exactly one center square per face, so 6 faces give 6 such cubes. As a check, the categories cover all 27 cubes: 8 corners + 12 edge cubes + 6 face centers + 1 fully hidden cube = 27.",
+    "tags": [
+      "cube",
+      "painting",
+      "counting"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "Six equal squares labeled T, N, S, E, W and B are joined into a flat pattern that folds into a cube with no gaps or overlaps (a cube net). The pattern is drawn on a grid; a dot means no square is there:\n\n.  N  .\nW  T  E\n.  S  .\n.  B  .\n\nIn the flat pattern, T shares drawn edges with N, W, E and S, and S shares a drawn edge with B. When the pattern is folded into a cube, which labeled square ends up on the face directly opposite T?",
+    "guidance": "Fold a net one step at a time rather than picturing the finished cube: fix one square as the top, then 'walk' outward through each chain of squares, turning a quarter at every shared edge. Keep a running table of where each label lands; in a straight chain of four squares, the first and third end up opposite each other, and so do the second and fourth.",
+    "answer": "B",
+    "alt_answers": [],
+    "explanation": "Hold T as the top. The column N, T, S, B is a straight chain: S folds down to become the front face, B folds one step further to become the bottom, and N ends up as the back. W and E fold down to the left and right. So the folded cube pairs T with B (top and bottom), N with S (back and front), and W with E (left and right). The face directly opposite T is therefore B.",
+    "tags": [
+      "nets",
+      "cube",
+      "folding"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "A die follows the standard convention: numbers on opposite faces add up to 7. It starts sitting with 1 on top, 2 facing you, and 3 on the right side, which fixes every other face: 6 on the bottom, 5 facing away from you, 4 on the left.\n\nThe die then tips over its front bottom edge and rolls directly away from you (the face that faced you goes flat on the ground). It rolls forward like this a second time. Finally, it tips over its right bottom edge and rolls to the right once (the right face goes flat on the ground).\n\nWhat number is now on top?",
+    "guidance": "Never try to picture a rolling die in one jump. Make a table of the six positions and update it one roll at a time: a forward roll cycles top, front, bottom and back among themselves (a sideways roll cycles top, right, bottom and left) while the two untouched faces stay put. Writing all six positions after every step catches slips, and opposite pairs should keep summing to 7 as a running check.",
+    "answer": "4",
+    "alt_answers": [],
+    "explanation": "Track the die as (top, facing you, right, away, left, bottom). Start: (1, 2, 3, 5, 4, 6). A forward roll brings the back face up, sends the top to the front, the front to the bottom, and the bottom to the back: after the first roll the die reads (5, 1, 3, 6, 4, 2), after the second (6, 5, 3, 2, 4, 1). A right roll brings the left face up, sends the top to the right, the right to the bottom, and the bottom to the left: (4, 5, 6, 2, 1, 3). The top face now shows 4. Opposite faces still pair to 7 at every step (4+3, 5+2, 6+1), confirming no bookkeeping slip.",
+    "tags": [
+      "dice",
+      "rolling",
+      "tracking"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "A large cube is built from eight identical small cubes, stacked 2 by 2 by 2. One small cube at a corner of the large cube is removed, leaving a solid block with a one-cube notch cut out of one corner. A point counts as a vertex of the solid only if the surface genuinely turns a corner there — a point lying flat in the middle of a straight edge, or in the middle of a flat face, does not count. How many vertices does the notched solid have?",
+    "guidance": "Count vertices by source: first the original corners that survive the cut, then the new corners the cut creates. Actively hunt for fake vertices — midpoints of straight edges and interior points of flat faces — and finish with Euler's relation (vertices minus edges plus faces equals 2) as a safety net for any solid without holes or pinches.",
+    "answer": "14",
+    "alt_answers": [],
+    "explanation": "The big cube has 8 corner vertices, and the removed corner cube contains only one of them (its outer tip), so 7 survive. The notch adds 7 new vertices: its deepest inner corner, plus six rim points where two new inner walls meet two outer faces at an angle. That gives 7 + 7 = 14. The tempting extra points, such as the middle of the big cube's bottom front edge, lie flat along a straight edge and are not vertices. As a check, the solid has 9 faces and 21 edges, and Euler's relation gives 14 - 21 + 9 = 2, which holds.",
+    "tags": [
+      "solids",
+      "vertices",
+      "euler"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 4,
+    "question": "Six equal squares labeled A, B, C, D, E and F are joined into a flat pattern that folds into a cube with no gaps or overlaps (a cube net). The pattern is drawn on a grid; a dot means no square is there:\n\nA  .  .\nB  C  .\n.  D  E\n.  .  F\n\nThe squares form a single zigzag chain with no extra connections: A touches B, B touches A and C, C touches B and D, D touches C and E, E touches D and F, and F touches E. When the pattern is folded into a cube, which labeled square ends up on the face directly opposite D?",
+    "guidance": "With a zigzag chain, fix one square as the top and fold the chain one link at a time, keeping a table of each label's landing spot — every bend sends the next square around a different corner of the cube, so re-derive each step instead of guessing. As a shortcut, two squares attached to opposite sides of the same square end up opposite each other, but pairs further apart in the chain must be tracked step by step.",
+    "answer": "A",
+    "alt_answers": [],
+    "explanation": "Hold B as the top face. A, attached to B's upper edge, folds back to become the back face. C, attached to B's right edge, folds down to the right face. D hangs from C's lower edge and wraps around to the front face. E hangs from D's right edge and folds under to the bottom face. F hangs from E's lower edge and swings around to the left face. The cube therefore pairs A with D (back and front), B with E (top and bottom), and C with F (right and left). The face directly opposite D is A.",
+    "tags": [
+      "nets",
+      "chains",
+      "folding"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 4,
+    "question": "Four flat patterns are cut from a sheet of equal squares; each uses exactly 6 squares joined edge to edge. Pattern 1 is a straight strip of 6 squares in a single row. Pattern 2 is a solid 2-by-3 rectangle. Pattern 3 is (a dot means no square):\n\n.  X  .\nX  X  X\n.  X  .\n.  X  .\n\nPattern 4 is:\n\nX  .  .  .\nX  X  X  X\nX  .  .  .\n\nA pattern is a cube net if it can be folded along the shared edges, with no cutting, so that all 6 squares become the 6 faces of a cube with no gaps and no overlaps. How many of the four patterns are cube nets?",
+    "guidance": "Test each pattern mechanically instead of folding in your head: mark one square as the cube's bottom and imagine a labeled cube rolling across the pattern — every square must receive a different face of the cube. Two quick failure signs: four squares meeting around one grid point can never fold (they fight for the same corner of the cube), and a strip longer than four squares wraps around onto itself.",
+    "answer": "2",
+    "alt_answers": [
+      "two"
+    ],
+    "explanation": "Pattern 1 (the 1-by-6 strip) fails: folding a strip around a cube, the fifth square lands on the same face as the first, so the sixth has nowhere new to go. Pattern 2 (the 2-by-3 rectangle) fails: around each interior grid point four squares meet, and four faces cannot meet at one corner of a cube, so some pair always overlaps. Pattern 3 works: folding the central column into top, front and bottom leaves the side squares to wrap onto the four remaining faces exactly once. Pattern 4 works: the long row folds around four faces, and the two extra squares above and below the left end close the remaining two faces. So exactly 2 of the 4 patterns are cube nets.",
+    "tags": [
+      "nets",
+      "cube",
+      "folding"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 5,
+    "question": "A rectangular room is 30 feet long, 12 feet wide, and 12 feet high. A spider sits in the middle of one end wall, 1 foot below the ceiling. A fly sits in the middle of the opposite end wall, 1 foot above the floor. The spider cannot fly or jump and never uses a web; it crawls only along the walls, floor, or ceiling, taking the shortest possible route to reach the stationary fly. How many feet long is that shortest route?",
+    "guidance": "When a shortest path is trapped on surfaces, cut the surface open: unfold the faces the path crosses into one flat sheet, and the crawl becomes a straight line. Do not settle for the first unfolding — try several (floor, ceiling, side walls, and combinations of them), compare the straight-line lengths, and keep the segment inside the unfolded shape.",
+    "answer": "40",
+    "alt_answers": [
+      "40 feet",
+      "40 ft"
+    ],
+    "explanation": "The obvious route — down 11 feet to the floor, across 30 feet, and up 1 foot — totals 42; the ceiling route also gives 42, and crossing a side wall gives about 43.2. The winning move is to unfold five surfaces into one flat sheet: the spider's end wall, the ceiling, one side wall, the floor, and the fly's end wall. In this sheet the spider and the fly sit at opposite corners of a 32-by-24 rectangle: the 32 comes from 1 foot up to the ceiling, 30 feet along the room's length, and 1 foot up the far wall; the 24 comes from 6 feet from the spider to the side edge, 12 feet down the side wall, and 6 feet back out to the fly. The straight line is the square root of (32 squared + 24 squared) = the square root of 1600 = 40 feet. Checking every other unfolding yields nothing shorter, so 40 is the minimum.",
+    "tags": [
+      "unfolding",
+      "geometry",
+      "shortest-path"
+    ],
+    "source": {
+      "kind": "public-domain",
+      "title": "The Canterbury Puzzles",
+      "author": "Henry Ernest Dudeney",
+      "year": 1907,
+      "url": "https://www.gutenberg.org/cache/epub/27635/pg27635-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 5,
+    "question": "A large cube is assembled from eight identical small cubes, stacked 2 by 2 by 2. Two small cubes are removed: they sit at opposite corners of the large cube and touch each other only at the block's single center point. The remaining solid is made of the other six small cubes. Counting faces the way polyhedra do — flat squares lying in the same plane that share an edge count as one face (for example, two equal squares side by side form one rectangle, which is one face) — how many faces does the surface of this solid have?",
+    "guidance": "Count by category with the merging rule in hand: outer faces first, then the newly exposed inner faces, merging squares only when they are coplanar and share an edge. Watch the two traps: an L-shaped outer region made of three squares is still a single face, and two squares that touch only at a corner never merge.",
+    "answer": "12",
+    "alt_answers": [],
+    "explanation": "Outer surface: each removed corner cube takes one unit square out of three different outer faces, and the two removed cubes border six different outer faces between them. Every outer face keeps three unit squares in a connected L-shape, which counts as one face: 6 faces. Inner surface: each removal exposes the three inward faces of its neighbors — three unit squares lying in the three planes that pass through the block's center — for six inner squares in total, two in each plane. The two squares in the same plane touch only at the center point, never along an edge, so they remain separate faces: 6 more. Total 6 + 6 = 12. (A subtle check for experts: the surface is pinched at the center point where the two notches meet, so Euler's relation gives 19 - 30 + 12 = 1 here rather than 2.)",
+    "tags": [
+      "solids",
+      "faces",
+      "counting"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 1,
+    "question": "Each of the capital letters A, E, H, K, O, R and X is printed in a plain block font (straight strokes, no serifs). An upright mirror is placed beside each letter so that it reflects left and right. For which of these letters does the mirror image look exactly the same as the printed original?",
+    "guidance": "Test one letter at a time for a vertical line of symmetry: imagine folding the letter down its vertical middle and asking whether the left half lands exactly on the right half. Only letters whose two halves match can survive a side mirror; checking each candidate individually is far more reliable than judging the whole set at a glance.",
+    "answer": "A, H, O and X",
+    "alt_answers": ["A, H, O, X"],
+    "explanation": "A mirror held at the side flips a letter left to right, so a letter survives only if it is symmetric about a vertical line down its middle. A, H, O and X each have such a line: folding each down the middle makes the halves coincide, so each mirror image matches its original. E is symmetric only about a horizontal line, so its mirror image is a backwards E. K and R have no vertical symmetry, so both come out clearly distorted.",
+    "tags": ["mirror", "letters", "symmetry"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 1,
+    "question": "A rectangle is divided into two smaller rectangles by a single straight vertical line drawn from its top edge to its bottom edge. How many rectangles of any size are in the figure, counting the original whole rectangle as well as the parts?",
+    "guidance": "Count rectangles by their boundaries instead of hunting for shapes: list every vertical line in the figure, then ask how many different pairs of vertical lines could serve as the left and right sides of a rectangle. Each pair of vertical lines, joined by the same top and bottom edges, outlines exactly one rectangle.",
+    "answer": "3",
+    "alt_answers": ["three"],
+    "explanation": "The figure has exactly three vertical lines: the left edge, the drawn dividing line, and the right edge. A rectangle is fixed by choosing two of them as its sides. The three possible pairs give the left half, the right half, and the whole rectangle, so the figure contains 3 rectangles in total.",
+    "tags": ["counting", "rectangles"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "The capital letters E, H, N, R, S and Z are printed in a plain block font (straight strokes, no serifs). The page is rotated 180 degrees (a half-turn in the plane). Which of these letters look exactly the same after the rotation?",
+    "guidance": "A half-turn is not the same as a mirror flip: rotating the page 180 degrees reverses left-right and top-bottom at once, so a letter survives only if it is symmetric about its center point. For each letter, picture where its top-left corner travels under the turn; if the outline does not land back on itself, the letter has changed.",
+    "answer": "H, N, S and Z",
+    "alt_answers": ["H, N, S, Z"],
+    "explanation": "A letter survives a 180-degree rotation exactly when turning it about its center maps it onto itself. H has both a vertical and a horizontal line of symmetry, so a half-turn leaves it unchanged. N, S and Z are each built so that the half-turn swaps the two vertical strokes while the slanted stroke falls back onto itself, so they read the same. E has only a horizontal mirror line, so turned halfway around it reads as a backwards E, and R has no symmetry to preserve it.",
+    "tags": ["rotation", "letters", "symmetry"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 2,
+    "question": "A rectangle is divided into four smaller rectangles by one horizontal line and one vertical line that cross at its center, like the frame of a four-pane window. How many rectangles of any size are in the figure, including the whole rectangle?",
+    "guidance": "Do not spot rectangles one by one; count them structurally. Every rectangle in the figure is fixed by choosing a pair of vertical lines for its sides and a pair of horizontal lines for its top and bottom. Count the available pairs in each direction and multiply them - the same method handles any grid size.",
+    "answer": "9",
+    "alt_answers": ["nine"],
+    "explanation": "The figure has three vertical lines (left edge, center vertical, right edge) and three horizontal lines (top edge, center horizontal, bottom edge). Choosing any pair of verticals and any pair of horizontals outlines one rectangle: 3 x 3 = 9. These are the 4 single panes, the 2 wide rectangles spanning each row, the 2 tall rectangles spanning each column, and the whole rectangle.",
+    "tags": ["counting", "rectangles", "grid"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "Some numbers read the same after the page is rotated 180 degrees: in plain digits, 0, 1 and 8 each turn into themselves, 6 and 9 turn into each other, and 2, 3, 4, 5 and 7 turn into meaningless shapes. For instance, 1961 reads 1961 when rotated. What is the smallest number greater than 1961 that reads the same when rotated?",
+    "guidance": "Build such numbers from the outside in: the first digit must rotate into the last, the second into the third, and so on. List which digits can legally sit in the leading position, find the best leading digit available above your starting point, then make the inner digits as small as possible.",
+    "answer": "6009",
+    "alt_answers": [],
+    "explanation": "A number that reads the same upside down must start with a digit whose rotation is also a valid digit, so the first digit can only be 1, 6, 8 or 9; nothing can start with 2, 3, 4 or 5. Among numbers starting with 1, the possibilities are 1001, 1111, 1691, 1881 and 1961, and 1961 is the largest of these, so nothing bigger is available there. The next possible leading digit is 6, which forces the final digit to be 9, and the smallest middle digits are 0 and 0. That gives 6009, and indeed 6009 rotated reads 6009.",
+    "tags": ["rotation", "digits", "search"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "A square sheet of paper, 10 cm on a side, is folded in half by bringing the right edge over onto the left edge. A hole punch then makes two holes through both layers of the folded packet: the first hole is centered 2 cm below the top edge of the packet and 2 cm from its left edge; the second hole is centered 2 cm above the bottom edge of the packet and 2 cm from its left edge. How many holes does the unfolded sheet have, and where are they?",
+    "guidance": "Treat the fold as a mirror: every hole punched through a folded packet reappears, once the sheet is opened, at the position reflected across the crease. Set up distances from the left edge and from the top edge, reflect each punch position across the crease line, and list all the resulting points before counting them.",
+    "answer": "4 holes, one 2 cm in from each corner",
+    "alt_answers": ["4 holes, each 2 cm from the two nearest edges", "4"],
+    "explanation": "The fold reflects the right half of the sheet onto the left half, so each punched hole appears twice after unfolding, mirrored across the vertical center crease. The first hole sits 2 cm from the left edge and 2 cm below the top, so it reappears 2 cm from the right edge, still 2 cm below the top. The second hole sits 2 cm from the left edge and 2 cm above the bottom, so it reappears 2 cm from the right edge at the same height. The four holes are one near each corner of the sheet, each 2 cm from the two nearest edges.",
+    "tags": ["folding", "holes", "reflection"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 3,
+    "question": "Each of these words is printed in plain block capitals: MOM, MOW, MOO, POP, TOT, WOW. An upright mirror is placed beside each word, reflecting left and right. In this block style, M, O, T and W are each symmetric left-to-right, but P is not. Which words still read exactly the same in the mirror?",
+    "guidance": "Work out exactly what a mirror does to a whole word: it reverses the order of the letters and flips each letter individually. Split the check into two independent tests - does the word read the same backwards, and does every letter survive a left-right flip - and reject a word as soon as it fails either test.",
+    "answer": "MOM, TOT and WOW",
+    "alt_answers": ["MOM, TOT, WOW"],
+    "explanation": "The mirror reverses the letter order and flips every letter left-right, so a word survives only if it is a palindrome made entirely of letters that are symmetric left-to-right. MOM, TOT and WOW are palindromes built only from M, O, T and W, so each mirrors onto itself. MOW and MOO fail the order test, reading WOM and OOM in the mirror. POP is a palindrome, but the mirrored P is a backwards P, so it fails the letter test.",
+    "tags": ["mirror", "words", "symmetry"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 4,
+    "question": "A square sheet of paper, 10 cm on a side, is folded in half along the diagonal running from the top-left corner to the bottom-right corner. A single hole is punched through both layers. When the sheet is unfolded, one hole is centered 1 cm from the right edge and 3 cm below the top edge. Where is the other hole?",
+    "guidance": "A diagonal crease is a mirror line running corner to corner, and unfolding reflects the punched point across it. Measure the given position as a pair of distances from the top-left corner - one along the top edge, one down the left edge - because reflecting across this diagonal simply swaps those two measurements. Swap them, then translate the result back into distances from the sheet's edges.",
+    "answer": "3 cm from the left edge, 1 cm above the bottom edge",
+    "alt_answers": ["3 cm from the left and 1 cm from the bottom"],
+    "explanation": "Measure from the top-left corner: the given hole sits 9 cm along the top edge and 3 cm down, that is, at 9 cm from the left edge and 3 cm from the top edge. The crease is the diagonal from the top-left to the bottom-right corner, and unfolding reflects the punch across that line; reflecting across this diagonal swaps the two distances measured from the top-left corner. So the other hole sits 3 cm along the top edge and 9 cm down: 3 cm from the left edge and 9 cm from the top edge, which is 1 cm above the bottom edge.",
+    "tags": ["folding", "diagonal", "reflection"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 4,
+    "question": "A square sheet of paper, 10 cm on a side, is folded in half by bringing the right edge over onto the left edge, then in half again by bringing the bottom edge up onto the top edge, making a 5-by-5 cm packet. With one straight scissor cut, the packet's top-left corner is sliced off: the cut starts 2 cm down from that corner along the packet's left edge and ends 2 cm along from it on the packet's top edge, removing a small triangle through all four layers. How many straight edges does the unfolded sheet have?",
+    "guidance": "Before counting edges, work out where the cut corner of the packet lives on the unfolded sheet. Label each edge of the packet as a raw folded edge or a crease: a corner made of raw edges stands for a whole family of sheet corners, one per layer. Then count the boundary: each cut corner contributes one new slanted edge, while each original side keeps its untouched middle piece.",
+    "answer": "8 straight edges (an octagon)",
+    "alt_answers": ["8", "eight", "an octagon"],
+    "explanation": "After these two folds, the packet's top-left corner is where the two raw folded edges meet, and its four layers are exactly the four corners of the original sheet. So the single cut trims a 2-cm-legged triangle off every corner of the sheet. Each of the four original sides keeps its middle 6 cm (10 cm minus 2 at each end), and each trimmed corner adds one new slanted edge. That gives 4 remaining side pieces plus 4 slanted edges: 8 straight edges in all.",
+    "tags": ["folding", "cutting", "counting"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 4,
+    "question": "A number is written in plain digits and the page is rotated 180 degrees: 0, 1 and 8 each turn into themselves, 6 and 9 turn into each other, and 2, 3, 4, 5 and 7 turn into meaningless shapes. How many whole numbers from 1 to 999 read exactly the same after this rotation?",
+    "guidance": "Count by number of digits and build each candidate from the outside in: the first and last digits must rotate into each other, and any middle digit must rotate into itself. Work out how many choices each position has, multiply within each digit length, then add the totals across lengths - and remember the rotated number must not gain a leading zero.",
+    "answer": "18",
+    "alt_answers": ["eighteen"],
+    "explanation": "One digit: only 1 and 8 work, giving 2 numbers. Two digits: the first must rotate into the second, giving 11, 69, 88 and 96, so 4 numbers. Three digits: the outer pair can be 1-and-1, 8-and-8, 6-and-9 or 9-and-6 (4 ways), and the middle digit must rotate into itself, so it can only be 0, 1 or 8 (3 ways), giving 12 numbers. Nothing else can work: any number reading the same upside down must pair its digits this way, and a number such as 10 fails because its rotated form 01 begins with 0 and no longer matches. Total: 2 + 4 + 12 = 18.",
+    "tags": ["rotation", "digits", "counting"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 5,
+    "question": "A paper strip is 16 cm long. It is folded in half three times, each time bringing the right end over onto the left end, so the final packet is 2 cm long and 8 layers thick. A hole is punched through all 8 layers, centered 1 cm from the left end of the packet (and centered across the strip's width). When the strip is fully unfolded, how many holes are there, and at which positions along the strip?",
+    "guidance": "Do not try to picture eight layers at once. Unfold the packet one fold at a time, starting from the last fold made: each crease you open acts as a mirror, and every hole found so far reappears at the mirrored position on the other half. Keep a running list of positions and repeat the mirror step until the strip is fully open.",
+    "answer": "8 holes, at the 1, 3, 5, 7, 9, 11, 13, 15 cm marks",
+    "alt_answers": ["8 holes at every odd centimeter mark", "8"],
+    "explanation": "Unfold one fold at a time. The final packet is 2 cm long, and its right end is the last crease, at 2 cm. Opening the last fold mirrors the hole at 1 cm across that crease, giving holes at 1 cm and 3 cm on the 4-cm packet. Opening the second fold mirrors each across the crease at 4 cm: 1 spreads to 1 and 7, and 3 spreads to 3 and 5, on the 8-cm packet. Opening the first fold mirrors across the crease at 8 cm: 1 to 1 and 15, 7 to 7 and 9, 3 to 3 and 13, and 5 to 5 and 11. The holes therefore sit at 1, 3, 5, 7, 9, 11, 13 and 15 cm - every odd centimeter mark - 8 holes in all.",
+    "tags": ["folding", "holes", "reflection"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 5,
+    "question": "A square is divided into nine equal small squares by two vertical and two horizontal lines. In every small square, a diagonal is drawn from that square's top-left corner to its bottom-right corner, so all nine diagonals run in the same direction. Counting every triangle whose three sides are completely drawn - even when a side is made of several collinear pieces, and even when other drawn lines cross its interior - how many triangles are in the figure?",
+    "guidance": "Count in families rather than one shape at a time. First count the triangles sealed inside single cells, then ask which larger triangles are possible: each needs one of the diagonal lines as a slanted side and grid lines for the other two sides. Watch for collinear diagonals in neighboring squares joining into longer usable lines, and count the grid-corner choices for each family systematically.",
+    "answer": "28",
+    "alt_answers": ["twenty-eight"],
+    "explanation": "The nine diagonals lie on five parallel lines: one long central line made of three collinear pieces, two middle lines made of two pieces each, and two single-piece lines at the corners. Inside the cells, each small square is cut by its diagonal into 2 triangles: 9 x 2 = 18. Larger triangles use one of the diagonal lines as their slanted side and grid lines as the other two sides. On the long central line, the grid-corner choices give 4 triangles that span 2 small squares and 2 big triangles that span 3 (the two halves of the whole square): 6 more. Each middle line adds 2 triangles spanning 2 small squares: 4 more. The single-piece lines add none beyond the cell triangles already counted. Total: 18 + 6 + 4 = 28.",
+    "tags": ["counting", "triangles", "grid"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "spatial-reasoning",
+    "difficulty": 5,
+    "question": "A square sheet of paper, 10 cm on a side, is folded in half by bringing the right edge over onto the left edge, then in half again by bringing the bottom edge up onto the top edge, making a 5-by-5 cm packet. The packet has exactly one corner where the two creased edges meet (opposite the corner made of raw folded edges). A straight scissor cut slices off that crease corner through all four layers, starting 1 cm from the corner along one creased edge and ending 1 cm from the corner along the other, removing a tiny triangle. Describe the unfolded sheet.",
+    "guidance": "First pin down what the cut corner represents on the full sheet. A folded packet has two kinds of corners, raw-edge corners and crease corners, and each maps somewhere different when unfolded - trace where each layer's material at that corner comes from. Once you know which point of the sheet the corner occupies, reflect the removed triangle through each fold to find every copy of it.",
+    "answer": "A square with a diamond-shaped hole at its center",
+    "alt_answers": ["a square with a rhombus-shaped hole in the middle", "an intact square with a diamond hole at the center"],
+    "explanation": "The corner where the two creases meet is the sheet's exact center, present in all four layers: both creases are midlines of the square, so every layer places the sheet's center point at that corner. Each layer's snipped triangle therefore sits at the center of the sheet, and unfolding reflects the four copies into the four quadrants. Their slanted edges join into a diamond with tips 1 cm from the center in each of the four directions, while the cut never comes near the sheet's boundary. The unfolded sheet is a perfect square with a small diamond-shaped hole centered in the middle.",
+    "tags": ["folding", "cutting", "reflection"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

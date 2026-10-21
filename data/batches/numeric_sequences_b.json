@@ -1,0 +1,249 @@
+[
+  {
+    "category": "numeric-sequences",
+    "difficulty": 1,
+    "question": "What number comes next in this sequence?\n\n4, 9, 16, 25, 36, ?",
+    "guidance": "Start simple: check whether the terms belong to a family you already know by heart before doing any arithmetic. Testing the first few terms against each well-known family is fast, and it either cracks the puzzle at once or tells you exactly which families to rule out.",
+    "answer": "49",
+    "alt_answers": [],
+    "explanation": "Each term is a perfect square: 4, 9, 16, 25, 36 are 2 squared, 3 squared, 4 squared, 5 squared, and 6 squared. The pattern continues with 7 squared, which is 49. A useful cross-check: the gaps between the terms are 5, 7, 9, 11 — the odd numbers — so the next gap is 13, and 36 + 13 = 49.",
+    "tags": ["sequence", "squares", "families"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 1,
+    "question": "What number comes next in this sequence?\n\n2, 3, 5, 7, 11, ?",
+    "guidance": "When a sequence grows slowly and unevenly, differencing rarely helps — study the individual terms instead. Ask what the terms share as numbers: are they all odd or all even, do they split into smaller factors, or is there a property they all hold in common? A shared structural property is often the whole rule.",
+    "answer": "13",
+    "alt_answers": [],
+    "explanation": "The terms 2, 3, 5, 7, 11 are the prime numbers in order — each is divisible only by 1 and itself, and the composites 4, 6, 8, 9, 10 between them are skipped. The next number after 11 is 12, which is composite (12 = 2 × 6), so the next prime is 13. The missing term is 13.",
+    "tags": ["sequence", "primes", "families"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "What number comes next in this sequence?\n\n1, 2, 6, 24, 120, ?",
+    "guidance": "Divide each term by the term before it and write the ratios in a row. When the ratios themselves form a simple pattern — especially a steadily growing multiplier — extend the ratio list first, then apply the next multiplier. Ratio-hunting is the mirror image of gap-hunting and works whenever multiplication drives the growth.",
+    "answer": "720",
+    "alt_answers": [],
+    "explanation": "The ratios between consecutive terms are 2, 3, 4, 5: 2 ÷ 1 = 2, 6 ÷ 2 = 3, 24 ÷ 6 = 4, 120 ÷ 24 = 5. Each step multiplies by a number one larger than the previous step, so the next multiplier is 6, giving 120 × 6 = 720. These are the factorials: 1, 2, 6, 24, 120, 720.",
+    "tags": ["sequence", "factorials", "ratios"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "What number comes next in this sequence?\n\n2, 4, 7, 14, 17, 34, ?",
+    "guidance": "When no single rule fits every step, test whether two rules are taking turns: propose two candidate operations, apply them on alternate steps, and check the pair against every term from the very start. Alternating designs are a common twist, and they hide from plain gap-hunting because the jumps look irregular.",
+    "answer": "37",
+    "alt_answers": [],
+    "explanation": "The sequence alternates two operations: multiply by 2, then add 3. 2 × 2 = 4; 4 + 3 = 7; 7 × 2 = 14; 14 + 3 = 17; 17 × 2 = 34. The last applied step was a doubling, so the next step adds 3: 34 + 3 = 37. A cross-check: the terms in odd positions (2, 7, 17) jump by +5, then +10, so the next odd-position term is 17 + 15 = 37, agreeing.",
+    "tags": ["sequence", "alternating-operations", "two-rules"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "What number comes next in this sequence?\n\n3, 5, 8, 13, 21, ?",
+    "guidance": "If neither the gaps nor the ratios explain the growth, test whether each term is built from earlier terms — try adding the two preceding terms, and if that fails, other pairings. A candidate rule earns trust only after it reproduces every given term, not just the first few it happens to fit.",
+    "answer": "34",
+    "alt_answers": [],
+    "explanation": "Each term is the sum of the two terms before it: 3 + 5 = 8, 5 + 8 = 13, 8 + 13 = 21. Continuing the same rule, the next term is 13 + 21 = 34. A tell-tale confirmation: the gaps between terms (2, 3, 5, 8) are the sequence itself, shifted — a signature of this additive build.",
+    "tags": ["sequence", "recurrence", "addition"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "What number comes next in this sequence?\n\n4, 9, 25, 49, 121, ?",
+    "guidance": "When every term shares a visible property, strip the property off and study what remains: take roots, halve every term, or split each term into factors. Two-layer designs — a well-known family hiding inside another property — are standard in harder puzzles, and the reduced list often names the family instantly.",
+    "answer": "169",
+    "alt_answers": [],
+    "explanation": "Every term is a perfect square: 4, 9, 25, 49, 121 are 2 squared, 3 squared, 5 squared, 7 squared, and 11 squared. The roots 2, 3, 5, 7, 11 are the prime numbers in order, so the next term is the square of the next prime: 13 × 13 = 169.",
+    "tags": ["sequence", "primes", "squares", "layers"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "Take a mystery number. Double it, then subtract 8. Take the result, double it, subtract 8. Take that result, double it, subtract 8 — and you finish at exactly 0. What was the mystery number?",
+    "guidance": "A fixed rule can be run in reverse: undo the last step first, working from the known end back to the unknown start. Undoing 'double, then subtract 8' turns into 'add 8, then halve', and repeating that climbs back one step at a time. Always confirm the candidate by running the rule forward again.",
+    "answer": "7",
+    "alt_answers": [],
+    "explanation": "Work backward from 0, undoing one round at a time. Undo the last round: 0 + 8 = 8, and 8 halved is 4. Undo the second round: 4 + 8 = 12, and 12 halved is 6. Undo the first round: 6 + 8 = 14, and 14 halved is 7. Check by running forward: 7 doubled is 14, minus 8 is 6; 6 doubled is 12, minus 8 is 4; 4 doubled is 8, minus 8 is 0. The mystery number was 7, and the backward steps prove it is the only starting value that lands on 0.",
+    "tags": ["sequence", "working-backward", "doubling"],
+    "source": {
+      "kind": "public-domain",
+      "title": "The Twentieth Century Standard Puzzle Book",
+      "author": "A. Cyril Pearson",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/63884/pg63884-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 4,
+    "question": "What number comes next in this sequence?\n\n5, 8, 13, 20, 29, ?",
+    "guidance": "A rule that fits the opening terms can still be the wrong rule, so test every candidate against all terms before answering. If a famous pattern matches the start but breaks midway, drop it and take differences of the differences: near-constant second differences point to a rule built on the position number squared.",
+    "answer": "40",
+    "alt_answers": [],
+    "explanation": "The opening tempts you toward adding the two previous terms, since 5 + 8 = 13 — but that rule fails at the next step, because 8 + 13 = 21, not 20. Instead take differences: the gaps are 3, 5, 7, 9, which are consecutive odd numbers, so the next gap is 11 and the answer is 29 + 11 = 40. The same rule reads 'the position number squared, plus 4': 1 + 4 = 5, 4 + 4 = 8, 9 + 4 = 13, 16 + 4 = 20, 25 + 4 = 29, 36 + 4 = 40.",
+    "tags": ["sequence", "decoys", "second-differences"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 4,
+    "question": "What number comes next in this sequence?\n\n0, 6, 24, 60, 120, ?",
+    "guidance": "Push differencing one layer deeper: take differences, then differences of the differences, then a third layer. A constant appearing in the second layer fingerprints a rule built on squares; a constant in the third layer fingerprints a rule built on cubes. That fingerprint tells you which family to test before inventing anything exotic.",
+    "answer": "210",
+    "alt_answers": [],
+    "explanation": "First differences are 6, 18, 36, 60; second differences are 12, 18, 24, growing by a constant 6; the third differences are constant. That is the fingerprint of a cubic rule, and it fits: each term is its position number cubed minus the position number — 1 − 1 = 0, 8 − 2 = 6, 27 − 3 = 24, 64 − 4 = 60, 125 − 5 = 120. The next term is 216 − 6 = 210. (Terms like 6, 24, 120 resemble factorials, but 0 and 60 break any factorial reading; only the cubic rule covers every term.) The differencing route agrees: next second difference is 30, next first difference is 90, and 120 + 90 = 210.",
+    "tags": ["sequence", "cubes", "third-differences"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 4,
+    "question": "What number comes next in this sequence?\n\n1, 3, 9, 8, 10, 30, 29, ?",
+    "guidance": "Write down the operation connecting each pair of terms (add, subtract, multiply, or divide, with its number) and read the operations as a list of their own. If no single operation repeats, look for a short repeating cycle of two or three operations, and mark where the cycle restarts — the next term is decided by where you are in the cycle.",
+    "answer": "31",
+    "alt_answers": [],
+    "explanation": "The steps between terms are +2, ×3, −1, +2, ×3, −1: a repeating three-step cycle. Check every step: 1 + 2 = 3; 3 × 3 = 9; 9 − 1 = 8; 8 + 2 = 10; 10 × 3 = 30; 30 − 1 = 29. The cycle has just completed its subtracting step, so the next step adds 2, giving 29 + 2 = 31. The start 1, 3, 9 suggests powers of 3, but the fourth term 8 is not 27 — a cycle of operations, not a single multiplication, is the rule that fits all seven given terms.",
+    "tags": ["sequence", "operation-cycles", "hypothesis-testing"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 5,
+    "question": "What number comes next in this sequence? Every term is built from the digits of the term before it.\n\n77, 62, 25, 23, 19, ?",
+    "guidance": "When the gaps are wildly irregular and ratios fail, look inside the terms: digit sums and digit products are standard raw material for rules. Test 'operate on the digits of the previous term' next — and if a constant seems involved, it must be the very same constant at every step. A pattern that explains only the last few steps is not yet the answer.",
+    "answer": "22",
+    "alt_answers": [],
+    "explanation": "Each term is the product of the previous term's digits, plus 13. Verify every step: 7 × 7 = 49, and 49 + 13 = 62; 6 × 2 = 12, and 12 + 13 = 25; 2 × 5 = 10, and 10 + 13 = 23; 2 × 3 = 6, and 6 + 13 = 19. So the next term is 1 × 9 = 9, plus 13, which is 22. The tempting tail pattern (−2, −4) would predict 13, but it explains none of the earlier steps and is not a rule for the sequence; only the digit-product-plus-13 rule reproduces all five given terms.",
+    "tags": ["sequence", "digits", "product"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 5,
+    "question": "What number comes next in this sequence?\n\n4, 6, 10, 14, 22, 26, ?",
+    "guidance": "Strip out anything the terms share before hunting for a rule. If every term is even, halve the whole list; if every term ends in 0 or 5, divide by 5; if every term is a square, take roots. A common factor often masks a familiar family, and the reduced list can turn a dead end into instant recognition.",
+    "answer": "34",
+    "alt_answers": [],
+    "explanation": "Every term is even, so divide each one by 2: the reduced list is 2, 3, 5, 7, 11, 13 — the prime numbers in order. The original sequence is twice the primes, so the next term is 2 × 17 = 34. Adding the two previous terms looks right at first, since 4 + 6 = 10, but it fails immediately: 6 + 10 = 16, not 14. No gap or ratio pattern survives either — halving the list is the only move that turns all six given terms into something recognizable.",
+    "tags": ["sequence", "primes", "common-factor"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 5,
+    "question": "What number comes next in this sequence? Every new term is the sum of two earlier terms — but not necessarily the two immediately before it.\n\n1, 1, 1, 2, 3, 4, 6, 9, 13, ?",
+    "guidance": "Search recurrences systematically instead of guessing: try each term plus a term further back — skip one, skip two, skip three — and demand that the candidate reproduce the entire list, term by term. Keep a small table of sums as you go; a lagged pattern hides from casual glancing but falls to organized checking.",
+    "answer": "19",
+    "alt_answers": [],
+    "explanation": "Each term is the sum of the term one place before it and the term three places before it. Check the whole chain: 2 = 1 + 1; 3 = 2 + 1; 4 = 3 + 1; 6 = 4 + 2; 9 = 6 + 3; 13 = 9 + 4. Every given term from the fourth onward fits this rule, and the plain 'add the two previous terms' rule fails right away, since 1 + 1 = 2 but the third term is 1. So the next term is the ninth term plus the seventh term: 13 + 6 = 19.",
+    "tags": ["sequence", "recurrence", "lagged-sum"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "category": "math-word-problems",
+    "difficulty": 1,
+    "question": "Two trains leave stations 120 miles apart at the same moment and travel toward each other along the same route, each at a steady 30 miles per hour. After how many hours do they meet?",
+    "guidance": "When two moving objects approach each other, work out how much the gap between them shrinks each hour — adding the two speeds gives one closing speed, which turns two journeys into a single shrinking-distance problem.",
+    "answer": "2 hours",
+    "alt_answers": ["2"],
+    "explanation": "The trains close the gap at 30 + 30 = 60 miles per hour. The starting gap is 120 miles, so the time to close it is 120 / 60 = 2 hours. Check: in 2 hours each train travels 60 miles, and 60 + 60 = 120, so they meet exactly halfway between the stations.",
+    "tags": ["speed", "rate", "time"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 1,
+    "question": "Two friends find a bag containing 45 coins and agree to split the coins in the ratio 2 to 3. How many coins does each friend get?",
+    "guidance": "A ratio describes a number of equal parts: add the ratio terms to see how many parts make up the whole, divide the total by that count to find the size of one part, then hand out the parts each ratio term names.",
+    "answer": "18 and 27 coins",
+    "alt_answers": ["18 and 27", "18 coins and 27 coins"],
+    "explanation": "The ratio 2:3 contains 2 + 3 = 5 equal parts, so one part is 45 / 5 = 9 coins. The first friend receives 2 parts, 2 × 9 = 18 coins, and the second receives 3 parts, 3 × 9 = 27 coins. Check: 18 + 27 = 45, and 18:27 reduces to 2:3, as required.",
+    "tags": ["ratio", "proportion", "sharing"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "A car is driven along a quiet country road at a steady 10 miles per hour, then makes the return trip along the same road at a steady 15 miles per hour. What was its average speed for the whole round trip?",
+    "guidance": "Average speed is total distance divided by total time — never a plain average of two speeds. Pick a convenient distance for the route, one that both speeds divide into neatly, and compute the total time spent travelling.",
+    "answer": "12 mph",
+    "alt_answers": ["12 miles per hour"],
+    "explanation": "Take the road as 30 miles long (the argument works for any length). Outward: 30 / 10 = 3 hours. Return: 30 / 15 = 2 hours. The 60-mile round trip therefore took 5 hours, so the average speed is 60 / 5 = 12 miles per hour. The tempting answer 12.5 is a plain average of the speeds, but more time is spent at the slower speed, which drags the true average down to 12.",
+    "tags": ["speed", "average", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "Maya can paint a fence in 6 hours working alone. Theo can paint the same fence in 3 hours working alone. If they paint it together, each at their own steady pace, how long will the job take?",
+    "guidance": "Never add or average working times. Convert each person's time into a rate (the fraction of the job finished per hour), add the rates, and ask how long one whole job takes at the combined rate.",
+    "answer": "2 hours",
+    "alt_answers": ["2"],
+    "explanation": "Maya finishes 1/6 of the fence per hour and Theo finishes 1/3 per hour. Together they finish 1/6 + 1/3 = 1/2 of the fence per hour, so the whole fence takes 1 ÷ (1/2) = 2 hours. Check: in 2 hours Maya paints 2 × 1/6 = 1/3 of the fence and Theo paints 2 × 1/3 = 2/3, and 1/3 + 2/3 = 1 whole fence.",
+    "tags": ["work", "rate", "time"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "A passerby with a pocketful of coins meets three people asking for help, one after another. To the first she gives one more than half of the coins she has. To the second she gives two more than half of the coins she has left. To the third she gives three more than half of what remains after that. She arrives home with exactly 1 coin. How many coins did she start with?",
+    "guidance": "A chain of give-away-part-of-it steps is easiest to undo: start from the known final amount and run the steps in reverse, asking what amount must have existed just before each step for the story to come out exactly right.",
+    "answer": "42 coins",
+    "alt_answers": ["42"],
+    "explanation": "Work backwards. She ended with 1 coin. Just before the third gift she had x coins, and x − (x/2 + 3) = 1, so x/2 = 4 and x = 8. Just before the second gift: y − (y/2 + 2) = 8, so y = 20. Just before the first gift: z − (z/2 + 1) = 20, so z = 42. Check forward: 42 − (21 + 1) = 20, then 20 − (10 + 2) = 8, then 8 − (4 + 3) = 1 coin left, exactly as stated.",
+    "tags": ["backwards", "coins", "word-problem"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "A woman walks from her home at the bottom of a long hill to the village at the top, at a steady 1.5 miles per hour. She walks back down the same way at a steady 4.5 miles per hour. The round trip takes exactly 6 hours. How far is it from the bottom of the hill to the top?",
+    "guidance": "Let the unknown distance be d and write each leg's time as distance divided by speed. The two leg-times must add up to the total time given — that produces one equation in one unknown.",
+    "answer": "6.75 miles",
+    "alt_answers": ["6 3/4 miles", "27/4 miles"],
+    "explanation": "Let d be the one-way distance in miles. The climb takes d/1.5 hours and the descent takes d/4.5 hours, so d/1.5 + d/4.5 = 6. Multiplying through by 4.5 gives 3d + d = 27, so 4d = 27 and d = 6.75 miles. Check: the climb takes 6.75/1.5 = 4.5 hours, the descent takes 6.75/4.5 = 1.5 hours, and 4.5 + 1.5 = 6 hours exactly.",
+    "tags": ["speed", "fractions", "rate"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "What is the smallest whole number that leaves a remainder of 1 when divided by 2, a remainder of 2 when divided by 3, a remainder of 3 when divided by 4, and a remainder of 4 when divided by 5?",
+    "guidance": "Compare each remainder with the divisor that produced it and hunt for a shared pattern — a repeating relationship can often be removed by a small transformation of the number. If nothing emerges, test candidates systematically, starting from the largest divisor's condition.",
+    "answer": "59",
+    "alt_answers": [],
+    "explanation": "Each remainder is exactly one less than its divisor: dividing by k leaves k − 1. So the number plus 1 is divisible by 2, 3, 4, and 5 at once, meaning N + 1 must be a multiple of their least common multiple, 60. The smallest possibility is N + 1 = 60, giving N = 59. Check: 59 = 2 × 29 + 1, = 3 × 19 + 2, = 4 × 14 + 3, = 5 × 11 + 4 — every condition holds, and every smaller number fails at least one of them.",
+    "tags": ["remainders", "divisibility", "arithmetic"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 4,
+    "question": "Two painters are hired to paint the lamp-posts along a street, one painter assigned to each side of the street, with the same number of posts on each side. Ines arrives first and has painted 3 posts on the east side before learning that her side is the west side, so she starts over there. Kiran arrives, finishes the east side, then crosses the street and paints 6 posts on the west side, at which point every post is painted. Who painted more posts, and by how many?",
+    "guidance": "Call the number of posts on each side N and count both painters' totals as expressions in N. Testing one concrete value of N is a good sanity check — if two different values of N lead to the same conclusion, a general argument is within reach.",
+    "answer": "Kiran, by 6 posts",
+    "alt_answers": ["Kiran painted 6 more", "6 more"],
+    "explanation": "Say there are N posts per side. Ines painted 3 posts on the east plus the west posts Kiran did not paint, which is N − 6, so her total is N − 3. Kiran painted the east posts Ines left, N − 3, plus 6 on the west, so his total is N + 3. The difference is (N + 3) − (N − 3) = 6, so Kiran painted exactly 6 more posts no matter how many posts the street had. Example: with 12 per side, Ines painted 3 + 6 = 9 and Kiran 9 + 6 = 15.",
+    "tags": ["work", "algebra", "surprise"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 4,
+    "question": "A freight train one quarter of a mile long travels at a steady 60 miles per hour. On a parallel track, a train half a mile long comes toward it at a steady 40 miles per hour. From the moment the fronts of the two trains meet, how many seconds does it take until the back of each train has completely cleared the other?",
+    "guidance": "First decide what distance the passing must cover: measured front-to-front at the start, the trains must travel the sum of their lengths before they are clear of one another. Traveling in opposite directions means the two speeds add to give one closing speed.",
+    "answer": "27 seconds",
+    "alt_answers": ["27 s"],
+    "explanation": "To clear each other the trains must together cover the sum of their lengths, 1/4 + 1/2 = 3/4 of a mile. Their closing speed is 60 + 40 = 100 miles per hour, so the time taken is (3/4) ÷ 100 = 3/400 of an hour. Converting to seconds: 3/400 × 3600 = 27 seconds. Check: at 100 miles per hour the pair covers one mile every 3600/100 = 36 seconds, so three quarters of a mile takes 27 seconds.",
+    "tags": ["trains", "relative-speed", "time"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 4,
+    "question": "A will leaves exactly 7,800 coins to be divided among a widow, her five sons, and her four daughters. Every son is to receive three times as much as every daughter, and every daughter is to receive twice as much as the widow herself. How many coins does each person receive?",
+    "guidance": "When shares are tied together by conditions, resist solving for any one share directly. Express every share as a multiple of one chosen unit, count how many units the whole amount contains, and let a single division settle everything at once.",
+    "answer": "Widow 200, each daughter 400, each son 1,200",
+    "alt_answers": ["Widow 200, daughters 400 each, sons 1,200 each"],
+    "explanation": "Measure everything in units of the widow's share w. Each daughter gets 2w, and each son gets three times a daughter's share, 6w. The total is w + 5 × 6w + 4 × 2w = w + 30w + 8w = 39w. Since 39w = 7,800, one unit is 7,800 / 39 = 200. The widow receives 200 coins, each daughter 400, and each son 1,200. Check: 200 + 5 × 1,200 + 4 × 400 = 200 + 6,000 + 1,600 = 7,800, and 1,200 = 3 × 400, 400 = 2 × 200, exactly as the will demands.",
+    "tags": ["proportion", "sharing", "algebra"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 5,
+    "question": "Two trains set off at the same moment from opposite ends of a long railway route, each traveling toward the other at a steady speed. Somewhere along the route they meet and pass each other, then continue without stopping. One train reaches the opposite end just 1 hour after they met; the other needs another 4 hours after the meeting to arrive. How many times the speed of the slower train is the faster train traveling?",
+    "guidance": "Name the distances from each end to the meeting point and both trains' speeds, then write each given finishing time as a distance divided by a speed. Hunt for ratios between the unknowns rather than absolute values — the meeting point links every before with an after.",
+    "answer": "Twice as fast",
+    "alt_answers": ["2 times", "2:1"],
+    "explanation": "Let the trains run for t hours before meeting. The faster covers a miles and the slower b miles in that time, so their speeds are a/t and b/t. After the meeting, the faster train still has b miles to go, taking b ÷ (a/t) = bt/a = 1 hour; the slower still has a miles, taking a ÷ (b/t) = at/b = 4 hours. Multiplying these equations gives (bt/a) × (at/b) = t × t = 1 × 4, so t = 2. Then bt/a = 1 gives b/a = 1/2, so the speed ratio a/b = 2: the faster train runs at twice the slower's speed. Consistent example: a 180-mile route with speeds 60 and 30 miles per hour — they meet after 2 hours and then finish in 1 and 4 more hours.",
+    "tags": ["trains", "speed", "ratio"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 5,
+    "question": "Three gardeners work at steady but different rates. Riya and Dev together can dig a garden in 12 days, Dev and Zara together take 15 days, and Riya and Zara together take 20 days. How long would each gardener take to dig the same garden alone?",
+    "guidance": "Convert every pairing into a rate — the fraction of the garden dug per day — rather than a duration. Adding all the pair rates counts each gardener exactly twice, which reveals the whole team's rate; subtracting any pair rate then isolates a single gardener.",
+    "answer": "Riya 30, Dev 20, Zara 60 days",
+    "alt_answers": ["Riya 30 days, Dev 20 days, Zara 60 days"],
+    "explanation": "Write rates in gardens per day: R + D = 1/12, D + Z = 1/15, R + Z = 1/20. Adding all three equations: 2(R + D + Z) = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5, so R + D + Z = 1/10. Now subtract each pair equation: R = 1/10 − 1/15 = 1/30, so Riya alone takes 30 days; D = 1/10 − 1/20 = 1/20, so Dev alone takes 20 days; Z = 1/10 − 1/12 = 1/60, so Zara alone takes 60 days. Check: 1/30 + 1/20 = 1/12, 1/20 + 1/60 = 1/15, and 1/30 + 1/60 = 1/20 — all three pairings match the given times.",
+    "tags": ["work", "rates", "algebra"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 5,
+    "question": "Find the smallest whole number that ends in the digit 6 and has this property: move that final 6 to the very front of the number, and the new number is exactly four times the original.",
+    "guidance": "Long multiplication pins digits down from right to left, and the units digit of the answer is fixed from the start — so let it force the next digit, then the next. Stop when the front digit arrives with nothing left to carry, then check the finished number against the requirement.",
+    "answer": "153846",
+    "alt_answers": [],
+    "explanation": "Call the number N; the product 4N has the same digits as N with the final 6 moved to the front, so its units digit equals N's tens digit. Build N by multiplying from the right: 4 × 6 = 24, write 4 carry 2, so the tens digit is 4; 4 × 4 + 2 = 18, digit 8 carry 1; 4 × 8 + 1 = 33, digit 3 carry 3; 4 × 3 + 3 = 15, digit 5 carry 1; 4 × 5 + 1 = 21, digit 1 carry 2; 4 × 1 + 2 = 6, digit 6 carry 0 — the leading 6 appears with no carry and no digits left to process. So N = 153846. Check: 153846 × 4 = 615384, which is exactly N with its final 6 moved to the front. Every digit was forced at each step, and no shorter chain closes cleanly, so this is the smallest such number.",
+    "tags": ["digits", "multiplication", "number-theory"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

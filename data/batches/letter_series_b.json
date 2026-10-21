@@ -1,0 +1,249 @@
+[
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "Which letter comes next in this series?\n\nB, D, G, K, ?",
+    "guidance": "Convert each letter to its alphabet position (A=1, B=2, ..., Z=26) and write the row of numbers underneath. Then look at the gaps between consecutive positions. If the gaps are not all the same size, ask how the gaps themselves change from step to step.",
+    "answer": "P",
+    "alt_answers": [],
+    "explanation": "The positions are B=2, D=4, G=7, K=11. The gaps are +2, +3 and +4, each one bigger than the last, so the next gap is +5. That gives 11 + 5 = 16, and the 16th letter of the alphabet is P.",
+    "tags": ["letters", "gaps", "growing-steps"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "What comes next in this series?\n\nA1, B2, C3, D4, ?",
+    "guidance": "Handle a mixed letter-and-number series by splitting it into two tracks: watch what the letters do on their own and what the numbers do on their own. Then compare the two tracks, because in simple series the number often just reports which position the letter occupies.",
+    "answer": "E5",
+    "alt_answers": ["E 5"],
+    "explanation": "The letters go A, B, C, D, advancing one letter each step, so the next letter is E. The numbers go 1, 2, 3, 4, counting up by one, so the next number is 5. Each number also names its letter's alphabet position (D is the 4th letter), which confirms the pairing: the next term is E5.",
+    "tags": ["letters", "numbers", "two-tracks"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "In this series the alphabet runs in a cycle: after Z it starts again at A. Which letter comes next?\n\nC, F, J, O, U, ?",
+    "guidance": "Number the letters and compute the gap between each pair of consecutive terms. When the gaps grow steadily, extend the gap sequence by one more step, and if adding the next gap runs past Z, wrap around by subtracting 26 and read the letter at the result.",
+    "answer": "B",
+    "alt_answers": [],
+    "explanation": "The positions are C=3, F=6, J=10, O=15, U=21. The gaps are +3, +4, +5, +6, growing by one each step, so the next gap is +7. Now 21 + 7 = 28, which is past Z, so wrap around: 28 - 26 = 2, the second letter, B.",
+    "tags": ["letters", "gaps", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "Treat the alphabet as a loop: after Z come A, B, C, and so on. Which letter comes next?\n\nF, L, R, X, ?",
+    "guidance": "Convert to alphabet positions and check the gap between terms before anything else. A constant gap means a fixed step; if stepping forward by that amount passes Z, keep counting around the loop. Positions that are multiples of one number (like 6, 12, 18, 24) are a strong hint of a fixed-number-times-place rule.",
+    "answer": "D",
+    "alt_answers": [],
+    "explanation": "The positions are F=6, L=12, R=18, X=24, each equal to 6 times its place in the series (6x1, 6x2, 6x3, 6x4). The fifth term is 6x5 = 30, which overshoots Z, so wrap: 30 - 26 = 4, the fourth letter, D. Counting six steps forward from X confirms it: X, Y, Z, A, B, C, then D.",
+    "tags": ["letters", "multiples", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "Which letter continues the series?\n\nA, D, I, P, ?",
+    "guidance": "When the gaps between positions grow, write the gaps out as a sequence of their own and ask what they are: gaps of 3, 5, 7 are the odd numbers, and odd gaps produce square positions. Test a candidate rule against every given term; one miss and the rule is dead.",
+    "answer": "Y",
+    "alt_answers": [],
+    "explanation": "The positions are A=1, D=4, I=9, P=16 — the perfect squares. The gaps are +3, +5, +7, the odd numbers in order, so the next gap is +9: 16 + 9 = 25, the 25th letter, Y. This also continues the squares, since 5 squared is 25.",
+    "tags": ["letters", "squares", "gaps"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "What comes next in this series?\n\nA1, C2, E4, G8, ?",
+    "guidance": "Split a mixed series into a letter track and a number track, then attack each track separately with the standard tests: constant step, growing step, doubling. Accept a rule only when it reproduces every given term in that track; then read off the next term of each track and recombine.",
+    "answer": "I16",
+    "alt_answers": ["I 16"],
+    "explanation": "Letter track: A, C, E, G sit at positions 1, 3, 5, 7, advancing by 2, so the next letter is I at position 9. Number track: 1, 2, 4, 8 doubles each time, so the next number is 16. The next term is I16 — two independent rules, one per track.",
+    "tags": ["letters", "numbers", "doubling"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "Give each letter its alphabet position as a score (A=1, B=2, ..., Z=26). A word's score is the sum of its letters' scores. Which one of these four words scores exactly 100?\n\nATTITUDE, APTITUDE, GRATITUDE, SOLITUDE",
+    "guidance": "Don't add four whole words letter by letter; that invites slips. Lock in what the candidates share: total the common chunk once, and only the differing prefixes need real arithmetic. A rough size estimate first (should these words score near 100?) also catches wild totals.",
+    "answer": "ATTITUDE",
+    "alt_answers": [],
+    "explanation": "All four words end with ITUDE, scoring 9+20+21+4+5 = 59. The prefixes score ATT = 1+20+20 = 41, APT = 1+16+20 = 37, GRAT = 7+18+1+20 = 46, SOL = 19+15+12 = 46. So the totals are ATTITUDE 59+41 = 100, APTITUDE 59+37 = 96, GRATITUDE 59+46 = 105, SOLITUDE 59+46 = 105. Only ATTITUDE scores exactly 100.",
+    "tags": ["letter-values", "words", "arithmetic"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 4,
+    "question": "Here the alphabet is a cycle: after Z it wraps back to A. Midway through, this series seems to break its own pattern. Which letter comes next?\n\nC, E, I, Q, G, ?",
+    "guidance": "When a series looks like it breaks a pattern, suspect a wrap-around before inventing a new rule: rebuild the terms as positions and let the gaps continue even past 26, then map back. If a gap rule (constant, growing, or doubling) reproduces every given term including the odd one out, trust it and extend.",
+    "answer": "M",
+    "alt_answers": [],
+    "explanation": "The positions are C=3, E=5, I=9, Q=17, G=7, with gaps +2, +4, +8, +16 — doubling each time. The gap of +16 lands at 17 + 16 = 33, which wraps to 33 - 26 = 7, the letter G, so the strange G was no mistake. The next gap is +32: 7 + 32 = 39, wrapping to 39 - 26 = 13, the letter M.",
+    "tags": ["letters", "doubling", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 4,
+    "question": "Each term of this series pairs a letter with a number. The alphabet is a cycle: after Z it starts over at A.\n\nA1, D4, I9, P16, Y25, ?",
+    "guidance": "Ask how a term's letter and its number relate to each other rather than treating them as separate puzzles. Number the letters: if the number equals the letter's position, the pair is one rule in disguise. Then find what generates those positions — perfect squares are a prime suspect — and continue the generator, wrapping anything above 26.",
+    "answer": "J36",
+    "alt_answers": ["J 36"],
+    "explanation": "Each number equals its letter's alphabet position: A=1, D=4, I=9, P=16, Y=25. Those are the perfect squares 1, 4, 9, 16, 25, one square per term, and the letters merely sit at those positions. The sixth term needs 6 squared = 36. Since 36 is past Z, wrap: 36 - 26 = 10, and the 10th letter is J. The term is J36.",
+    "tags": ["letters", "squares", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 4,
+    "question": "Which letter comes next?\n\nA, Y, D, W, I, U, ?",
+    "guidance": "When no single-rule fit works, test the interleaving hypothesis: split the series into odd-position terms and even-position terms and analyze each strand on its own. Two clean one-rule strands confirm the split. To answer, continue the strand that owns the missing position — here the 7th term.",
+    "answer": "P",
+    "alt_answers": [],
+    "explanation": "Odd-position terms: A, D, I, sitting at positions 1, 4, 9 — the perfect squares — so the next odd-position term sits at 16, the letter P. Even-position terms: Y, W, U, at positions 25, 23, 21, stepping back 2 each time, which confirms both strands are consistent. The 7th term belongs to the odd strand, so it is P.",
+    "tags": ["letters", "interleaved", "squares"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 5,
+    "question": "The alphabet is a cycle here: after Z it starts again at A. Which letter comes next?\n\nA, B, C, E, H, M, U, ?",
+    "guidance": "For series that survive every gap test, try rules that use more than the last term: compute each position from earlier positions, with each term the sum of the two before it as the classic case. Work entirely in position numbers, apply the rule one step further, and wrap anything above 26 before reading the letter.",
+    "answer": "H",
+    "alt_answers": [],
+    "explanation": "The positions are 1, 2, 3, 5, 8, 13, 21, and each is the sum of the two before it: 1+2=3, 2+3=5, 3+5=8, 5+8=13, 8+13=21. The next position is 13+21 = 34, which wraps to 34 - 26 = 8, the eighth letter, H. The gaps 1, 1, 2, 3, 5, 8 show the same pattern one step behind, a useful cross-check.",
+    "tags": ["letters", "fibonacci", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 5,
+    "question": "In this series the alphabet is a loop: after Z it continues from A. The repeated letter is not a mistake. Which letter comes next?\n\nA, C, F, K, R, C, ?",
+    "guidance": "Treat the gaps as a puzzle of their own: when gaps grow but not by a constant amount, test the famous growth families — odd numbers, squares, powers of two, primes. Pin the gap rule down, then follow it faithfully across a wrap, checking that it reproduces every given term, including any letter that looks wrong.",
+    "answer": "P",
+    "alt_answers": [],
+    "explanation": "The positions are A=1, C=3, F=6, K=11, R=18, C=3, with gaps +2, +3, +5, +7, +11 — the prime numbers in order. The primes even explain the repeated C: the gap of +11 gives 18 + 11 = 29, which wraps to 29 - 26 = 3, the letter C. The next prime is 13, so the answer is 3 + 13 = 16, the sixteenth letter, P.",
+    "tags": ["letters", "primes", "wrap-around"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 5,
+    "question": "Score letters by alphabet position (A=1, B=2, ..., Z=26). A common six-letter English word has letters scoring 3, 3, 9, 12, 18, and 5 — not necessarily in that order — for a total of exactly 50. The word begins with the letter scoring 3 and ends with the letter scoring 5. What is the word?",
+    "guidance": "First decode every score into its letter, then switch to arrangement mode: pin the constrained letters (first and last) and permute the rest, discarding any order that is not a real word. Re-check the total sum after decoding and again after ordering; two checkpoints catch most wrong answers.",
+    "answer": "CIRCLE",
+    "alt_answers": ["circle"],
+    "explanation": "Decoding the scores: 3=C, 3=C, 9=I, 12=L, 18=R, 5=E, and indeed 3+3+9+12+18+5 = 50. The word starts with C and ends with E, leaving C, I, L, R for the middle. Arranged as I, R, C, L they spell C-I-R-C-L-E: 3+9+18+3+12+5 = 50. CIRCLE is the common word.",
+    "tags": ["letter-values", "anagram", "words"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

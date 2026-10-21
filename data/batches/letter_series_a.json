@@ -1,0 +1,268 @@
+[
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "Which letter comes next in this series?\n\nA, C, E, G, ?",
+    "guidance": "Write each letter's alphabet position (A=1, B=2, ...) underneath it. A steady jump from one letter to the next usually means a single fixed step: measure the step once, confirm it on every pair, then continue it forward. If the step is not constant, switch to studying the list of steps itself.",
+    "answer": "I",
+    "alt_answers": [],
+    "explanation": "In alphabet positions the series reads A=1, C=3, E=5, G=7 — each term advances by 2. The positions are the odd numbers, so the next position is 9, and the 9th letter of the alphabet is I.",
+    "tags": ["letters", "alphabet", "constant-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "Which letter comes next in this series?\n\nZ, X, V, T, ?",
+    "guidance": "Number the letters A=1 through Z=26 and write the positions under the series. A series can descend just as easily as it climbs — check whether every step subtracts the same amount. Confirm the step on every visible pair before predicting the next letter.",
+    "answer": "R",
+    "alt_answers": [],
+    "explanation": "The positions are Z=26, X=24, V=22, T=20 — each step subtracts 2. The next position is 20 - 2 = 18, and the 18th letter is R.",
+    "tags": ["letters", "alphabet", "descending"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "Which letter completes this series?\n\nD, G, J, M, ?",
+    "guidance": "Convert the letters to alphabet positions and measure the gap between one letter and the next. A single gap size repeated at every step is the simplest rule a letter series can hide — once you find it, apply it one more time. Also sanity-check by counting how many letters are skipped between terms.",
+    "answer": "P",
+    "alt_answers": [],
+    "explanation": "D=4, G=7, J=10, M=13: every step adds 3. The next position is 13 + 3 = 16, and the 16th letter of the alphabet is P.",
+    "tags": ["letters", "constant-step", "skip"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "Which letter comes next in this series?\n\nA, C, D, F, G, I, ?",
+    "guidance": "When the gaps between letters are not all equal, write the gaps themselves out in order as a list of plus-numbers. A common design is two gap sizes that alternate — big, small, big, small. Decide which size comes next in the alternation, then apply it to the last given letter.",
+    "answer": "J",
+    "alt_answers": [],
+    "explanation": "In alphabet positions: A=1, C=3, D=4, F=6, G=7, I=9. The gaps are +2, +1, +2, +1, +2 — the two sizes strictly alternate. The next gap is the small one, +1, so the next position is 9 + 1 = 10, which is the letter J.",
+    "tags": ["letters", "alternating", "gaps"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "The pair AB turns into the pair DE by one fixed rule.\n\nAB is to DE as GH is to which pair of letters?",
+    "guidance": "For letter-pair analogies, number every letter (A=1 ... Z=26) and compare the first pair with the second, letter by letter, to find the shared shift. Check that the shift works for BOTH letters of the pair, not just the first one; then apply that same shift to each letter of the new pair.",
+    "answer": "JK",
+    "alt_answers": [],
+    "explanation": "A=1 and B=2 become D=4 and E=5: each letter has been shifted 3 places forward along the alphabet. Applying the same +3 shift to G=7 and H=8 gives positions 10 and 11, which are J and K. So GH becomes JK.",
+    "tags": ["analogy", "letters", "shift"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "Treat each letter as its alphabet position (A = 1, B = 2, ..., Z = 26). Which letter sits exactly halfway between D and P?",
+    "guidance": "Turn both letters into their alphabet positions and compute the number exactly midway between them — the average of the two positions. Convert that midpoint number back into a letter, and confirm the result by counting: the midpoint should be the same number of steps from each end.",
+    "answer": "J",
+    "alt_answers": [],
+    "explanation": "D is position 4 and P is position 16. The number halfway between them is (4 + 16) / 2 = 10, and the 10th letter is J. As a check, J is 6 letters after D and P is 6 letters after J — equal distances on both sides.",
+    "tags": ["alphabet-arithmetic", "midpoint", "positions"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 2,
+    "question": "One letter is missing from the middle of this series:\n\nF, H, ?, L, N\n\nWhich letter belongs in the blank?",
+    "guidance": "When a series has a hole in the middle, anchor on the complete steps you can see on either side. Convert every visible letter to an alphabet position and test the simplest hypothesis — a constant step — against the intact pairs. The blank must fit the same step from BOTH of its neighbours, so check both directions before committing.",
+    "answer": "J",
+    "alt_answers": [],
+    "explanation": "Positions: F=6, H=8, L=12, N=14. The visible steps are 6 to 8 (+2) and 12 to 14 (+2), so the series advances by 2 each time. The blank lies between 8 and 12: 8 + 2 = 10, and 10 + 2 = 12, so the blank is position 10, which is the letter J.",
+    "tags": ["missing-letter", "constant-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "Which letter comes next in this series?\n\nA, Z, C, X, E, V, ?",
+    "guidance": "When a series seems to swing between two behaviours, split it into strands: read the 1st, 3rd, 5th... terms on their own, then the 2nd, 4th, 6th... terms. If each strand has a simple rule, the series is two sequences interleaved. To answer, first work out which strand the next term belongs to.",
+    "answer": "G",
+    "alt_answers": [],
+    "explanation": "The odd-position terms are A, C, E — alphabet positions 1, 3, 5, moving forward by 2. The even-position terms are Z, X, V — positions 26, 24, 22, moving backward by 2. The next (7th) term belongs to the forward strand: 5 + 2 = 7, and the 7th letter is G.",
+    "tags": ["interleaved", "two-series", "letters"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "One letter is missing from the middle of this series:\n\nB, C, E, ?, L, Q\n\nWhich letter belongs in the blank?",
+    "guidance": "For a gap in an irregular series, convert all visible letters to alphabet positions and compute the jumps on each side of the blank. Then examine what the jumps themselves are doing — steady growth in the jumps is the classic next-level rule. The missing letter must make the jump pattern consistent on both sides of it, so verify both halves.",
+    "answer": "H",
+    "alt_answers": [],
+    "explanation": "Positions: B=2, C=3, E=5, L=12, Q=17. The visible jumps are +1 (2 to 3), +2 (3 to 5) and +5 (12 to 17); the jumps grow by 1 each time: 1, 2, 3, 4, 5. Fitting the blank between 5 and 12 with jumps of +3 then +4 gives 5 + 3 = 8 and 8 + 4 = 12, so the blank is position 8, the letter H. The full series is 2, 3, 5, 8, 12, 17.",
+    "tags": ["missing-letter", "growing-gaps"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 3,
+    "question": "Treat each letter as its alphabet position (A = 1, ..., Z = 26). Which letter lies exactly halfway between the letter six positions after H and the letter ten positions before V?",
+    "guidance": "Translate each phrase into one concrete number before doing any arithmetic — 'six positions after H' is just H's position plus 6. Beware the classic counting trap: you are moving six steps, not counting H itself. Once both endpoints are numbers, the halfway letter is their average; finish by checking it lies the same distance from each endpoint.",
+    "answer": "M",
+    "alt_answers": [],
+    "explanation": "Six positions after H: H=8, and 8 + 6 = 14, which is N. Ten positions before V: V=22, and 22 - 10 = 12, which is L. The number halfway between positions 14 and 12 is (14 + 12) / 2 = 13, and the 13th letter is M. Check: M is one step from N and one step from L, so it is truly in the middle.",
+    "tags": ["alphabet-arithmetic", "midpoint", "two-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 4,
+    "question": "Which letter comes next in this series?\n\nC, D, F, G, J, K, ?",
+    "guidance": "When gaps look irregular, list them as numbers and study that list as a sequence in its own right. A favourite design hides two interlocking rules in the gaps — for instance every other gap constant while the gaps between them grow. Any rule you propose must explain ALL the gaps at once, including the smallest ones.",
+    "answer": "O",
+    "alt_answers": [],
+    "explanation": "Positions: C=3, D=4, F=6, G=7, J=10, K=11. The gaps are +1, +2, +1, +3, +1: the 1st, 3rd and 5th gaps are all +1, while the gaps between them grow, +2 then +3. The next gap is the growing kind, +4, so the next position is 11 + 4 = 15, which is the letter O.",
+    "tags": ["layered", "gaps", "letters"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 4,
+    "question": "This series runs past the end of the alphabet and starts again at A (after Z comes A).\n\nU, W, Z, B, E, ?\n\nWhich letter comes next?",
+    "guidance": "If a series makes one huge apparent jump backward, suspect wraparound: the alphabet is a cycle of 26 letters, so a leap backward can really be a small step forward that passes Z and re-enters at A. Convert to positions and measure every step the short way round the cycle, then look for a repeating step pattern such as an alternation.",
+    "answer": "G",
+    "alt_answers": [],
+    "explanation": "Positions: U=21, W=23, Z=26, B=2, E=5. Measuring each step forward around the cycle: 21 to 23 is +2; 23 to 26 is +3; 26 to 2 is +2 (passing Z and re-entering at A); 2 to 5 is +3. The steps alternate +2, +3, so the next step is +2: 5 + 2 = 7, which is G. The jump Z to B only looks like -24 until you read it as +2 around the cycle.",
+    "tags": ["wraparound", "alternating", "cycle"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 5,
+    "question": "In this series the alphabet wraps around: after Z = 26, the positions continue from A = 1 again.\n\nB, D, H, P, ?\n\nWhich letter comes next?",
+    "guidance": "For a fast-growing series, test whether each gap is DOUBLE the previous gap — halving each gap and comparing is a quick check. When the next position would run past 26, subtract 26 (repeat if needed) to land back in the range 1-26 and read off the letter. Always confirm your rule reproduces every given term, not just the last two.",
+    "answer": "F",
+    "alt_answers": [],
+    "explanation": "Positions: B=2, D=4, H=8, P=16 — each term doubles the one before, and the gaps are 2, 4, 8, doubling as well. The next position is 16 x 2 = 32, which is past the end of the alphabet; wrapping around, 32 - 26 = 6. The 6th letter is F, so the series continues ..., P, F.",
+    "tags": ["doubling", "wraparound", "positions"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 5,
+    "question": "Which letter comes next in this series?\n\nA, B, C, E, H, M, ?",
+    "guidance": "When gaps grow but not by a constant amount, check whether each gap is the SUM of the two gaps before it — a self-building pattern that needs only the last two steps to predict the next one. Compute every gap from the given letters first; a proposed rule must reproduce all of them, including the small opening steps.",
+    "answer": "U",
+    "alt_answers": [],
+    "explanation": "Positions: A=1, B=2, C=3, E=5, H=8, M=13. The gaps are 1, 1, 2, 3, 5, and each gap after the first two equals the sum of the two before it: 1+1=2, 1+2=3, 2+3=5. The next gap is therefore 3+5=8, giving position 13 + 8 = 21, which is U. Equivalently, each term is the sum of the previous two terms: 5+8=13, and 8+13=21.",
+    "tags": ["gaps", "growth-pattern", "letters"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

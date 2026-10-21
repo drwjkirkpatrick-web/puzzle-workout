@@ -1,0 +1,268 @@
+[
+  {
+    "category": "matrix-patterns",
+    "difficulty": 1,
+    "question": "Each cell of a 3x3 grid holds a star or an empty circle. Complete the grid:\n\nRow 1:  ★  ○  ○\nRow 2:  ○  ★  ○\nRow 3:  ○  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Pick out the one special symbol and track where it sits in each row — writing down its column numbers turns a picture into a short list. If those numbers step by a steady amount, continue the step into the row with the gap. Finish by counting what each column holds, to be sure no column ends up with two of the symbol or none at all.",
+    "answer": "★",
+    "alt_answers": ["star"],
+    "explanation": "Follow the star row by row: it sits in column 1 of row 1 and column 2 of row 2, so it advances exactly one column to the right per row. Continuing that step, it lands in column 3 of row 3 — the missing cell. The columns agree: each column holds exactly one star, and column 3 is the only column that does not have its star yet, so the missing cell must hold the star.",
+    "tags": ["grid", "position", "shift"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 1,
+    "question": "Each cell of a 3x3 grid holds a diamond or an empty circle. Complete the grid:\n\nRow 1:  ○  ○  ◆\nRow 2:  ○  ◆  ○\nRow 3:  ?  ○  ○\n\nWhat belongs in the missing cell?",
+    "guidance": "Track the special symbol's column number from row to row — a short list of numbers is easier to extend than a picture. The step between the numbers can go up or down; name the direction and apply it once more to reach the incomplete row. A quick column count at the end confirms the direction was not reversed by mistake.",
+    "answer": "◆",
+    "alt_answers": ["diamond"],
+    "explanation": "The diamond sits in column 3 of row 1 and column 2 of row 2, so it moves exactly one column to the left per row. Continuing the step, it lands in column 1 of row 3 — the missing cell. The columns confirm the direction: each column holds exactly one diamond, and column 1 is the only one still without its diamond.",
+    "tags": ["grid", "position", "shift"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 1,
+    "question": "Each cell of a 3x3 grid holds a triangle pointing up or a triangle pointing down. Complete the grid:\n\nRow 1:  ▲  ▲  ▲\nRow 2:  ▼  ▼  ▼\nRow 3:  ▲  ▲  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When whole lines look alike, compare line to line instead of cell to cell — ask what changes between one row and the next. A flip, a turn, or a swap between rows is a rule you can extend to the unfinished row. Then read a column or two to confirm the same change holds in the other direction.",
+    "answer": "▲",
+    "alt_answers": ["up triangle", "upward triangle", "triangle pointing up"],
+    "explanation": "Every triangle in a row points the same way, and the direction flips from one row to the next: row 1 points up, row 2 points down, so row 3 flips back to up. The missing cell therefore holds an up-pointing triangle. Each column also reads up, down, up from top to bottom, which confirms the flip is consistent in both directions.",
+    "tags": ["grid", "orientation", "rows"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds a filled dot, a filled square, or an empty circle. Complete the grid:\n\nRow 1:  ●  ■  ○\nRow 2:  ○  ●  ■\nRow 3:  ■  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When a grid mixes several symbols, first check whether every row contains the same set of symbols in a different order. If so, compare neighboring rows to find the reorder — a slide with wraparound, a swap, or a mirror. The intended rule usually makes the columns hold one of each symbol as well, so test both directions before committing.",
+    "answer": "●",
+    "alt_answers": ["filled dot", "dot"],
+    "explanation": "Every row and every column contains exactly one filled dot, one filled square, and one empty circle. More precisely, each row is the row above it slid one place to the right, with the rightmost symbol wrapping around to the left: ● ■ ○ becomes ○ ● ■, and one more slide gives ■ ○ ●. The missing cell is therefore the filled dot. The columns confirm it: column 3 shows ■ and ○, so the filled dot is the only symbol it still needs.",
+    "tags": ["grid", "shift", "wrap"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds an arrow. Complete the grid:\n\nRow 1:  ◄  ▲  ►\nRow 2:  ◄  ▲  ►\nRow 3:  ◄  ▲  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Compare the rows as whole lines before studying single cells — when lines repeat, one complete line holds every clue you need. Within that line, name the relation between neighbors (a steady turn, a flip, a fixed swap) and carry it across the gap. A glance down each column should then agree with your fill.",
+    "answer": "►",
+    "alt_answers": ["right arrow", "arrow pointing right"],
+    "explanation": "All three rows are identical, and reading any row left to right, each arrow is the one before it turned a quarter-turn clockwise: a left arrow (◄) turns to an up arrow (▲), and an up arrow turns to a right arrow (►). The missing cell follows the up arrow in row 3, so it is the right arrow ►. The columns agree: each column is constant, reading ◄, ▲, and ► from left to right.",
+    "tags": ["grid", "rotation", "rows"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds a filled dot or an empty circle. Complete the grid:\n\nRow 1:  ●  ○  ●\nRow 2:  ○  ●  ○\nRow 3:  ●  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Test whether next-door cells always hold opposite symbols — a checkerboard-style alternation. Trace through the grid cell by cell and mark whether the symbol flips at every shared edge. If it does, the missing cell must be the opposite of each of its neighbors, which pins it down without any counting.",
+    "answer": "●",
+    "alt_answers": ["filled dot", "dot"],
+    "explanation": "The two symbols alternate like a checkerboard: any two cells that share an edge hold opposite symbols. Row 3 reads ● ○ ?, so the missing cell, sitting beside an empty circle, must be a filled dot; column 3 reads ● ○ from the top, so its third cell flips back to a filled dot as well. Every row and every column alternates the same way, which confirms the rule holds in both directions.",
+    "tags": ["grid", "alternation", "checkerboard"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds a triangle, a filled square, or an empty circle. Complete the grid:\n\nRow 1:  ▲  ○  ■\nRow 2:  ■  ○  ▲\nRow 3:  ▲  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Compare a row with the row just above it, cell by cell, and ask how one row is produced from the other — a slide, a mirror, or a swap of the outer pieces. A mirror keeps the middle cell in place while the outer cells trade positions. Apply the same change to the last complete row, then check that the columns form tidy patterns too.",
+    "answer": "■",
+    "alt_answers": ["square", "filled square"],
+    "explanation": "Each row is the row above it mirrored left to right: the outer cells trade places while the middle cell stays put. Row 1 (▲ ○ ■) mirrors to row 2 (■ ○ ▲), and mirroring row 2 gives ▲ ○ ■ for row 3, so the missing cell holds the filled square. The columns agree: column 1 reads ▲ ■ ▲ and column 3 reads ■ ▲ ■, both mirror-symmetric, and every row contains one of each symbol.",
+    "tags": ["grid", "mirror", "flip"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds an arrow. Complete the grid:\n\nRow 1:  ▲  ►  ▼\nRow 2:  ►  ▼  ◄\nRow 3:  ▼  ◄  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Instead of reading whole rows, study one cell's relation to its neighbors: pick a cell and ask how the symbol changes when you step right, then when you step down. If the same turn shows up in both directions, one local rule fills the entire grid from any starting cell. Test the candidate on every adjacent pair you can see before trusting it.",
+    "answer": "▲",
+    "alt_answers": ["up arrow", "arrow pointing up"],
+    "explanation": "Every step one cell to the right turns the arrow a quarter-turn clockwise, and so does every step one cell down. Row 1 reads ▲ ► ▼ and row 2 reads ► ▼ ◄, each arrow a clockwise quarter-turn from its left neighbor; the columns read the same sequence top to bottom (▲ ► ▼ and ► ▼ ◄). The missing cell is one step right of the left arrow ◄ in row 3, and ◄ turned a quarter-turn clockwise is the up arrow ▲. One step below the ▼ at the top of column 3 gives the same result, so both directions agree on ▲.",
+    "tags": ["grid", "rotation", "directions"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds an arrow or an empty circle. Complete the grid:\n\nRow 1:  ▲  ○  ▲\nRow 2:  ►  ►  ○\nRow 3:  ○  ▼  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Split a grid with a filler symbol into two passes. First track only the filler: which cell of each row holds it, and how that cell steps from row to row. Then study what fills the remaining cells — often a single shared feature, like a common direction that changes steadily. Each pass should survive a column check before you trust it.",
+    "answer": "▼",
+    "alt_answers": ["down arrow", "arrow pointing down"],
+    "explanation": "The empty circle sits in column 2 of row 1, column 3 of row 2, and column 1 of row 3: it steps one column to the right each row, wrapping from the right edge back to the left. Every other cell holds an arrow, all arrows in a row point the same way, and that direction turns a quarter-turn clockwise each row: up in row 1, right in row 2, down in row 3. The missing cell is row 3's remaining arrow, so it points down: ▼. Each column also holds exactly one circle, which confirms the wraparound step is consistent.",
+    "tags": ["grid", "rotation", "position", "wrap"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds a triangle or an empty circle. Complete the grid:\n\nRow 1:  ▲  ○  ○\nRow 2:  ○  ▼  ○\nRow 3:  ○  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When a single symbol travels through a grid, keep two separate tallies: which cell it occupies, and which way it faces. The column numbers expose the position rule; the list of directions exposes the orientation rule. Extend both lists one step, and use the columns as a free second check on the position.",
+    "answer": "▲",
+    "alt_answers": ["up triangle", "triangle pointing up"],
+    "explanation": "Exactly one cell per row holds a triangle, and it steps one column to the right each row: column 1 in row 1, column 2 in row 2, so column 3 in row 3 — the missing cell. Its direction flips every row: pointing up in row 1 and down in row 2, so it points up again in row 3. The missing cell is the up-pointing triangle ▲. Each column also contains exactly one triangle, so the position rule checks out in both directions.",
+    "tags": ["grid", "shift", "orientation"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 4,
+    "question": "Each cell of a 3x3 grid holds an arrow or a star. Complete the grid:\n\nRow 1:  ▲  ★  ▼\nRow 2:  ▲  ►  ★\nRow 3:  ★  ►  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Layered grids reward giving each symbol its own question. Ask where the stars can sit given the arrows' arrangement, then ask what the arrows do in the cells the stars leave free. One rule anchored to rows plus one anchored to columns is a common pairing — each rule must hold at every shown cell before you use either to fill the gap.",
+    "answer": "▼",
+    "alt_answers": ["down arrow", "arrow pointing down"],
+    "explanation": "The star steps one column to the right each row, wrapping at the edge: column 2 in row 1, column 3 in row 2, column 1 in row 3. That leaves arrows in every other cell, and within a column all arrows share one direction, which turns a quarter-turn clockwise from column to column: column 1 points up, column 2 points right, column 3 points down. Row 3's star already sits in column 1, so the missing cell holds column 3's arrow, the down arrow ▼. Each column also contains exactly one star, so both rules stay consistent read in either direction.",
+    "tags": ["grid", "layered", "rotation", "position"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 4,
+    "question": "Each cell of a 3x3 grid holds an arrow. Complete the grid:\n\nRow 1:  ►  ▼  ◄\nRow 2:  ▲  ►  ▼\nRow 3:  ◄  ▲  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When rows and columns seem to obey different turns, measure each direction separately instead of forcing one rule. Name the turn along a row, then the turn down a column, and test both against every complete line. If both hold, they must agree on the gap — fill it with the row rule and let the column rule confirm.",
+    "answer": "►",
+    "alt_answers": ["right arrow", "arrow pointing right"],
+    "explanation": "Reading any row left to right, each arrow is the one before it turned a quarter-turn clockwise: row 1 reads ► ▼ ◄ and row 2 reads ▲ ► ▼. Reading any column top to bottom, each arrow is the one above it turned a quarter-turn counter-clockwise: column 1 reads ► ▲ ◄, column 2 reads ▼ ► ▲, and column 3 reads ◄ ▼ in its first two cells. The row rule makes the missing cell the arrow after ▲, the right arrow ►; the column rule makes it the counter-clockwise turn of ▼, which is also ►. Both directions agree.",
+    "tags": ["grid", "rotation", "rows", "columns"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 5,
+    "question": "Each cell of a 3x3 grid holds an arrow or an empty circle. Complete the grid:\n\nRow 1:  ►  ○  ○\nRow 2:  ▼  ▼  ○\nRow 3:  ◄  ◄  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Some grids hide two independent rules — how many of a symbol appear, and what those symbols look like. Count per row to find the quantity rule first, then compare appearances to find the character rule. Before answering, re-test both rules against the columns; a count that works only across rows is probably only half the pattern.",
+    "answer": "◄",
+    "alt_answers": ["left arrow", "arrow pointing left"],
+    "explanation": "Two rules run at once. Quantity: each row holds one more arrow than the row above, filling from the left — one arrow in row 1, two in row 2, so all three cells of row 3 are arrows and the missing cell is an arrow. Direction: every arrow in a row points the same way, and that way turns a quarter-turn clockwise per row — right, then down, then left — so row 3's arrows point left and the missing cell is the left arrow ◄. The columns agree: they hold three, two, and one arrow respectively, and reading down any column the direction also turns clockwise (► ▼ ◄ in column 1, ▼ ◄ in column 2, ◄ alone in column 3).",
+    "tags": ["grid", "rotation", "quantity"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 5,
+    "question": "Each cell of a 3x3 grid holds an arrow or an empty circle. Complete the grid:\n\nRow 1:  ▲  ▲  ▲\nRow 2:  ○  ►  ►\nRow 3:  ○  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When counting along the rows leaves the answer loose, rotate your view and read the grid by columns instead. Ask how many of the symbol each column holds and where they stack, then how the symbols change going down. A pattern that hides from the rows is often plain in the columns — trust the answer both views support.",
+    "answer": "▼",
+    "alt_answers": ["down arrow", "arrow pointing down"],
+    "explanation": "Read the grid by columns. Quantity: each column holds one more arrow than the column to its left, stacked from the top — column 1 has one arrow, column 2 has two, so column 3 has three and its bottom cell, the missing one, is an arrow. Direction: within any column, each arrow is the one above it turned a quarter-turn clockwise — column 3 already shows ▲ then ►, so its third cell is the down arrow ▼. The rows agree: they hold three, two, and one arrow, and each row's arrows share one direction that turns clockwise from row to row (▲, then ►, then ▼).",
+    "tags": ["grid", "rotation", "quantity", "columns"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

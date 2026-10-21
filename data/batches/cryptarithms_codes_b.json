@@ -1,0 +1,249 @@
+[
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 1,
+    "question": "In alphabet-position code, A = 1, B = 2, C = 3, and so on up to Z = 26.\n\nThe word CAT scores 3 + 1 + 20 = 24.\n\nWhat is the score of the word DOG?",
+    "guidance": "Before doing any arithmetic, write each letter's position underneath it. Building a small A=1 to Z=26 chart once pays off on every puzzle of this kind. Then add the positions letter by letter, double-checking the middle letters, where slips are most common.",
+    "answer": "26",
+    "alt_answers": [],
+    "explanation": "With A=1 through Z=26, the letters of DOG are worth D = 4, O = 15, and G = 7. Adding these gives 4 + 15 + 7 = 26. The same method reproduces the example: CAT scores 3 + 1 + 20 = 24.",
+    "tags": ["alphabet-positions", "letter-values"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 1,
+    "question": "In this code each letter is written as its alphabet position:\n\n8-5-12-12-15 spells HELLO.\n\nWhat word is spelled by 19-21-14?",
+    "guidance": "Use the given example as an anchor: match 8 to H, 5 to E, and so on until the numbering is confirmed. Then convert the new numbers one at a time, writing each letter above its number. Positions in the twenties deserve a second look, since two-digit values are easy to misread.",
+    "answer": "SUN",
+    "alt_answers": [],
+    "explanation": "From A=1 through Z=26: 19 is the position of S, 21 is U, and 14 is N, so the word is SUN. The reference checks out too: 8 = H, 5 = E, 12 = L, 12 = L, 15 = O spells HELLO.",
+    "tags": ["alphabet-positions", "decoding"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "A message is written in alphabet positions:\n\n8-5-12-12-15 spells HELLO\n23-15-18-12-4 spells WORLD\n\nWhat word is spelled by 16-21-26-26-12-5?",
+    "guidance": "Confirm the numbering with both reference words before touching the target; two anchors leave no doubt about how the code counts. Then convert the target numbers one by one, writing letters above the numbers as you go. The values near the end of the alphabet are the trap here.",
+    "answer": "PUZZLE",
+    "alt_answers": [],
+    "explanation": "The target numbers decode as 16 = P, 21 = U, 26 = Z, 26 = Z, 12 = L, and 5 = E, giving the word PUZZLE. Both references are consistent with A=1 through Z=26: 8-5-12-12-15 is HELLO and 23-15-18-12-4 is WORLD.",
+    "tags": ["alphabet-positions", "decoding", "late-alphabet"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "In this scoring code, A = 1, B = 2, and so on to Z = 26, and every vowel (A, E, I, O, U) is counted TWICE.\n\nFor example, CAVE scores 3 + (1 + 1) + 22 + (5 + 5) = 37.\n\nWhat does MANGO score?",
+    "guidance": "Split the work into two passes. First mark each letter as vowel or consonant, since that decides how many times its value counts. Then assign values and keep a running total on paper rather than in your head; rehearsing the method on the worked example first is a good habit.",
+    "answer": "66",
+    "alt_answers": [],
+    "explanation": "M = 13. A is a vowel, so it counts twice: 1 + 1 = 2. N = 14 and G = 7. O is a vowel, so it counts twice: 15 + 15 = 30. The total is 13 + 2 + 14 + 7 + 30 = 66. The example confirms the rule: C (3) + A twice (2) + V (22) + E twice (10) = 37.",
+    "tags": ["letter-values", "vowels", "scoring"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "This code squashes a whole word into a single letter.\n\nStep 1: add the alphabet positions of its letters (A = 1 through Z = 26).\nStep 2: if the total is more than 26, subtract 26. Repeat until the total is 26 or less.\nStep 3: the number that remains names a letter (1 = A, 2 = B, ..., 26 = Z).\n\nKEY scores 11 + 5 + 25 = 41, and 41 - 26 = 15, so KEY encodes to O.\n\nWhat letter does PAPER encode to?",
+    "guidance": "Follow the steps in the exact order given: finish the sum completely, then reduce it by subtracting 26 as many times as needed, and only then name the letter. Cutting the reduction short is the classic slip. A quick sanity check: the reduced number must land between 1 and 26.",
+    "answer": "D",
+    "alt_answers": [],
+    "explanation": "The letters of PAPER are worth P = 16, A = 1, P = 16, E = 5, and R = 18, and 16 + 1 + 16 + 5 + 18 = 56. Subtracting 26 gives 30, which is still more than 26, so subtract 26 again: 30 - 26 = 4. The 4th letter of the alphabet is D, so PAPER encodes to D.",
+    "tags": ["alphabet-positions", "modular", "encoding"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "In a certain code, every letter is swapped for another letter. The same coded letter always decodes the same way, and no two coded letters decode to the same letter.\n\nYou are given two facts:\n\nJXK decodes to NET\nEHR decodes to OWL\n\nWhat does JEEJ decode to?",
+    "guidance": "Turn each given fact into a two-column table, coded letter on the left and real letter on the right, before touching the target word. Then check which letters the target actually needs; a well-posed cipher puzzle gives facts covering every letter required, and the table makes any gap obvious at a glance.",
+    "answer": "NOON",
+    "alt_answers": [],
+    "explanation": "From JXK decoding to NET: J decodes to N, X to E, and K to T. From EHR decoding to OWL: E decodes to O, H to W, and R to L. So in JEEJ, both J's decode to N and both E's decode to O, giving N-O-O-N: the word NOON. No other reading is possible, since J and E are both fixed by the given facts.",
+    "tags": ["substitution", "crib", "decoding"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "An old stone hides a number. Only letters that are also Roman numerals count, each worth its Roman value:\n\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000\n\nEvery other letter is worth nothing. The stone reads:\n\nVIXI LVXI\n\nAdding the values of its numeral letters gives the age, in years, of the person the stone commemorates. What is that age?",
+    "guidance": "Scan the inscription once purely to flag numeral letters, ignoring what the words mean; the wording is decoration, not data. List the flagged letters with their values in order, then add carefully. Grouping repeated letters, such as several I's, before adding cuts the work down.",
+    "answer": "83",
+    "alt_answers": ["83 years"],
+    "explanation": "In VIXI, the numeral letters are V = 5, I = 1, X = 10, and I = 1, which total 17. In LVXI, they are L = 50, V = 5, X = 10, and I = 1, which total 66. The inscription therefore hides 17 + 66 = 83, the age it commemorates.",
+    "tags": ["roman-numerals", "letter-values", "inscription"],
+    "source": {
+      "kind": "public-domain",
+      "title": "The Twentieth Century Standard Puzzle Book",
+      "author": "A. Cyril Pearson (Ed.)",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/63884/pg63884-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 4,
+    "question": "Before a word was written as alphabet-position numbers, the sender shifted every letter one place forward in the alphabet, with Z wrapping around to A.\n\nSo the original word CAB came through as 4-2-3 (C shifted to D = 4, A shifted to B = 2, B shifted to C = 3).\n\nA new message arrives: 1-6-3-19-2.\n\nWhat word was sent?",
+    "guidance": "Undo the layers in the opposite order to how they were built: first turn each number back into a shifted letter, then undo the shift by moving each letter one place back. The wraparound is the trap; a shifted A can only have come from Z, so the smallest numbers may hide the last letter of the alphabet.",
+    "answer": "ZEBRA",
+    "alt_answers": [],
+    "explanation": "The numbers stand for shifted letters: 1 = A, 6 = F, 3 = C, 19 = S, and 2 = B. Shifting each back one place: A must have come from Z (the wrap), F from E, C from B, S from R, and B from A. The word sent was ZEBRA. Re-encoding confirms it: Z to A = 1, E to F = 6, B to C = 3, R to S = 19, A to B = 2.",
+    "tags": ["alphabet-positions", "shift-cipher", "wraparound"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 4,
+    "question": "A chronogram hides a year inside a sentence. The rules:\n\n- Only capital letters count.\n- Among the capitals, only the Roman numeral letters count: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000.\n- Every other letter counts for nothing.\n\nAn old inscription reads:\n\nMy Day Closed Is In Immortality\n\nWhat year does it hide?",
+    "guidance": "First extract the capitals and ignore every other character; the meaning of the sentence is pure distraction. Then keep only the numeral letters, write them in order as one Roman numeral string, and add their values. Writing the string down before evaluating it makes any missed or mistaken letter easy to spot.",
+    "answer": "1603",
+    "alt_answers": [],
+    "explanation": "The capital letters of the inscription are M, D, C, I, I, I, taken from My, Day, Closed, Is, In, and Immortality. Every one is a numeral letter, and they read MDCIII = 1000 + 500 + 100 + 1 + 1 + 1 = 1603, the year the inscription hides.",
+    "tags": ["chronogram", "roman-numerals", "capitals"],
+    "source": {
+      "kind": "public-domain",
+      "title": "The Twentieth Century Standard Puzzle Book",
+      "author": "A. Cyril Pearson (Ed.)",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/63884/pg63884-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 4,
+    "question": "A number code writes every whole number as the count of letters in its English name.\n\nSo 2 is sent as 3 (TWO has three letters), 8 as 5 (EIGHT), and 12 as 6 (TWELVE).\n\nA received message reads: 3, 5, 4\n\nIt is known to name three consecutive whole numbers. Which three numbers were sent?",
+    "guidance": "Work forwards from the counts rather than backwards from a guess. List every number whose name could produce the first count, then test each candidate against the next two counts, using the consecutive-numbers clue. Crossing out failed candidates one by one is steadier than hunting for a single lucky fit.",
+    "answer": "2, 3, and 4",
+    "alt_answers": ["2, 3, 4", "TWO, THREE, FOUR"],
+    "explanation": "Numbers with three-letter names are ONE, TWO, SIX, and TEN. Test each: ONE is followed by TWO, which has 3 letters, not 5. TWO is followed by THREE (5 letters) and then FOUR (4 letters), which fits. SIX is followed by SEVEN (5) and EIGHT (5, not 4). TEN is followed by ELEVEN (6). Only 2, 3, and 4 works: TWO has 3 letters, THREE has 5, and FOUR has 4.",
+    "tags": ["letter-counts", "numbers", "deduction"],
+    "source": {
+      "kind": "public-domain",
+      "title": "The Twentieth Century Standard Puzzle Book",
+      "author": "A. Cyril Pearson (Ed.)",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/63884/pg63884-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 5,
+    "question": "A word is enciphered in two steps:\n\nStep 1: every letter moves two places forward in the alphabet (Y wraps to A, Z wraps to B).\nStep 2: the result is written backwards.\n\nFor example, CAT becomes ECV after step 1, and VCE after step 2.\n\nA received message reads: PGFTCI\n\nWhat word was sent?",
+    "guidance": "A chain of two steps comes apart cleanly only in reverse order: the last step applied is the first one to undo. Undo one layer at a time and write down the halfway result instead of holding it in your head. Re-encoding your candidate through both steps is the fastest way to catch a slip.",
+    "answer": "GARDEN",
+    "alt_answers": [],
+    "explanation": "Undo step 2 first: reversing PGFTCI gives ICTFGP. Undo step 1 by shifting each letter back two places: I to G, C to A, T to R, F to D, G to E, and P to N. That gives GARDEN. Re-encoding checks it: GARDEN shifted forward two places is ICTFGP, and written backwards that is PGFTCI.",
+    "tags": ["shift-cipher", "reversal", "two-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 5,
+    "question": "A word is enciphered in two steps:\n\nStep 1: every letter is swapped with its mirror in the alphabet (A with Z, B with Y, C with X, and so on).\nStep 2: every letter of that result moves one place forward (Z wraps to A).\n\nFor example, SUN becomes HFM after step 1, and IGN after step 2.\n\nA received message reads: OMJNSNU\n\nWhat word was sent?",
+    "guidance": "Undo the layers in reverse order: peel off the step that was applied last, then the earlier one. A mirror swap is its own inverse, which makes that layer easy to undo, but write out each intermediate stage anyway; silent slips in the middle of a chain are what sink these puzzles.",
+    "answer": "MORNING",
+    "alt_answers": [],
+    "explanation": "Undo step 2 first: shifting each letter of OMJNSNU back one place gives NLIMRMT. Undo step 1 by mirroring each letter again: N to M, L to O, I to R, M to N, R to I, M to N, and T to G. That gives MORNING. Re-encoding checks it: MORNING mirrored is NLIMRMT, and shifted forward one place that is OMJNSNU.",
+    "tags": ["mirror-cipher", "shift-cipher", "two-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 5,
+    "question": "A word is enciphered in two steps:\n\nStep 1: every letter moves one place forward in the alphabet (Z wraps to A).\nStep 2: the first letter of the result is moved to the end.\n\nFor example, AND becomes BOE after step 1, and OEB after step 2.\n\nA received message reads: JWFSS\n\nWhat word was sent?",
+    "guidance": "Undo the recipe one stage at a time, starting from the last stage applied; the letter move undoes first, the shift second. Keep the word length fixed as a checkpoint: if your decode changes length, a stage was skipped or applied twice. Re-encoding your candidate settles any remaining doubt.",
+    "answer": "RIVER",
+    "alt_answers": [],
+    "explanation": "Undo step 2 first: move the last letter of JWFSS to the front, giving SJWFS. Undo step 1 by shifting each letter back one place: S to R, J to I, W to V, F to E, and S to R. That gives RIVER. Re-encoding checks it: RIVER shifted forward one place is SJWFS, and moving the first letter to the end gives JWFSS.",
+    "tags": ["shift-cipher", "rotation", "two-step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

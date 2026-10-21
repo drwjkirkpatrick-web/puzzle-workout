@@ -1,0 +1,268 @@
+[
+  {
+    "category": "odd-one-out",
+    "difficulty": 1,
+    "question": "Which word does not belong with the others?\n\nAPPLE, CHERRY, OAK, PEAR",
+    "guidance": "Start broad: name the category each word truly belongs to, as precisely as you can. When three words share one category and a fourth sits just outside it, the outsider is the answer. Only if that fails should you look for subtler spelling tricks.",
+    "answer": "OAK",
+    "alt_answers": [],
+    "explanation": "An apple, a cherry, and a pear are all fruits: sweet, edible parts of a plant that people eat. An oak is not a fruit — it is a large tree whose seeds are acorns, which people do not eat. The other three words name edible fruit, while OAK names the tree itself, so OAK does not belong.",
+    "tags": ["fruits", "plants", "categories"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 1,
+    "question": "Which word does not belong with the others?\n\nCOW, SHEEP, GOAT, WOLF",
+    "guidance": "Picture where you would actually meet each item and what role it plays. Group the words by setting or role — farm, forest, kitchen, workshop. If three share a setting and one lives somewhere else entirely, the misplaced word is your pick.",
+    "answer": "WOLF",
+    "alt_answers": [],
+    "explanation": "Cows, sheep, and goats are farm animals that people raise for milk, wool, or meat, feeding and fencing them in fields. A wolf is a wild predator that hunts other animals and is never raised on a farm. The shared group is animals kept by people, so WOLF is the odd one out.",
+    "tags": ["animals", "farm", "wild"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 1,
+    "question": "Which word does not belong with the others?\n\nVIOLIN, GUITAR, HARP, FLUTE",
+    "guidance": "Ask how each item does its job rather than what it is called. For instruments and tools, focus on the action involved — what you press, pull, blow, or strike. A difference in that single action is often what cleanly splits the group.",
+    "answer": "FLUTE",
+    "alt_answers": [],
+    "explanation": "A violin, a guitar, and a harp all make their sound from stretched strings, set humming by a bow, fingers, or a pick. A flute is a wind instrument: the player blows across a mouthpiece and no strings are involved at all. FLUTE is the only one without strings, so it does not belong.",
+    "tags": ["instruments", "music", "strings"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Three of these four words can join the word BALL to name a sport. Which word cannot?\n\nFOOT, BASE, BASKET, GLOVE",
+    "guidance": "When a puzzle names a joining word, test it against every item without skipping: combine, say the result aloud, and judge whether it is a real, established term. One combination will fail while the rest succeed, and that failure marks the odd one out.",
+    "answer": "GLOVE",
+    "alt_answers": [],
+    "explanation": "FOOT + BALL gives football, BASE + BALL gives baseball, and BASKET + BALL gives basketball — three real sports. GLOVE + BALL names no sport and no common word, even though players wear gloves in several of these games. GLOVE is the only one that fails the joining test.",
+    "tags": ["compound-words", "sports", "word-play"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Three of these four words are palindromes: they spell the same forwards and backwards. Which word is not a palindrome?\n\nNOON, CIVIC, ROTOR, MOTOR",
+    "guidance": "Test a spelling property mechanically instead of trusting your ear. Write each word, write its letters again in reverse, and compare the two lines letter by letter. Move down the whole list this way — the impostor only shows itself under close inspection.",
+    "answer": "MOTOR",
+    "alt_answers": [],
+    "explanation": "Read backwards, NOON is still NOON, CIVIC is still CIVIC, and ROTOR is still ROTOR — each is the same read from both ends, as a classic riddle-book puts it. MOTOR spelled backwards is ROTOM, which is not the original word and not a word at all. MOTOR is the one that is not a palindrome.",
+    "tags": ["palindromes", "spelling", "word-play"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Which word does not belong with the others?\n\nSWEATER, JACKET, SCARF, SANDAL",
+    "guidance": "Sort items by their purpose, not just their label. Ask what job each one does and where on the body it is worn, then check that your shared job truly covers three items and excludes exactly one. Purpose groups often cut across obvious categories.",
+    "answer": "SANDAL",
+    "alt_answers": [],
+    "explanation": "A sweater, a jacket, and a scarf are warm clothing for the upper body, worn against cold weather on the chest, arms, or neck. A sandal is footwear for the foot, worn in warm weather to keep feet cool. SANDAL is the only one that is not warm clothing, so it does not belong.",
+    "tags": ["clothing", "weather", "categories"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Three of these four foods are made from milk. Which one is not?\n\nBUTTER, CHEESE, YOGURT, MARGARINE",
+    "guidance": "Trace each item back to its raw material rather than judging by look or taste. Similar foods can come from completely different sources, and a single ingredient difference is often the split a puzzle is built on. Confirm the shared source truly holds for three items.",
+    "answer": "MARGARINE",
+    "alt_answers": [],
+    "explanation": "Butter is churned from cream, cheese is curdled from milk, and yogurt is milk cultured with friendly bacteria — all three begin as milk. Margarine is made from vegetable oils, such as sunflower or soybean oil, and its recipe needs no milk at all. MARGARINE is the only non-milk food.",
+    "tags": ["food", "dairy", "ingredients"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Which word does not belong with the others?\n\nACORN, BEETLE, CRAYON, DOLPHIN, FINCH",
+    "guidance": "If the meanings refuse to sort into one clean group, stop reading meanings and inspect the words themselves: first letters, lengths, and letter repeats. Writing the initials in a row often exposes a hidden sequence running underneath the puzzle.",
+    "answer": "FINCH",
+    "alt_answers": [],
+    "explanation": "The meanings look like a random mix — a nut, an insect, a drawing stick, and two animals — so the real link must be in the letters. The first letters spell A, B, C, D, F, and the alphabet runs A, B, C, D, E: the first four words march through the alphabet in order, and the fifth should start with E to keep the run. FINCH starts with F instead, so it is the odd one out.",
+    "tags": ["alphabet", "initials", "word-patterns"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Nuts to Crack",
+      "author": "Anonymous",
+      "year": 1895,
+      "url": "https://www.gutenberg.org/cache/epub/69528/pg69528-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Three of these four words can follow the word DAY to make a common English word, as in DAY____. Which one cannot?\n\nDREAM, BREAK, LIGHT, NIGHT",
+    "guidance": "For joining puzzles, fill the blank with every option before choosing, and sound each combination out as a whole. The test is not whether a phrase sounds sensible but whether it is an established word people actually use. Cross off each success until one item is left standing.",
+    "answer": "NIGHT",
+    "alt_answers": [],
+    "explanation": "DREAM after DAY gives daydream, BREAK after DAY gives daybreak (the moment light breaks as the day begins), and LIGHT after DAY gives daylight. NIGHT cannot follow DAY: 'daynight' is not an English word, even though day and night form a famous pair of opposites. NIGHT is the one that fails the test.",
+    "tags": ["compound-words", "day", "vocabulary"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Three of these four fruit names contain the same letter twice in a row. Which fruit name does not?\n\nBLUEBERRY, CURRANT, STRAWBERRY, BANANA",
+    "guidance": "When a puzzle points at spelling, slow down and scan word by word for the stated pattern, because the eye reads whole words and skims individual letters. Check every item — a word can look repetitive while never actually doubling a letter.",
+    "answer": "BANANA",
+    "alt_answers": [],
+    "explanation": "BLUEBERRY contains a doubled R, CURRANT contains a doubled R, and STRAWBERRY contains a doubled R — in each, one letter appears twice in a row. BANANA spells B-A-N-A-N-A: the letters B, A, and N alternate and no letter is ever doubled. BANANA is the only fruit name without a doubled letter.",
+    "tags": ["fruits", "spelling", "double-letters"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 4,
+    "question": "Hidden inside three of these four words is the name of an animal, spelled by consecutive letters. Which word contains no animal?\n\nCATNIP, DOGMA, SCOWL, TABLE",
+    "guidance": "Hidden-word puzzles reward slow reading: slide through the letters checking every two-, three-, and four-letter stretch for a real word. The hidden word may begin at any position, often right at the start or just before the end, so test each word completely before moving on.",
+    "answer": "TABLE",
+    "alt_answers": [],
+    "explanation": "CATNIP contains CAT, DOGMA contains DOG, and SCOWL contains OWL — three consecutive letters naming an animal in each, a trick classic riddle books loved to play. TABLE spells T-A-B-L-E, and none of its letter runs (TA, AB, BL, LE, TAB, ABL, BLE, TABL, ABLE) names an animal. TABLE is the only animal-free word.",
+    "tags": ["hidden-words", "animals", "word-play"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 4,
+    "question": "Hidden inside three of these four words is the name of a color, spelled by consecutive letters. Which word contains no color?\n\nHATRED, SHRED, HUNDRED, BREAD",
+    "guidance": "To hunt hidden words, break each item into every possible run of letters and read the runs aloud. Endings and beginnings are the likeliest hiding places because the eye skims straight past them. Test all four words before answering, since the trick must fail exactly once.",
+    "answer": "BREAD",
+    "alt_answers": [],
+    "explanation": "HATRED, SHRED, and HUNDRED all end with the letters R-E-D, so each contains the color RED. BREAD spells B-R-E-A-D: to hide RED it would need r, e, d in a row, but its R is followed by E then A — the pattern never appears. BREAD is the only word with no color tucked inside.",
+    "tags": ["hidden-words", "colors", "spelling"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 5,
+    "question": "Hidden inside three of these four words is the name of a number, spelled by consecutive letters. Which word contains no number?\n\nMONEY, STONE, PHONE, PAPER",
+    "guidance": "Number names are short, which makes them the easiest hidden words to miss — they can sit at the start, middle, or end of a longer word. Spell each item letter by letter, read every two- and three-letter window aloud, and work through the numbers one to ten as a checklist.",
+    "answer": "PAPER",
+    "alt_answers": [],
+    "explanation": "MONEY hides ONE in its middle (m-ONE-y), STONE ends in -ONE, and PHONE ends in -ONE, so all three contain the number ONE. PAPER spells P-A-P-E-R: its windows are PA, AP, PE, ER, PAP, APE, PER, PAPE, APER — none of these is a number name. PAPER is the only word with no number inside.",
+    "tags": ["hidden-words", "numbers", "spelling"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 5,
+    "question": "Three of these four weather words can stand in front of FALL to make a common English word. Which one cannot?\n\nRAIN, SNOW, WIND, MIST",
+    "guidance": "For joining puzzles, keep testing past your first success — the rare, less-familiar compound is what separates the list. For every combination, ask whether you have truly met the finished word in real use, not merely whether it sounds plausible when spoken.",
+    "answer": "MIST",
+    "alt_answers": [],
+    "explanation": "RAINFALL names rain coming down, SNOWFALL names snow coming down, and WINDFALL names fruit knocked from trees by the wind — the same word also means a lucky, unexpected gain. 'MISTFALL' is not an English word; no dictionary records it. MIST is the one that cannot join FALL.",
+    "tags": ["compound-words", "weather", "vocabulary"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "category": "lateral-thinking",
+    "difficulty": 1,
+    "question": "Spell 'hard water' with just three letters.",
+    "guidance": "Riddles like this hide a pun inside an ordinary phrase. Before hunting for clever letter tricks, ask whether the phrase itself already names a familiar thing - then spell that thing and count its letters.",
+    "answer": "ICE",
+    "alt_answers": [],
+    "explanation": "Water that is literally hard is frozen, and its name is 'ice' - which spells out in exactly three letters: I, C, E. The trap is reading 'hard water' as plain water, which sends you off hunting for three-letter abbreviations instead of a three-letter word.",
+    "tags": ["pun", "letters", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 1,
+    "question": "What is the longest thing in the world, and also the shortest; the swiftest, and also the slowest; the least valued, and yet the most missed? Without it nothing can be done; it devours everything, yet it gives life and spirit to everything. What is it?",
+    "guidance": "When a single unseen thing is described with opposite qualities stacked in pairs, test candidate answers against BOTH sides of every pair. Reject any answer that fits only one half; the true answer must satisfy every clause at once.",
+    "answer": "Time",
+    "alt_answers": [],
+    "explanation": "Time is long when measured in eras yet short when measured in moments; it flies when we are happy and crawls when we wait; we waste it more than anything else, yet once it is gone it is what we mourn most. Nothing can be done without it, every living thing runs out of it, and every living thing lives inside it. Only 'time' satisfies every clause.",
+    "tags": ["opposites", "classic", "riddle"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 1,
+    "question": "Which day of the week begins with a marriage?",
+    "guidance": "When a puzzle asks what a word 'begins' or 'ends' with, stop thinking about meanings and start thinking about letters. Spell out every candidate and try reading its first few letters aloud as a little word of their own.",
+    "answer": "Wednesday",
+    "alt_answers": [],
+    "explanation": "Spell the third day of the week: W-E-D-N-E-S-D-A-Y. Its first three letters spell 'wed', which means to marry - so Wednesday literally begins with a marriage. No other day of the week starts with letters that spell a wedding.",
+    "tags": ["hidden-words", "weekdays", "wordplay"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "Five friends want to share five eggs. Each friend must receive one egg, yet when they are done, one egg must still remain in the dish. How can they manage it?",
+    "guidance": "Reread every condition and separate what the words literally require from what you picture they mean. Make a short list of what each sentence actually forbids - the trick almost always hides in something the wording never forbids at all.",
+    "answer": "The last friend takes the egg together with the dish",
+    "alt_answers": ["The fifth friend takes the dish with the egg still in it"],
+    "explanation": "Four friends each take one egg out of the dish. The fifth friend is handed the dish with the last egg still sitting in it, so that friend receives an egg too. All five received an egg, and one egg never left the dish - both conditions are satisfied exactly as stated, because nothing required the fifth egg to leave the dish.",
+    "tags": ["assumption", "sharing", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "How many boiled eggs can a giant eat on an empty stomach?",
+    "guidance": "Riddles love conditions that quietly expire after the first move. Before answering, replay the scene one step at a time and ask whether each stated condition still describes the situation on the second step - states like empty, full, or first are rarely permanent.",
+    "answer": "Only one - after the first egg the stomach is not empty",
+    "alt_answers": ["One"],
+    "explanation": "The giant eats the first egg 'on an empty stomach'. The instant that egg is swallowed, the stomach contains food and is no longer empty, so every egg after the first is eaten on a full stomach. Only the very first egg ever qualifies - the answer is one, no matter how huge the giant is.",
+    "tags": ["state-change", "assumption", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "What is yours, though you almost never say it yourself - while the people around you say it all day long?",
+    "guidance": "Inventory what is 'yours' in every sense: things you own, things attached to you, things tied to your identity. Then test each candidate against both conditions at once - the answer usually hides in the category you check last.",
+    "answer": "Your name",
+    "alt_answers": [],
+    "explanation": "Your name belongs to you alone, yet you almost never say your own name - while friends, family, and new acquaintances call it out constantly. Of everything a person owns, the name is the one thing used far more by everyone else than by its owner.",
+    "tags": ["identity", "language", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "One short word names all four of these: a season of the year, a sudden leap, a coiled piece of metal, and a place where fresh water bubbles out of the ground. What word is it?",
+    "guidance": "When one word must cover several unrelated definitions, scan the shortest words in the language first - small, ancient words have collected the most meanings over the centuries. Test every clue against a candidate before committing.",
+    "answer": "Spring",
+    "alt_answers": [],
+    "explanation": "'Spring' names the season between winter and summer; a leap or bound (a cat springs onto a wall); a coiled metal device that stores energy and bounces back; and a natural source of water welling up from the ground. Four clues, one word - no other English word covers all four meanings.",
+    "tags": ["polysemy", "wordplay", "definitions"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "What is it that anyone can divide, yet no one can ever see where the division happened?",
+    "guidance": "List every way you know of dividing something - cutting, tearing, snapping, pouring - and for each ask whether the split leaves a mark you could point to afterward. The riddle's answer is the divider that leaves no visible trace.",
+    "answer": "Water",
+    "alt_answers": ["Any freely pouring liquid"],
+    "explanation": "Pour water into two cups and you have divided it - yet no seam, line, or scar marks where the split happened, because the parts flow together and apart with no visible boundary. Cut paper or snap a stick and the division stays visible forever; water divides without leaving any trace to see.",
+    "tags": ["liquid", "classic", "division"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "I am pronounced as one letter, but I am written with three. I contain only two different letters in all. Read me from either end and I spell the same thing. What am I?",
+    "guidance": "Let each clue eliminate candidates in turn. 'Pronounced as one letter' points to homophones of single letters - so say A, E, I, O, U and a few consonants aloud and listen for a word that matches the sound, then check the word against the other clues.",
+    "answer": "Eye",
+    "alt_answers": [],
+    "explanation": "'Eye' is pronounced exactly like the single letter 'I'. It is written with three letters, E-Y-E. Those three letters contain only two distinct ones, E and Y. And E-Y-E read backwards is still E-Y-E, a perfect palindrome. Every clue fits the same three-letter word.",
+    "tags": ["homophone", "palindrome", "letters"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "Of all the numbers from one to one hundred, exactly one is spelled with all of its letters in strict alphabetical order. Which number is it?",
+    "guidance": "Turn this into a checklist hunt rather than a staring contest: spell out each number's name, then scan left to right asking whether every letter comes later in the alphabet than the one before it. Short names fail fast, so a quick first pass over the round numbers shows how rare a hit will be.",
+    "answer": "Forty",
+    "alt_answers": [],
+    "explanation": "'Forty' is spelled F-O-R-T-Y, and F comes before O, before R, before T, before Y - strictly alphabetical order. Every other number from one to one hundred has at least one letter out of order: in 'one', for example, O comes before N, which runs backwards. So forty is the only number in the range that qualifies.",
+    "tags": ["alphabetical", "numbers", "search"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 4,
+    "question": "It is nine inches long, four inches wide, and three inches deep - and it contains a solid foot. What is it?",
+    "guidance": "If the numbers seem meant to be computed, compute them - and if the arithmetic cannot possibly match the claim, stop calculating and start re-reading. Somewhere in the claim a word is pulling double duty, and it is usually a word that also names part of the body.",
+    "answer": "A shoe",
+    "alt_answers": ["A boot"],
+    "explanation": "The measurements describe a shoe - roughly nine inches long, four wide, and three deep - and a shoe's whole purpose is to hold a foot: a solid foot. The puzzle hopes you will chase a container of exactly one cubic foot, but 9 x 4 x 3 is only 108 cubic inches, far short of the 1,728 cubic inches in a cubic foot, so the measuring reading is impossible. 'Foot' was literal all along.",
+    "tags": ["pun", "measurement", "hidden-twist"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 4,
+    "question": "I am a six-letter word that means 'to pay attention'. Rearranged, my very same letters spell a word that means 'making no sound'. What word am I?",
+    "guidance": "Hunt anagram pairs by alphabetizing: write the letters of each candidate for the first clue, sort them, and compare that sorted list against the sorted letters of words matching the second clue. Matching sorted letters is the fastest mechanical test for a true rearrangement.",
+    "answer": "Listen",
+    "alt_answers": [],
+    "explanation": "'Listen' uses the letters L, I, S, T, E, N. Rearranged, those same six letters spell 'silent'. Sorting both words alphabetically gives E-I-L-N-S-T for each - proof that they contain exactly the same letters, one word for paying attention and the other for making no sound.",
+    "tags": ["anagram", "senses", "wordplay"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 5,
+    "question": "What is invisible, yet never out of sight?",
+    "guidance": "Treat a strange claim as a literal instruction: write the key word of the riddle down on paper and inspect it letter by letter. Also test what the claim sounds like when spoken aloud - a word for something unseeable is often a homophone for something you can spell.",
+    "answer": "The letter I",
+    "alt_answers": [],
+    "explanation": "The letter 'i' sits inside the word 's-i-g-h-t', so it is never out of sight - the word literally contains it. And because 'I' is pronounced exactly like 'eye', it names the one thing that can never see itself: whatever you look at, your own eye is always invisible to you. Both halves of the riddle hold for the letter I.",
+    "tags": ["letters", "homophone", "meta"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 5,
+    "question": "What common English word changes its pronunciation - not just its meaning - when you capitalize its first letter?",
+    "guidance": "Test words that double as names in a systematic sweep: write the lowercase and capitalized versions side by side and say each aloud, listening for a shift in vowel or stress. Most capitalized pairs sound identical - hunt for the rare exception where the sound truly changes.",
+    "answer": "Polish",
+    "alt_answers": ["Job", "August"],
+    "explanation": "Lowercase 'polish' (to make something shine) starts with a short O: PAH-lish. Capitalized, 'Polish' (the language, or someone from Poland) starts with a long O: POH-lish. The letters are unchanged, yet the sound shifts - a rare word whose capitalization reaches the ears, not just the dictionary. Similar rarities: 'job' the task versus 'Job' the name, and the month 'August' versus the adjective 'august'.",
+    "tags": ["capitalization", "pronunciation", "wordplay"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

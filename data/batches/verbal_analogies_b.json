@@ -1,0 +1,249 @@
+[
+  {
+    "category": "verbal-analogies",
+    "difficulty": 1,
+    "question": "Complete the analogy:\n\nBREEZE is to GALE as DRIZZLE is to ___?",
+    "guidance": "State the linking relation as a plain sentence before touching the second pair — here it has the shape 'the first word is the mild form and the second the fierce form of the same thing.' Keep that sentence fixed and test it against the remaining word, rejecting any candidate that merely shares a topic with the pair instead of sitting on the same scale.",
+    "answer": "DOWNPOUR",
+    "alt_answers": ["cloudburst", "torrent"],
+    "explanation": "A breeze is a gentle wind and a gale is a wind at full force: the stem steps up the intensity of a single phenomenon. Applying the same step to rain, drizzle is the gentle form and a downpour is rain at full force. 'Rain' names only the whole category and a storm bundles several severe phenomena, so neither names the fierce member of the pair's own kind; the best completion is DOWNPOUR, with cloudburst and torrent as equally fierce alternates.",
+    "tags": ["analogies", "degree", "intensity"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 1,
+    "question": "Complete the analogy:\n\nROOM is to HOUSE as CHAPTER is to ___?",
+    "guidance": "Find the linking sentence first — 'a ___ is one part of one whole.' Then apply it to the remaining word, keeping both the grammar and the scope parallel: the answer must be a single whole that the given part belongs to, not a larger collection of many such wholes.",
+    "answer": "BOOK",
+    "alt_answers": ["novel"],
+    "explanation": "A room is one part of a single house, so the relation is part to whole. A chapter is likewise one part of a single book. A library would be a collection of many whole books rather than the one whole a chapter belongs to, so it fails the scope test; BOOK (or novel, its everyday synonym) completes the analogy.",
+    "tags": ["analogies", "part-whole", "books"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nSOLDIER is to ARMY as SAILOR is to ___?",
+    "guidance": "Ask what the first pair shares beyond the words themselves: many individuals of one kind form a named body. Then search for that named body for the second kind of individual, and check that the scale matches — the collective should be the full counterpart, not a small fragment of it.",
+    "answer": "NAVY",
+    "alt_answers": ["crew"],
+    "explanation": "An army is the body formed when many soldiers serve together — one individual, then the whole named body of that kind. Sailors as a body form a navy, which matches the army at the same full scale. A crew is only one ship's worth of sailors, so it is a smaller grouping and an alternate rather than the best answer; a fleet or armada gathers ships, not the sailors themselves.",
+    "tags": ["analogies", "unit-collection"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nTAILOR is to GARMENT as COBBLER is to ___?",
+    "guidance": "Name the trade and its signature finished product, then transfer the pattern: a craftsperson working one material produces one kind of product. Keep the product at the same level of generality as the stem's — a single classic item, not the whole craft.",
+    "answer": "SHOE",
+    "alt_answers": ["boot"],
+    "explanation": "A tailor's finished product is a garment, so the relation is worker to signature product. A cobbler's craft is leather footwear, making and mending shoes, and the shoe is the classic single product that matches 'garment' in both kind and level of generality. A boot is simply another style of the same product, so it is accepted as an alternate.",
+    "tags": ["analogies", "worker-product", "trades"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nBROKEN CHAINS are to FREEDOM as BALANCED SCALES are to ___?",
+    "guidance": "Treat each object as an emblem and recall its conventional meaning rather than what it literally depicts. Complete the second pair so both pairs read 'object stands for established meaning.' Reject readings taken from the picture alone — what the object physically shows — in favor of what the emblem conventionally stands for.",
+    "answer": "JUSTICE",
+    "alt_answers": ["fairness"],
+    "explanation": "Broken chains conventionally stand for freedom: the snapped link shows captivity ending. Balanced scales are the long-established emblem of justice — the fair weighing of a matter. Equality describes only the picture of two level pans rather than the emblem's accepted meaning, so it fails the convention test; fairness is the nearest rewording and serves as an alternate, making JUSTICE the best completion.",
+    "tags": ["analogies", "symbols", "emblems"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nFRICTION is to SPARK as CARELESSNESS is to ___?",
+    "guidance": "Express the stem as a cause-and-effect sentence: 'the first word produces the second.' Then hunt for the characteristic product of the second cause. Reject near-miss words that share the topic but are not the direct result of that particular cause.",
+    "answer": "ACCIDENT",
+    "alt_answers": ["mishap"],
+    "explanation": "Friction between surfaces produces sparks — a cause yielding its characteristic effect. Carelessness likewise yields accidents: lapses of attention are what accidents are made of. Fire is a topic-linked trap, since sparks can start fires, but fire is not what carelessness produces; an injury is a consequence of the effect rather than the effect itself, and a mishap is just a milder word for the same result, hence the alternate.",
+    "tags": ["analogies", "cause-effect"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nWORD is to NOVEL as NOTE is to ___?",
+    "guidance": "Pin the relation precisely: the first word is the smallest building block of the second. Then match more than the block-to-work relation — mirror the register and scale of the whole as well, since blocks build many works; choose the work whose size and seriousness matches the stem's finished whole.",
+    "answer": "SYMPHONY",
+    "alt_answers": ["sonata", "concerto"],
+    "explanation": "Words are the smallest units from which a novel is built, so the relation is building block to large finished work. A note is the corresponding building block of music, and the work that mirrors a novel's length and seriousness is the symphony — a long-form instrumental composition. A song keeps the block relation but is far too small to match the scale; a sonata or concerto sits closer and is accepted as an alternate.",
+    "tags": ["analogies", "unit-collection", "arts"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 4,
+    "question": "Complete the analogy:\n\nMURMUR is to ROAR as GLIMMER is to ___?",
+    "guidance": "Compare the two stem words for the exact relation — a faint trace of a sense versus that same sense at full force. Then carry the relation into the new sense the second pair belongs to, and pick the word that supplies the same overwhelming intensity, not merely any strong member of the category.",
+    "answer": "BLAZE",
+    "alt_answers": ["glare"],
+    "explanation": "A murmur is a faint thread of sound and a roar is that sound at full force, so the stem runs mild to overwhelming within one sense. Carrying the relation across to light: a glimmer is a faint thread of light, and the same leap lands on a blaze — light burning at full intensity. A glare is steady and harsh rather than fierce, so it ranks as an alternate.",
+    "tags": ["analogies", "degree", "senses"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 4,
+    "question": "Complete the analogy:\n\nSKETCH is to PAINTING as BLUEPRINT is to ___?",
+    "guidance": "Classify each stem word by its role in a sequence: one is the preliminary study and the other the realized result. Then find the realized result for the second preliminary item, keeping the same level of generality — match class to class rather than class to a single example.",
+    "answer": "BUILDING",
+    "alt_answers": ["house"],
+    "explanation": "A sketch is the preliminary study from which a painting is realized, so the relation is the maker's plan to the finished result. A blueprint plays exactly that role for a building: the drawn plan that becomes the finished structure. An architect would name the worker rather than the realized result, and a house is one specific instance where the stem stays at the level of a class, so BUILDING is the best completion and house the alternate.",
+    "tags": ["analogies", "representation", "design"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 4,
+    "question": "Complete the analogy:\n\nCROWN is to MONARCH as GAVEL is to ___?",
+    "guidance": "Ask what the object stands for rather than what it is used with: an emblem marks who holds an office. Find the officeholder that the second emblem marks, and reject nearby words for places or products that share the setting but not the emblem's role.",
+    "answer": "JUDGE",
+    "alt_answers": ["auctioneer"],
+    "explanation": "A crown is not the monarch's product or dwelling but the emblem that marks the office — the relation is badge of authority to officeholder. A gavel is the corresponding emblem of the judge's authority in a courtroom. A court is a place and a verdict a product, so neither fills the emblem role; an auctioneer does wield a gavel and is accepted as an alternate, though the judge is the authority figure the emblem most canonically marks.",
+    "tags": ["analogies", "symbols", "authority"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 5,
+    "question": "Complete the analogy:\n\nEMBER is to WILDFIRE as PEBBLE is to ___?",
+    "guidance": "For layered analogies, test each candidate against two sentences at once: a size sentence ('tiny versus vast of the same stuff') and a consequence sentence ('the small one can set off the big one'). Keep only the candidate that survives both, and reject large things that are merely objects rather than runaway events.",
+    "answer": "AVALANCHE",
+    "alt_answers": ["landslide", "rockslide"],
+    "explanation": "The stem chains two relations: an ember is a tiny live piece of fire, and a wildfire is fire vast and uncontrolled — a small same-substance trigger paired with the runaway event it can set off. A pebble is the tiny piece of stone, and the runaway event built of stones in motion is an avalanche. A boulder is merely one big object rather than an event, so it fails the consequence sentence; a landslide or rockslide names the same kind of event with a different flavor, so both are alternates.",
+    "tags": ["analogies", "cause-effect", "layered"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 5,
+    "question": "Complete the analogy:\n\nNOVICE is to BLUNDER as VIRTUOSO is to ___?",
+    "guidance": "Chain the relations: first link each person to the deed that matches their skill level, then flip that scale for the second pair. Match the kind of thing as well — if one slot holds a deed (something done), the answer must also be a deed, not an object produced.",
+    "answer": "MASTERSTROKE",
+    "alt_answers": [],
+    "explanation": "The stem pairs a worker's skill level with the deed that level characteristically produces: a novice turns out blunders. Reading the second pair keeps the worker-to-deed relation while flipping the skill scale — a virtuoso, the top of the craft, turns out masterstrokes. A masterpiece is a finished object, while a blunder is something done, so the deed-to-deed match makes MASTERSTROKE the single best completion.",
+    "tags": ["analogies", "worker-product", "layered"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 5,
+    "question": "Complete the analogy:\n\nMATCH is to POWDER KEG as BREACH is to ___?",
+    "guidance": "Trace where the stored force lives. The stem pairs a tiny trigger with the loaded object it acts upon — not with the blast itself. Hunt the loaded counterpart for the second trigger, something that holds an enormous force in check, and reject the resulting catastrophe, which sits one step too far along the chain.",
+    "answer": "DAM",
+    "alt_answers": ["levee", "dike"],
+    "explanation": "A match is a tiny trigger and a powder keg is the loaded object that concentrates enormous stored force: the pair is trigger to volatile store, not trigger to explosion. A breach is likewise a small trigger, and the structure that concentrates and holds back an enormous force is a dam — the reservoir is the water itself, not the barrier. A flood is the catastrophe released one step after the trigger, so it fails the slot test; a levee or dike plays the same holding role as a dam and stands as an alternate.",
+    "tags": ["analogies", "cause-effect", "layered"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

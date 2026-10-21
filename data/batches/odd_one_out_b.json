@@ -1,0 +1,249 @@
+[
+  {
+    "category": "odd-one-out",
+    "difficulty": 1,
+    "question": "Which word is the odd one out?\n\nPUDDLE, TEMPLE, RABBLE, PUZZLE, PEDDLE",
+    "guidance": "Give each word a quick structural once-over: total letters, vowel count, any letter that appears twice in a row, and first letters. Run every check across all five words before deciding - in a well-built set, exactly one check separates a single word from the other four.",
+    "answer": "TEMPLE",
+    "alt_answers": [],
+    "explanation": "PUDDLE, RABBLE, PUZZLE and PEDDLE each contain a pair of identical letters sitting side by side - dd, bb, zz and dd. TEMPLE has no repeated letter at all: T-E-M-P-L-E never doubles up. All five words have six letters and two vowels, so those checks cannot separate them - the doubled letter is the only feature that does, and TEMPLE is the only word without one.",
+    "tags": ["words", "double-letters"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 1,
+    "question": "Which number is the odd one out?\n\n36, 40, 81, 25, 49",
+    "guidance": "Test numbers against the classic families before trying anything fancier: even or odd, multiples of small numbers, and perfect squares. A quick way to spot squares is to check whether some whole number times itself lands exactly on the value.",
+    "answer": "40",
+    "alt_answers": [],
+    "explanation": "81 = 9 x 9, 36 = 6 x 6, 25 = 5 x 5 and 49 = 7 x 7 - each is a perfect square, a whole number multiplied by itself. 40 cannot be written that way: 6 x 6 = 36 falls short and 7 x 7 = 49 overshoots, so 40 sits between two consecutive squares and is not one. The other surface tests (all are two-digit, parity is mixed) do not split the set, so being a perfect square is the dividing feature.",
+    "tags": ["numbers", "squares"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Which word is the odd one out?\n\nFROST, STONE, CHALK, TWIST, SHIRT",
+    "guidance": "When every word in the set has the same length, the total-letter check is a dead end - switch to counting vowels and consonants separately. Writing the count under each word keeps you honest and makes the odd one jump out.",
+    "answer": "STONE",
+    "alt_answers": [],
+    "explanation": "All five words have exactly five letters, so length cannot be the key. Counting the vowels (a, e, i, o, u) gives FROST, CHALK, TWIST and SHIRT exactly one vowel each, while STONE holds two (o and e). Four words share the single-vowel pattern; STONE alone breaks it. As a bonus check, every letter count and consonant count otherwise matches, so the vowel count is the only clean divider.",
+    "tags": ["words", "vowels", "letter-count"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 2,
+    "question": "Which number is the odd one out?\n\n23, 51, 53, 29, 59",
+    "guidance": "Test each number for primeness by trying the small divisors: 2, 3, 5, 7. The digit-sum trick speeds this up - if a number's digits sum to a multiple of 3, the number itself divides by 3. Numbers that merely look prime deserve that second look.",
+    "answer": "51",
+    "alt_answers": [],
+    "explanation": "23, 29, 53 and 59 are all prime - none divides evenly by anything other than 1 and itself. 51 looks prime, but its digits sum to 5 + 1 = 6, which is divisible by 3, and so is 51 itself: 51 = 3 x 17. Running the small-divisor check on every member confirms that 51 is the only composite number in the set.",
+    "tags": ["numbers", "primes", "digit-sum"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Which word is the odd one out?\n\nHONEY, TONER, HOMER, BONEY, TONES",
+    "guidance": "Look for smaller words hiding inside bigger ones: slide a three-letter window across each word, left to right, and read what falls out. When the words look ordinary on the surface - matching lengths, matching vowel counts - the pattern is often buried inside them.",
+    "answer": "HOMER",
+    "alt_answers": [],
+    "explanation": "Sliding a three-letter window along each word reveals the same hidden word four times: TONER holds ONE (t-ONE-r), as do TONES, BONEY and HONEY. HOMER cannot produce it - reading left to right its letters give only HOM, OME and MER, none of which is a word, and ONE never appears. All five words have five letters and two vowels, so the hidden word is the only feature that separates HOMER from the rest.",
+    "tags": ["words", "hidden-words"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Which word is the odd one out?\n\nFILTER, KINDER, BUTLER, DANGER, HUNTER",
+    "guidance": "Convert each first letter to its alphabet position (A=1, B=2, ...) and study the resulting numbers. Ask whether the positions share a parity, form a steady step, or trace a run of consecutive letters - initial letters are a favourite hiding place for number patterns in disguise.",
+    "answer": "KINDER",
+    "alt_answers": [],
+    "explanation": "Convert each initial letter to its alphabet position: BUTLER gives B = 2, DANGER gives D = 4, FILTER gives F = 6 and HUNTER gives H = 8 - the even-numbered positions, marching up two letters at a time. KINDER starts with K, the 11th letter, which is odd and breaks the every-other-letter chain. Every word has six letters, two vowels and ends in -er, so the initial letters carry the whole pattern, and KINDER is the only one that does not fit.",
+    "tags": ["words", "first-letter", "alphabet"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 3,
+    "question": "Which word is the odd one out?\n\nPOTS, WOLF, OPTS, POST, TOPS",
+    "guidance": "Sort each word's letters into alphabetical order and compare the results. Two words built from exactly the same letters will sort to the identical string, which makes this a fast, mechanical way to spot anagram families hiding in a word set.",
+    "answer": "WOLF",
+    "alt_answers": [],
+    "explanation": "Sorting each word's letters alphabetically turns POTS, OPTS, POST and TOPS all into the same string - O, P, S, T - meaning they are exact anagrams of one another, four rearrangements of the same four letters. Sorting WOLF gives F, L, O, W: those are different letters entirely, so it is not a rearrangement of the others. All five words have four letters and one vowel, so the letter multiset is the only clean divider, and WOLF stands alone.",
+    "tags": ["words", "anagrams", "letter-count"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 4,
+    "question": "Which number is the odd one out?\n\n60, 16, 36, 20, 12",
+    "guidance": "When every number passes a divisibility test, push the test one level deeper: divide each by that common factor and study the quotients. What the quotients share - or lack - is often where the real pattern lives, one layer below the surface rule.",
+    "answer": "16",
+    "alt_answers": [],
+    "explanation": "Every number here divides evenly by 4, so the first test does not separate them. Divide each by 4 and examine the quotients: 60 = 4 x 15, 36 = 4 x 9, 20 = 4 x 5 and 12 = 4 x 3 - in each case four times an ODD number. 16 = 4 x 4 is four times an even number, the only one of the five. A second route confirms it: 16 is also the only perfect square in the set, since 4 x 4 = 16, while 15, 9, 5 and 3 are not squares. Both observations single out 16.",
+    "tags": ["numbers", "divisibility", "factors"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 4,
+    "question": "Which word is the odd one out?\n\nGRAVITY, MONKEY, ENEMY, HURDLERS, FLAVOR",
+    "guidance": "Pair up different structural features of each word - its length, its first letter's alphabet position, its vowel count - and look for a relationship BETWEEN two features. When every single feature tested alone matches for all five words, the design often lives in a combination.",
+    "answer": "MONKEY",
+    "alt_answers": [],
+    "explanation": "Write two numbers for each word: the alphabet position of its first letter, and its letter count. GRAVITY: G = 7, and 7 letters. ENEMY: E = 5, and 5 letters. FLAVOR: F = 6, and 6 letters. HURDLERS: H = 8, and 8 letters. In all four, the two numbers match exactly. MONKEY has 6 letters but starts with M, the 13th letter - the only word where the columns disagree. Notice how the surface checks all fail first: lengths run 5, 6, 7, 8, 6 and every word has exactly two vowels, so the hidden length-equals-position rule is the only clean divider.",
+    "tags": ["words", "letter-count", "alphabet"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 4,
+    "question": "Which word is the odd one out?\n\nTUNNEL, SWEEPS, PARROT, RABBIT, WATTLE",
+    "guidance": "When every word in the set shares a broad property, classify that shared feature more finely - its identity, its position, its type. The odd one out in such sets usually breaks not the broad trait itself but a finer version of it, so keep asking smaller questions about the thing they all have.",
+    "answer": "SWEEPS",
+    "alt_answers": [],
+    "explanation": "Every word contains exactly one pair of identical side-by-side letters, and in every word that pair sits in the same spot - positions three and four - so presence and position both fail to separate the set. Ask instead what KIND of letter is doubled: RABBIT doubles B, TUNNEL doubles N, PARROT doubles R and WATTLE doubles T - all consonants. SWEEPS doubles E, a vowel, making it the only word whose side-by-side pair is not a consonant. Lengths (six letters) and vowel counts (two each) match everywhere, so the letter type of the doubled pair is the sole divider.",
+    "tags": ["words", "double-letters", "vowels"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 5,
+    "question": "Which number is the odd one out?\n\n37, 19, 71, 13, 79",
+    "guidance": "When the first round of tests - odd or even, prime, small divisors - passes for all five numbers, transform each number before giving up: reverse its digits, square it, or sum its digits, then re-run the old tests on the new values. A property that survives a transformation in four cases but fails in one is the answer.",
+    "answer": "19",
+    "alt_answers": [],
+    "explanation": "All five numbers are prime, and all are odd two-digit numbers, so the surface tests fail completely. Reverse each number's digits and test the result for primeness: 37 becomes 73 (prime), 71 becomes 17 (prime), 13 becomes 31 (prime) and 79 becomes 97 (prime). 19 becomes 91, and 91 = 7 x 13 is not prime. Four numbers keep their primeness when reversed; 19 alone loses it. No reversal lands back inside the set, and every other digit-level test (digit sums 4, 10, 8, 16, 10; divisibility; palindromes) fails to split the group, so 19 is provably the odd one out.",
+    "tags": ["numbers", "primes", "reversal"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 5,
+    "question": "Which number is the odd one out?\n\n42, 33, 84, 12, 21",
+    "guidance": "When a uniform divisibility test passes for all five, stop dividing by fixed numbers and let the digits themselves supply the divisor: compute each digit sum and test whether it divides the number, or shares a factor with it. Digit-based arithmetic is the standard escalation once surface tests fail across the board.",
+    "answer": "33",
+    "alt_answers": [],
+    "explanation": "Every number in the set is a multiple of 3, so the usual divisor test cannot split it. Compute each digit sum and divide the number by it: 12 / (1+2) = 4, 21 / (2+1) = 7, 42 / (4+2) = 7 and 84 / (8+4) = 7 - every one divides evenly. 33's digits also sum to 6, but 33 / 6 leaves a remainder (6 x 5 = 30, 6 x 6 = 36). 33 is the only number in the set that its own digit sum does not divide. Supporting checks agree: 33 is the only palindrome and the only multiple of 11, and no other digit-based test separates a different member.",
+    "tags": ["numbers", "digit-sum", "divisibility"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "odd-one-out",
+    "difficulty": 5,
+    "question": "Which word is the odd one out?\n\nDEITY, EARLY, FILMY, EMPTY, DIRTY",
+    "guidance": "Look past which letters a word contains and study HOW they are arranged: track each letter's alphabet position as you read left to right and note whether anything systematic happens to the positions. Order-based properties hide in plain sight because the eye checks membership far more readily than sequence.",
+    "answer": "EARLY",
+    "alt_answers": [],
+    "explanation": "Track the alphabet position of every letter as you read. In EMPTY the letters climb steadily (e, then m, then p, then t, then y) - each letter is later in the alphabet than the one before it, so the word is in perfect alphabetical order. The same holds for FILMY (f-i-l-m-y), DIRTY (d-i-r-t-y) and DEITY (d-e-i-t-y). EARLY collapses on its second letter: E comes before A in the alphabet, so the order is broken immediately. Four words are quietly alphabetized; EARLY is not. The surface checks all fail first - every word ends in Y, lengths are equal, and AEIOU vowel counts give no clean split - so the internal ordering is the provable divider.",
+    "tags": ["words", "alphabetical", "letter-order"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

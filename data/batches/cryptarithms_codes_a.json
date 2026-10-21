@@ -1,0 +1,268 @@
+[
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 1,
+    "question": "In this letter-arithmetic puzzle, each letter stands for a single digit from 0 to 9. The same letter always stands for the same digit, different letters stand for different digits, and no number may begin with the digit 0.\n\nAB + B = BA\n\nWhich digits do A and B stand for so that the addition is correct?",
+    "guidance": "Translate the words into algebra: write AB as 10A + B and BA as 10B + A, then turn the whole statement into one equation in A and B. Collect like terms and look for a simple ratio between the two digits - a small divisibility argument usually finishes puzzles this size.",
+    "answer": "89 + 9 = 98",
+    "alt_answers": ["A = 8, B = 9"],
+    "explanation": "Write AB as 10A + B and BA as 10B + A. The equation (10A + B) + B = 10B + A simplifies to 10A + 2B = 10B + A, and then to 9A = 8B. Since 9 and 8 share no common factor, the only digits that can satisfy 9A = 8B are A = 8 and B = 9. Checking the sum: 89 + 9 = 98, which reads BA with B = 9 first and A = 8 second, and neither number begins with 0.",
+    "tags": ["cryptarithm", "algebra", "digits"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 1,
+    "question": "Each letter in the sum below stands for one digit. Identical letters mean identical digits, different letters mean different digits, and no number starts with 0.\n\nAB + BA = DAD\n\nA two-digit number plus its own reverse makes a three-digit palindrome. Which digits hide behind A, B and D?",
+    "guidance": "Use the special structure: a two-digit number plus its reverse always equals 11 times the sum of its digits. That turns the puzzle into a short equation. Then bound the result - the left side cannot exceed 11 x 17 = 187 - and the first digit of DAD is pinned immediately.",
+    "answer": "29 + 92 = 121",
+    "alt_answers": ["A = 2, B = 9, D = 1"],
+    "explanation": "A number plus its reverse equals 11 times the sum of its digits: AB + BA = 11(A + B). With two different digits, A + B is at most 17, so the result is at most 187 and the leading digit of DAD must be D = 1. Now DAD = 101 + 10A, so 11(A + B) = 101 + 10A, giving A + 11B = 101. That forces B = 9 and A = 2 (B = 8 would require A = 13). Indeed 29 + 92 = 121, which spells DAD with D = 1 and A = 2.",
+    "tags": ["cryptarithm", "palindrome", "reverse"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 1,
+    "question": "Every letter in this sum is a hidden digit. The same letter always hides the same digit, different letters hide different digits, and no number begins with 0.\n\nA + BB = ADD\n\nA single digit plus a two-digit number made of one repeated letter produces a three-digit number. Find A, B and D.",
+    "guidance": "Compare sizes first: a two-digit BB plus a single digit can only just reach a three-digit result, so the result is barely over 100. Writing each word in place-value form (A, 11B, 100A + 11D) turns the puzzle into one small equation that the digit limits then squeeze to a single answer.",
+    "answer": "1 + 99 = 100",
+    "alt_answers": ["A = 1, B = 9, D = 0"],
+    "explanation": "In place-value form the statement reads A + 11B = 100A + 11D. Rearranging gives 11B = 99A + 11D, so B = 9A + D. Because B is a single digit, 9A + D cannot exceed 9, which forces A = 1 and D = 0, and then B = 9. So the sum is 1 + 99 = 100, which spells ADD with A = 1 in the leading place and D = 0 in both remaining places. No word begins with 0, and all letters are distinct.",
+    "tags": ["cryptarithm", "place-value", "digits"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "Each letter below stands for exactly one digit, the same letter for the same digit everywhere, different letters for different digits, and no word may begin with 0.\n\nDEER + DEER = MOOSE\n\nRestore the digits so that the addition works.",
+    "guidance": "Start with the shape of the sum: the result MOOSE has one digit more than DEER, so the leading letter M is forced, and the doubling tells you D must be big enough to create that extra digit. Then work column by column from the right, tracking carries. Repeated letters are anchors: E fills three columns, and the two O columns must agree.",
+    "answer": "7226 + 7226 = 14452",
+    "alt_answers": ["D = 7, E = 2, R = 6, M = 1, O = 4, S = 5"],
+    "explanation": "Because MOOSE has one more digit than DEER, M = 1 and D is at least 5. Units column: R + R ends in E. Tens: E + E plus carry ends in S. Hundreds and thousands must both end in the same digit O. Try the units: R = 6 makes 2R = 12, so E = 2 with carry 1; then 2E + 1 = 5 gives S = 5 with no carry; 2E = 4 gives the first O = 4; and D + D = 14 requires D = 7, which makes the second O = 4 too, and the final carry 1 gives M = 1. All six letters are distinct, and any other choice of carry or starting digit either repeats a digit or breaks the matching O columns, so DEER = 7226 and 7226 + 7226 = 14452.",
+    "tags": ["cryptarithm", "doubling", "carries"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "Each letter in the addition stands for one digit from 0 to 9. The same letter always means the same digit, different letters mean different digits, and no word begins with 0.\n\nTEAM + TEAM = GAMES\n\nWork out the digit hidden behind each letter.",
+    "guidance": "Two structural facts crack this open. First, GAMES has one more digit than TEAM, so G is forced and T must be big enough to create that carry. Second, watch the loop of letters: the units letter M doubles into S, A doubles into E, and E doubles back into M - the middle columns must agree with each other. Test the loop before the outer letters.",
+    "answer": "8367 + 8367 = 16734",
+    "alt_answers": ["T = 8, E = 3, A = 6, M = 7, G = 1, S = 4"],
+    "explanation": "The result has five digits, so G = 1 and T is at least 5. Units: M + M ends in S. Tens: A + A plus carry ends in E. Hundreds: E + E plus carry ends in M, the same M the units column started from. Take M = 7: 2M = 14 gives S = 4 and carry 1; then A = 6 makes 2A + 1 = 13, so E = 3 and carry 1; and 2E + 1 = 7 lands back on M = 7, closing the loop. The thousands column needs T + T to end in A = 6 while producing the leading carry, and T = 8 works: 2T = 16. Every letter is distinct, and this is the only assignment that survives all four columns, so TEAM = 8367 and 8367 + 8367 = 16734.",
+    "tags": ["cryptarithm", "doubling", "loop"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "Every letter in this sum represents a single digit. The same letter always represents the same digit, different letters represent different digits, and no number begins with 0.\n\nRINGS + RINGS = SPRING\n\nFind the digits that make the addition correct.",
+    "guidance": "Compare first and last positions before anything else: the result begins with S, and S is also the final digit of RINGS. A doubled number gains at most one digit, and that new leading digit is always a 1 - a strong anchor. From there the columns cascade from the units place leftward, each producing the next letter of the result.",
+    "answer": "68421 + 68421 = 136842",
+    "alt_answers": ["R = 6, I = 8, N = 4, G = 2, S = 1, P = 3"],
+    "explanation": "Doubling a five-digit number can add at most one digit, and that new leading digit must be 1, so the S that begins SPRING is 1. The units column then gives G: S + S = 2, so G = 2. Next G + G = 4 makes N = 4; N + N = 8 makes I = 8; I + I = 16 makes R = 6 and carries 1; and finally R + R + 1 = 13 makes P = 3 with a final carry of 1, which matches S = 1 exactly. Since S was forced, the whole cascade was forced, and all six letters stay distinct: RINGS = 68421 and 68421 + 68421 = 136842.",
+    "tags": ["cryptarithm", "doubling", "anchor"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 2,
+    "question": "In this puzzle, each letter stands for one digit (0-9). The same letter always means the same digit, different letters always mean different digits, and no word begins with the digit 0.\n\nANGER + ANGER = ORANGE\n\nReplace every letter with its digit to make a true addition.",
+    "guidance": "Notice that the result reuses the addend's letters shifted one place left, so each column feeds the next letter of the result. First fix the leading digit from the extra column. Then chain the columns starting at the units place: each letter you find forces the next, and the chain has to close back on itself consistently.",
+    "answer": "73684 + 73684 = 147368",
+    "alt_answers": ["A = 7, N = 3, G = 6, E = 8, R = 4, O = 1"],
+    "explanation": "ORANGE has six digits while ANGER has five, so the leftmost column is a lone carry: O = 1, and A must be at least 5. Chain the columns from the units place, where R + R ends in E. Take R = 4: 2R = 8 gives E = 8 with no carry. Then E + E = 16 gives G = 6 and carry 1; G + G + 1 = 13 gives N = 3 and carry 1; N + N + 1 = 7 gives A = 7 with no carry; and A + A = 14 ends in R = 4 again, carrying 1 into the O = 1 column. Every letter is distinct, and starting the chain from any other R fails to close the loop or repeats a digit, so ANGER = 73684 and 73684 + 73684 = 147368.",
+    "tags": ["cryptarithm", "doubling", "letter-chain"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "In this word-sum, each letter stands for exactly one digit (0-9), the same letter for the same digit everywhere, different letters for different digits, and no leading digit may be 0.\n\nMOON + MOON = NIGHT\n\nDetermine the digit for each letter.",
+    "guidance": "Begin with the length: NIGHT has five digits, so its first letter N is forced to a single value, and M must be large enough to generate the carry. Then read the two middle columns together - both double the same letter O, but with different incoming carries, so their outputs are tightly linked. Eliminate candidates for O one by one before moving left.",
+    "answer": "6771 + 6771 = 13542",
+    "alt_answers": ["M = 6, O = 7, N = 1, G = 5, I = 3, H = 4, T = 2"],
+    "explanation": "Since NIGHT has one more digit than MOON, N = 1, and the units column gives T: N + N = 2, so T = 2 with no carry. Now the O columns: O + O must end in H, and O + O plus the tens carry must end in G. Test O: 9 makes G collide with O; 5 makes G = 1 collide with N; 6 makes H = 2 collide with T; 0, 3 and 4 make both O columns land on the same digit; 8 makes H = 6 and G = 7, leaving no digit for M that carries without collision. So O = 7: 2O = 14 gives H = 4 and carry 1, and 2O + 1 = 15 gives G = 5. Then M + M + 1 must end in a fresh digit with a carry: M = 6 gives 13 and I = 3 (M = 5 or 8 would repeat 1 or 7, M = 9 repeats itself, and 7 is taken by O). So MOON = 6771 and 6771 + 6771 = 13542.",
+    "tags": ["cryptarithm", "doubling", "elimination"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "Each letter below hides one digit. The same letter always hides the same digit, different letters hide different digits, and no word begins with 0.\n\nHAIL + HAIL = SLEET\n\nUncover the digits so that the sum is correct.",
+    "guidance": "The result SLEET repeats its middle letter E, which means two different columns must produce the same output digit - a strong double constraint. Fix the leading digit first (the extra column forces S), then chase the carries from the units place, insisting that both E columns agree before you trust any letter.",
+    "answer": "9278 + 9278 = 18556",
+    "alt_answers": ["H = 9, A = 2, I = 7, L = 8, S = 1, E = 5, T = 6"],
+    "explanation": "SLEET has one more digit than HAIL, so S = 1 and H is at least 5. Units: L + L ends in T. Tens: I + I plus carry ends in E. Hundreds: A + A plus carry must end in the same E. Thousands: H + H plus carry ends in L, the very letter the units column used, and its final carry makes S = 1. Take L = 8: 2L = 16 gives T = 6 and carry 1. Then I = 7 makes 2I + 1 = 15, so E = 5 and carry 1. Then A = 2 makes 2A + 1 = 5, matching E = 5 with no carry. Finally H = 9 makes 2H = 18, ending in L = 8 and carrying 1 onto S = 1. All seven letters are distinct, and no other starting value of L keeps the two E columns equal while leaving distinct digits, so HAIL = 9278 and 9278 + 9278 = 18556.",
+    "tags": ["cryptarithm", "doubling", "weather"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 3,
+    "question": "In this letter-for-digit puzzle, each letter stands for one digit from 0 to 9. The same letter always stands for the same digit, different letters stand for different digits, and no number begins with the digit 0.\n\nFLOUR + FLOUR = BUTTER\n\nWhich digits make the addition work?",
+    "guidance": "Hunt for a letter that sits in the same column of an addend and of the result - a letter that must double into itself, which pins it instantly. After that anchor, exploit the twin T columns in BUTTER: two different doubled letters must land on the same digit. Careful carry bookkeeping from the units place outward does the rest.",
+    "answer": "92780 + 92780 = 185560",
+    "alt_answers": ["F = 9, L = 2, O = 7, U = 8, R = 0, B = 1, T = 5, E = 6"],
+    "explanation": "R finishes both FLOUR and BUTTER, so R + R must end in R. The only digit that doubles into a number ending in itself is R = 0. BUTTER has six digits, so B = 1 and F is at least 5. Tens: U + U ends in E. Take U = 8: 2U = 16 gives E = 6 and carry 1. Hundreds: O + O + 1 must end in T; thousands: L + L plus carry must land on the same T. With O = 7, 2O + 1 = 15 gives T = 5 and carry 1; then L = 2 gives 2L + 1 = 5, matching T = 5 with no carry. Ten-thousands: F + F must end in U = 8 and produce the final carry, so F = 9 (2F = 18). All eight letters are distinct, and the twin T columns rule out every other combination, so FLOUR = 92780 and 92780 + 92780 = 185560.",
+    "tags": ["cryptarithm", "doubling", "cooking"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 4,
+    "question": "Each letter in this addition stands for a single digit. The same letter always stands for the same digit, different letters stand for different digits, and no word begins with 0.\n\nURANUS + EARTH = SATURN\n\nA five-digit number and a six-digit number combine into a six-digit result. Find every letter's digit.",
+    "guidance": "Different-length addends mean the columns only partially overlap - align the words on their units digits first and note which letters meet which. Look for self-meetings: A appears in the same column of both addends, and the top column reads U plus a carry equals S, which forces that carry, since S and U must differ. Collect the forced facts before any casework.",
+    "answer": "654067 + 94583 = 748650",
+    "alt_answers": ["U = 6, R = 5, A = 4, N = 0, S = 7, E = 9, T = 8, H = 3"],
+    "explanation": "Align the words on their units digits. The top column reads S = U + carry; S and U are different letters, so the carry must be 1 and S = U + 1. The units column reads S + H ends in N. With U = 6 and S = 7: units 7 + 3 = 10 gives H = 3, N = 0 and carry 1; tens 6 + 8 + 1 = 15 gives R = 5 and carry 1; hundreds N + R + 1 = 0 + 5 + 1 = 6 lands back on U = 6 with no carry; thousands A + A = 4 + 4 = 8 gives T = 8; and ten-thousands R + E = 5 + 9 = 14 ends in A = 4 while producing exactly the carry 1 the top column needed. Every letter is distinct, the hundreds column returns U and the final carry lands on S, and a systematic check of the few other candidates for U repeats a digit or loses a carry, so URANUS = 654067, EARTH = 94583 and 654067 + 94583 = 748650.",
+    "tags": ["cryptarithm", "astronomy", "carries"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 4,
+    "question": "Each letter in this sum represents one digit from 0 to 9. The same letter always represents the same digit, different letters represent different digits, and no word begins with the digit 0.\n\nORANGE + ORANGE = YELLOW\n\nThe two addends are the same word, and the result shares only E and O with them. Find the full digit assignment.",
+    "guidance": "When doubling a word leaves the digit count unchanged, the leading letter must be small - twice ORANGE stays below a million, so O is at most 4. Then let the units column start a cascade: each doubled letter produces the next letter of the result in order. Watch the doubled L in YELLOW, and watch for the moment the cascade loops back to a letter it has already fixed.",
+    "answer": "329415 + 329415 = 658830",
+    "alt_answers": ["O = 3, R = 2, A = 9, N = 4, G = 1, E = 5, Y = 6, L = 8, W = 0"],
+    "explanation": "The result keeps six digits, so twice ORANGE stays below a million and O is at most 4. Units: E + E ends in W. Take E = 5: 2E = 10 gives W = 0 and carry 1. Tens: G + G + 1 ends in O; with G = 1 that is 3, so O = 3 with no carry. Hundreds: N + N ends in L; N = 4 gives L = 8. Thousands: A + A plus carry must land on the same L = 8, so A = 9 (2A = 18) with carry 1. Ten-thousands: R + R + 1 must end in E = 5, so R = 2 with no carry. Top: O + O = 6 gives Y = 6. The twin L columns agree, the loop back to E closes, all nine letters are distinct, and no other starting value for E survives those checks, so ORANGE = 329415 and 329415 + 329415 = 658830.",
+    "tags": ["cryptarithm", "doubling", "colors"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 5,
+    "question": "In this expert word-sum, each letter stands for exactly one digit. The same letter always stands for the same digit, different letters stand for different digits, and no word begins with 0.\n\nSATURN + URANUS = PLANETS\n\nTwo six-digit numbers add up to a seven-digit result. Recover every digit.",
+    "guidance": "List the six columns first and hunt for columns whose result digit is one of the letters being added there - such columns hand you digits or carries almost for free. Another tip: the lone leading digit of a seven-digit sum is always 1. After these anchors, express the remaining letters in terms of one unknown and use distinctness to eliminate candidates.",
+    "answer": "546790 + 794075 = 1340865",
+    "alt_answers": ["S = 5, A = 4, T = 6, U = 7, R = 9, N = 0, P = 1, L = 3, E = 8"],
+    "explanation": "Align the six columns. Units: N + S ends in S, so N = 0 with no carry. Ten-thousands: A + R + carry must end in A again, so R + carry = 10; the incoming carry there is at most 1, forcing R = 9 and carry 1. That carry makes the tens column read R + U = 9 + U, which always carries 1; so the hundreds column reads U + N + 1 = U + 1, giving E = U + 1 with no carry out (U cannot be 9 because R = 9). The thousands column then needs T + A = 10 exactly, and the tens column gives T = U - 1 (because 9 + U ends in U - 1), so A = 11 - U. The lone seventh digit gives P = 1. Now test U: 2 makes T = 1 collide with P; 5 makes A = E; 6 makes A = T; 8 makes E = 9 collide with R; 3 and 4 leave the top column L = S + U - 9 with no legal value for S (it comes out negative, or lands on N, P or T). Only U = 7 survives, giving T = 6, E = 8, A = 4, and L = S + 7 - 9 = S - 2 with S + U at least 10: S = 2 lands L on N = 0, S = 3 lands L on P = 1, so S = 5 and L = 3. Check: 546790 + 794075 = 1340865.",
+    "tags": ["cryptarithm", "astronomy", "expert"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "cryptarithms-codes",
+    "difficulty": 5,
+    "question": "Every letter in this puzzle stands for one digit from 0 to 9. The same letter always stands for the same digit, different letters stand for different digits, and no word begins with the digit 0.\n\nEMPTY + EMPTY = FILLED\n\nSomething empty, doubled, becomes filled. Find the digit for each letter.",
+    "guidance": "The result has one more digit than the addend, so F is forced and E is at least 5 - write both facts down first. Next look for twin columns: FILLED repeats L, so two different doubled letters must produce the same digit one column apart. Finally trace E, which leads the addend but also appears inside the result - the chain must come back consistent.",
+    "answer": "79436 + 79436 = 158872",
+    "alt_answers": ["E = 7, M = 9, P = 4, T = 3, Y = 6, F = 1, I = 5, L = 8, D = 2"],
+    "explanation": "FILLED has six digits, so F = 1 and E is at least 5. Columns from the right: units Y + Y ends in D; tens T + T plus carry ends in E, the same E that leads EMPTY; hundreds P + P plus carry ends in L; thousands M + M plus carry must land on the same L; ten-thousands E + E plus carry ends in I; and the final carry makes F = 1. Take Y = 6: 2Y = 12 gives D = 2 and carry 1. Tens: T = 3 makes 2T + 1 = 7, so E = 7, a legal leading digit, with no carry. Hundreds: P = 4 gives 2P = 8, so L = 8 with no carry. Thousands: M = 9 gives 2M = 18, landing on L = 8 again with carry 1. Ten-thousands: 2E + 1 = 15 ends in I = 5 and carries 1 onto F = 1. All nine letters are distinct, the twin L columns agree, and E = 7 reappears exactly where the tens column needs it. No other starting value for the units column keeps every letter distinct through all six columns, so EMPTY = 79436 and 79436 + 79436 = 158872.",
+    "tags": ["cryptarithm", "paradox", "doubling"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

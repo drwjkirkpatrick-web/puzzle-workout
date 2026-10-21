@@ -1,0 +1,268 @@
+[
+  {
+    "category": "verbal-analogies",
+    "difficulty": 1,
+    "question": "Complete the analogy:\n\nROSE is to FLOWER as OAK is to ___?",
+    "guidance": "Read the given pair and say its connection as a plain sentence: 'a rose is a kind of ___.' Then apply that exact sentence to the new word. If you have to bend the sentence to make your candidate fit, you have the wrong connection — try stating it differently.",
+    "answer": "TREE",
+    "alt_answers": [],
+    "explanation": "The relation is member to group: a rose is one kind of flower. An oak is one kind of the same general class of living things — a tree. Substituting the answer back gives 'an oak is a kind of tree,' which is exactly parallel to 'a rose is a kind of flower.'",
+    "tags": ["category", "plants", "classification"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 1,
+    "question": "Complete the analogy:\n\nPUPPY is to DOG as KITTEN is to ___?",
+    "guidance": "First pin down the connection in the given pair — what the first word grows into. Then ask the very same question about the new word. Naming the relation out loud before hunting for an answer keeps you from grabbing a word that merely reminds you of the clue.",
+    "answer": "CAT",
+    "alt_answers": [],
+    "explanation": "A puppy is the young form of a dog, and a kitten is the young form of a cat. Both pairs run in the same direction, from baby animal to the grown animal it becomes, so the completion is the grown version of the animal named by 'kitten.'",
+    "tags": ["animals", "growth", "young-to-adult"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 1,
+    "question": "Complete the analogy:\n\nDRIVER is to CAR as PILOT is to ___?",
+    "guidance": "When a pair matches a person to a thing, test the sentence 'the person operates the ___.' Confirm the sentence fits the given pair perfectly before you complete it, and prefer the most common vehicle for that job over a rare one.",
+    "answer": "AIRPLANE",
+    "alt_answers": ["PLANE", "HELICOPTER"],
+    "explanation": "A driver operates a car, and a pilot operates an aircraft. The everyday aircraft a pilot flies is an airplane, which parallels the everyday car. 'Plane' is the same answer in shorter form, and a helicopter is also an aircraft a pilot can fly, but the common, everyday parallel to the car is the airplane.",
+    "tags": ["vehicles", "occupations", "operation"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nHAND is to GLOVE as FOOT is to ___?",
+    "guidance": "Turn the given pair into a sentence that describes exactly what the second item does for the first, including what it is made of and how it fits. Then hunt for the item that plays that same role, with the same details, for the new word — not just any item that goes there.",
+    "answer": "SOCK",
+    "alt_answers": ["SHOE", "BOOT"],
+    "explanation": "A glove is a soft, snug covering worn on the hand. The item that plays the same role for the foot is a sock — a soft, snug covering worn on the foot. A shoe or boot also covers a foot, but those are stiff outer layers rather than the snug fabric layer a glove is, so sock is the tightest parallel.",
+    "tags": ["clothing", "function", "wearing"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nKNIFE is to CUT as NEEDLE is to ___?",
+    "guidance": "When a tool is paired with an action, name the tool's defining job in one short verb. Beware of verbs that only sometimes apply — pick the action the tool exists to do, and then find the defining verb of the new tool.",
+    "answer": "SEW",
+    "alt_answers": ["STITCH"],
+    "explanation": "A knife exists to cut, and a needle exists to sew — to pull thread through fabric. Both pairs run from tool to its purpose. 'Stitch' names one unit of the same sewing action and is acceptable, but the general verb that parallels 'cut' is 'sew.'",
+    "tags": ["tools", "function", "verbs"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nBIRD is to NEST as BEE is to ___?",
+    "guidance": "For pairs naming a creature and a place, build the sentence 'the creature lives in the ___' and check it against the given pair. Then hunt for the home of the new creature — the structure where the whole colony or the animal itself actually lives.",
+    "answer": "HIVE",
+    "alt_answers": [],
+    "explanation": "A bird lives in the nest it builds, and a bee lives in the hive that houses its colony. Both pairs run from creature to its home. The wax honeycomb inside the hive is a storage structure the bees build, but the place the colony actually lives in is the hive, so 'hive' completes the parallel.",
+    "tags": ["animals", "homes", "location"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 2,
+    "question": "Complete the analogy:\n\nSPANIEL is to DOG as THOROUGHBRED is to ___?",
+    "guidance": "When the given pair runs from a specific named variety to the general animal, build a sentence like 'a spaniel is a kind of ___' and keep it plain — no extra traits. Then ask what general animal the new variety belongs to, ignoring words that only describe looks or speed.",
+    "answer": "HORSE",
+    "alt_answers": [],
+    "explanation": "A spaniel is a specific kind of dog, and a thoroughbred is a specific kind of horse — a pedigree racing horse. The relation is variety to the general animal in both pairs, so the completion is 'horse.'",
+    "tags": ["animals", "breeds", "classification"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nWHALE is to MAMMAL as SHARK is to ___?",
+    "guidance": "Translate the given pair into the most precise category sentence you can — the actual biological class, not the habitat. When both animals in a puzzle look alike or live alike, classify by real traits (how it breathes, how it raises young) rather than by where it lives.",
+    "answer": "FISH",
+    "alt_answers": [],
+    "explanation": "A whale is a mammal: it breathes air, is warm-blooded, and nurses its young. The stem forces you to classify, not to match habitats — a whale lives like a fish but is not one. A shark breathes through gills and spends its whole life in water, so a shark is a fish. 'Fish' completes the parallel: each big ocean animal paired with its true class.",
+    "tags": ["classification", "animals", "trap"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nPEARL is to OYSTER as HONEY is to ___?",
+    "guidance": "When one word is a substance and the other a living thing, first work out which direction the making goes: ask 'which one produces the other?' Fix that direction in a sentence, then find the creature that produces the new substance — not one that merely stores or carries it.",
+    "answer": "BEE",
+    "alt_answers": ["HONEYBEE"],
+    "explanation": "An oyster produces a pearl inside its shell, and a bee produces honey in its hive. Both pairs run from product to its maker, so the completion is the honey-maker: a bee (most precisely, a honeybee). A hive stores honey but does not make it — bees inside it do — so a container would not fit the maker relation.",
+    "tags": ["producers", "animals", "direction"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 3,
+    "question": "Complete the analogy:\n\nPAINTER is to BRUSH as SCULPTOR is to ___?",
+    "guidance": "For a craftsperson paired with a tool, name the one tool most identified with that craft — the tool you would draw in a cartoon of the person at work. Test your candidate by asking whether people in other trades are equally defined by it; if so, keep looking for the signature tool.",
+    "answer": "CHISEL",
+    "alt_answers": [],
+    "explanation": "A painter's signature tool is the brush, and a sculptor's signature tool is the chisel, the blade that carves stone or wood. A mallet is also swung in sculpting, but it only drives the chisel, and mallets belong to many trades — so the tool that does the actual carving, the chisel, completes the parallel.",
+    "tags": ["crafts", "tools", "occupations"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 4,
+    "question": "Complete the analogy:\n\nTHERMOMETER is to TEMPERATURE as ODOMETER is to ___?",
+    "guidance": "For an instrument paired with a quantity, state the sentence 'this instrument measures the ___.' Then hunt for the matching quantity — and before committing, ask whether a different, better-known instrument already claims that quantity. Sibling devices are a classic trap in analogy puzzles.",
+    "answer": "DISTANCE",
+    "alt_answers": ["MILEAGE"],
+    "explanation": "A thermometer measures temperature, and an odometer measures distance traveled. The trap is 'speed': that quantity belongs to the speedometer, a different instrument on the same dashboard. 'Mileage' — the recorded distance a car has traveled — is an acceptable phrasing, but the general quantity that parallels 'temperature' is distance.",
+    "tags": ["instruments", "measurement", "trap"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 4,
+    "question": "Complete the analogy:\n\nORCHARD is to APPLES as VINEYARD is to ___?",
+    "guidance": "When the given pair runs from a place to a crop, build the sentence 'the place is planted with the ___.' Then find the crop actually grown in the new place — and beware of naming a product made from that crop later, which is a common trap.",
+    "answer": "GRAPES",
+    "alt_answers": [],
+    "explanation": "An orchard is a field of trees grown for their fruit, and the stem pairs it with apples. A vineyard is a field planted with grapevines, so the crop grown there is grapes. The trap is 'wine': wine is made from grapes afterwards, but what actually grows in a vineyard is the fruit itself — grapes.",
+    "tags": ["places", "farming", "trap"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 5,
+    "question": "Complete the analogy:\n\nCHICK is to HEN as LAMB is to ___?",
+    "guidance": "When both pairs involve young animals, the obvious 'baby grows into grown-up' sentence is often too loose. Ask one more question about the grown animal in the given pair — is it just any adult, or something more specific, such as its sex or its role? Then demand that same extra detail from your answer.",
+    "answer": "EWE",
+    "alt_answers": ["SHEEP"],
+    "explanation": "A hen is not just any grown chicken: it is the adult female, and every hen was once a chick. The same two-step relation for sheep: a lamb grows into a sheep, and the adult female of the species is a ewe. Because 'hen' specifies the female, the tightest parallel is 'ewe'; 'sheep' names the animal at any age or sex and is acceptable under the looser reading.",
+    "tags": ["animals", "two-step", "gender"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "verbal-analogies",
+    "difficulty": 5,
+    "question": "Complete the analogy:\n\nBRIDLE is to HORSE as RUDDER is to ___?",
+    "guidance": "For a device paired with an animal or machine, ask what the device actually does — not just what it goes with. 'Attached to' is a trap relation: much of the gear near an object is for comfort or carrying, not control. Name the device's job in one verb, then find the thing that same job controls.",
+    "answer": "SHIP",
+    "alt_answers": ["BOAT"],
+    "explanation": "A bridle is the gear that lets a rider steer a horse, and a rudder is the part that steers a ship. The relation is device to the thing it steers. The trap is 'saddle': a saddle is horse gear too, but it is for sitting on, not steering. 'Boat' fits the relation as well as 'ship' — both are watercraft steered by a rudder — so either completes the parallel.",
+    "tags": ["steering", "function", "vehicles"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

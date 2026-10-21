@@ -1,0 +1,337 @@
+[
+  {
+    "category": "matrix-patterns",
+    "difficulty": 1,
+    "question": "Each cell of a 3x3 grid holds one shape. Complete the grid:\n\nRow 1:  ●  ●  ●\nRow 2:  ■  ■  ■\nRow 3:  ▲  ▲  ?\n\nWhat shape belongs in the missing cell?",
+    "guidance": "Read the grid one line at a time and ask what all the cells of a line share. If each row has a single repeating property, check that the columns show a matching pattern too: a true grid rule holds in both directions. Naming each row's property out loud often makes the missing cell obvious.",
+    "answer": "▲",
+    "alt_answers": [
+      "triangle",
+      "filled triangle"
+    ],
+    "explanation": "Every cell in a row holds the same shape, and each row uses a different shape: row 1 is all filled circles, row 2 is all filled squares, so row 3 is all filled triangles and the missing cell is ▲. The columns agree: each column shows a circle, a square, and a triangle, so a triangle completes column 3 as well.",
+    "tags": [
+      "grid",
+      "shapes",
+      "rows"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 1,
+    "question": "Each cell of a 3x3 grid holds a filled dot ● or a hollow circle ○. Complete the grid:\n\nRow 1:  ○  ●  ●\nRow 2:  ●  ●  ○\nRow 3:  ●  ○  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Count how many of each symbol appear in a row, then do the same for each column. When the same total shows up in every line, that counting rule fixes the missing cell. Always test the perpendicular direction before answering; a rule that survives both readings is the one to trust.",
+    "answer": "●",
+    "alt_answers": [
+      "filled dot",
+      "dot"
+    ],
+    "explanation": "Every row contains exactly two filled dots: row 1 has two, row 2 has two, and row 3 shows only one so far, so the missing cell must be the second filled dot ●. The columns confirm the rule: columns 1 and 2 each contain exactly two filled dots, and column 3 currently holds just one, so the missing cell brings it to two as well.",
+    "tags": [
+      "grid",
+      "counting"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds a triangle pointing up ▲, right ▶, down ▼, or left ◀. Complete the grid:\n\nRow 1:  ▲  ▶  ▼\nRow 2:  ▶  ▼  ?\nRow 3:  ▼  ◀  ▲\n\nWhich triangle belongs in the missing cell?",
+    "guidance": "Track one attribute at a time; here, only the direction each triangle points. Follow how that attribute changes step by step along a row, and check whether the same steps hold along every column too. Describing each change precisely (as a turn or a shift) lets you continue the pattern with confidence.",
+    "answer": "◀",
+    "alt_answers": [
+      "left-pointing triangle",
+      "triangle pointing left"
+    ],
+    "explanation": "Every step to the right turns the triangle one quarter turn clockwise: ▲ (up), then ▶ (right), then ▼ (down), then ◀ (left), and back to ▲. Row 2 starts ▶ ▼, so its third cell continues the cycle with ◀. The columns obey the same rotation: column 3 reads ▼ ? ▲ from top to bottom, and the only direction that comes a quarter turn clockwise after ▼ and before ▲ is left. The missing cell is ◀.",
+    "tags": [
+      "grid",
+      "rotation"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "The bottom row of this 3x3 grid is built from the two rows above it, column by column, using the same recipe in every column:\n\nRow 1:  ●  ●  ○\nRow 2:  ○  ○  ●\nRow 3:  ●  ?  ●\n\nWhat belongs in the missing cell?",
+    "guidance": "Compare the grid column by column: write each column as a triple (top, middle, bottom) and ask how the bottom entry depends on the two above it. Test a candidate recipe on every complete column; one broken column kills it. Columns that share the same pair of symbols above deserve a careful look.",
+    "answer": "●",
+    "alt_answers": [
+      "filled dot",
+      "dot"
+    ],
+    "explanation": "Read the grid column by column. Column 1 has ● over ○ and shows ●; column 3 has ○ over ● and shows ●. In each column the bottom symbol is filled whenever at least one of the two symbols above it is filled, like the two rows overlaid. Column 2 holds exactly the same pair as column 1 (● over ○), so the same recipe must give the same result: a filled dot ●.",
+    "tags": [
+      "grid",
+      "combination",
+      "overlay"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds a group of filled dots. Complete the grid:\n\nRow 1:  ●●  ●●●  ●●●●\nRow 2:  ●●●  ●●●●  ●●●●●\nRow 3:  ●●●●  ●●●●●  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Count the dots in each cell and write the counts as a small number table. Then take differences: how do the counts change moving along a row, and how moving down a column? A grid whose rows and columns each change by a constant amount can be rebuilt at any position from those two constants.",
+    "answer": "●●●●●●",
+    "alt_answers": [
+      "6 dots",
+      "six dots"
+    ],
+    "explanation": "The dot counts form a number table: 2, 3, 4 in row 1, 3, 4, 5 in row 2, and 4, 5, ? in row 3. Moving one column right adds one dot, and moving one row down adds one dot, so each cell holds (row number + column number) dots. Every given cell fits; for instance the middle cell at row 2, column 2 holds 2+2=4 dots. The missing cell sits at row 3, column 3, so it holds 3+3=6 dots: ●●●●●●.",
+    "tags": [
+      "grid",
+      "counting",
+      "arithmetic"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds a group of filled dots; a hollow circle ○ stands for zero dots. The bottom row is built from the two rows above it, column by column, using the same recipe in every column:\n\nRow 1:  ●●  ○  ○\nRow 2:  ●  ●●  ●\nRow 3:  ●●●  ●●  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Treat each cell as a number and test the natural column operations one at a time: add the two above, subtract them, take the larger, take the smaller, multiply. Each complete column confirms or eliminates candidates, so two complete columns usually pin the recipe down. Then read off the incomplete column.",
+    "answer": "●",
+    "alt_answers": [
+      "one dot",
+      "1 dot",
+      "filled dot"
+    ],
+    "explanation": "Read each cell as a dot count, with the hollow circle as 0. Column 1 has 2 dots above 1 and shows 3; column 2 has 0 above 2 and shows 2. Adding the two cells above fits both columns (2+1=3 and 0+2=2), while subtracting, multiplying, and taking the larger or the smaller count each fail on at least one column. So the missing cell holds 0+1=1 dot: ●. As a cross-check, the finished bottom row reads 3, 2, 1 dots, a tidy descending run.",
+    "tags": [
+      "grid",
+      "combination",
+      "addition"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 3,
+    "question": "Each cell of a 3x3 grid holds a hollow circle ○ (no dots), one filled dot ●, or a pair of filled dots ●●. Complete the grid:\n\nRow 1:  ●●  ○  ●\nRow 2:  ○  ●  ●●\nRow 3:  ●  ●●  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Classify every cell first (here: zero, one, or two dots), then tally the classes line by line. If every row contains the same mixture, test whether every column contains that mixture as well. In grids like these the two directions must agree, and the missing cell is whatever class its line still lacks.",
+    "answer": "○",
+    "alt_answers": [
+      "hollow circle",
+      "empty circle"
+    ],
+    "explanation": "Sort the cells into classes: hollow circle, single dot, and pair of dots. Every row contains exactly one of each class (row 1 is pair, circle, single; row 2 is circle, single, pair), so row 3, which shows a single and a pair, must end with the hollow circle ○. The columns obey the same law: column 3 already holds a single and a pair, so it needs the circle to complete the set, agreeing with the row reading.",
+    "tags": [
+      "grid",
+      "counting",
+      "cycles"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 4,
+    "question": "Each cell of a 3x3 grid holds a triangle pointing up, right, down, or left, either filled (▲ ▶ ▼ ◀) or outline (△ ▷ ▽ ◁). Complete the grid:\n\nRow 1:  ▲  ▶  ▼\nRow 2:  ▷  ▽  ◁\nRow 3:  ▼  ?  ▲\n\nWhat belongs in the missing cell?",
+    "guidance": "When cells carry two attributes, here direction and fill, rebuild the grid twice, once per attribute, and find each attribute's own rule before recombining them. Check a turning rule along rows and columns alike, and ask whether the fill is constant per row, per column, or neither.",
+    "answer": "◀",
+    "alt_answers": [
+      "filled left-pointing triangle",
+      "left-pointing filled triangle"
+    ],
+    "explanation": "Two independent rules run through the grid. Direction: each step right or down rotates the triangle a quarter turn clockwise. Row 3 reads ▼ ? ▲, and the direction that falls between down and up in the clockwise order is left; column 2 reads ▶ ▽ ?, and after down comes left as well. Fill: row 1 is entirely filled, row 2 is entirely outline, and row 3 is filled like row 1. Combining the two rules, the missing cell is the filled left-pointing triangle ◀.",
+    "tags": [
+      "grid",
+      "rotation",
+      "two-rules"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 4,
+    "question": "Each cell of a 3x3 grid holds a circle, a square, or a triangle, each either filled (● ■ ▲) or outline (○ □ △). Complete the grid:\n\nRow 1:  ■  ○  ▲\nRow 2:  ●  △  ■\nRow 3:  ▲  □  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Split each symbol into its attributes, shape and fill, and hunt for a rule on each separately. Ask whether every row and column contains each shape exactly once, and whether fill is constant along rows or along columns. Fixing the shape first usually narrows the final cell to a single choice.",
+    "answer": "●",
+    "alt_answers": [
+      "filled circle"
+    ],
+    "explanation": "Two rules share the grid. Shape: every row and every column contains a circle, a square, and a triangle exactly once. Row 3 shows a triangle and a square, so it needs a circle; column 3 shows a triangle and a square, so it also needs a circle. Fill: the fill is constant along each column: column 1 is filled, column 2 is outline, and the two given cells of column 3 are both filled, so column 3 is filled as well. A filled circle ● belongs in the missing cell.",
+    "tags": [
+      "grid",
+      "shapes",
+      "latin-square"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 4,
+    "question": "Each cell of a 3x3 grid holds a circle, a square, or a triangle, each either filled (● ■ ▲) or outline (○ □ △). The bottom row is built from the two rows above it, column by column, using the same recipe in every column:\n\nRow 1:  ▲  □  ○\nRow 2:  △  ■  ●\nRow 3:  ▲  ■  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When the bottom row comes from the rows above, compare complete columns as triples and ask what is inherited versus what is computed. If an attribute never changes down a column, treat it as fixed and search for the recipe on the other attribute only. Test any candidate on every complete column before using it.",
+    "answer": "●",
+    "alt_answers": [
+      "filled circle"
+    ],
+    "explanation": "Work one attribute at a time. Shape: each column keeps one shape family (triangles in column 1, squares in column 2, circles in column 3), and each row also cycles triangle, square, circle; either way the missing shape is a circle. Fill: in the complete columns the bottom cell is filled whenever the two cells above it differ in fill: column 1 has filled over outline and shows filled, and column 2 has outline over filled and shows filled. Column 3 holds outline over filled, which differ, so the missing cell is filled. The answer is the filled circle ●.",
+    "tags": [
+      "grid",
+      "combination",
+      "attributes"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 5,
+    "question": "Each cell of a 3x3 grid holds a group of identical shapes: triangles ▲, circles ●, or squares ■. Complete the grid:\n\nRow 1:  ▲  ●●  ■■■\nRow 2:  ●●  ■■■  ▲▲▲▲\nRow 3:  ■■■  ▲▲▲▲  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Track the count of shapes and the choice of shape as two separate puzzles, and check each along rows, columns, and diagonals. When straight lines show no constant rule, number the diagonals by their distance from the corner and look for a pattern tied to that number.",
+    "answer": "●●●●●",
+    "alt_answers": [
+      "five circles",
+      "5 circles"
+    ],
+    "explanation": "Both attributes follow the diagonal a cell sits on. Counts: each step right or down adds one shape, so row 1 reads 1, 2, 3 shapes, row 2 reads 2, 3, 4, and row 3 reads 3, 4, and 5 for the last cell. Shapes: each step also advances the cycle ▲, then ●, then ■, then ▲ again; row 3 runs ■, ▲, and so the last cell takes ●. The diagonals confirm it: every given cell on a shared diagonal is identical (the second diagonal is all ●●, the third all ■■■, the fourth all ▲▲▲▲). The missing cell holds five filled circles: ●●●●●.",
+    "tags": [
+      "grid",
+      "diagonals",
+      "two-rules"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 5,
+    "question": "Each cell of a 3x3 grid holds a mixed group of filled dots ● and stars ★. Complete the grid:\n\nRow 1:  ●★  ●●★  ●●●★\nRow 2:  ●★★  ●●★★  ●●●★★\nRow 3:  ●★★★  ●●★★★  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "When cells hold two kinds of objects, count each kind separately and lay out two small number tables over the grid. A rule may act on dots and on stars independently, so check each table along rows and then along columns before trying anything fancier like totals.",
+    "answer": "●●●★★★",
+    "alt_answers": [
+      "three dots and three stars",
+      "3 dots and 3 stars"
+    ],
+    "explanation": "Split each cell into two counts. Dots per cell are fixed by the column: column 1 holds 1 dot, column 2 holds 2 dots, and column 3 holds 3 dots, so the missing cell holds 3 dots. Stars per cell are fixed by the row: row 1 holds 1 star, row 2 holds 2 stars, and row 3 holds 3 stars, so the missing cell holds 3 stars. Every given cell fits (the top-middle cell has 2 dots and 1 star, for example), so the missing cell is ●●●★★★. As a cross-check, cell totals run 2, 3, 4 along row 1 and climb by one per row, giving 6 for the corner, exactly 3 dots plus 3 stars.",
+    "tags": [
+      "grid",
+      "counting",
+      "two-rules"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 5,
+    "question": "Each cell of a 3x3 grid holds a group of identical shapes: triangles ▲, circles ●, or squares ■. The bottom row is built from the two rows above it, column by column, using the same recipe in every column:\n\nRow 1:  ▲▲▲▲  ■  ●●●●●●\nRow 2:  ●●  ●●●●●●  ▲▲\nRow 3:  ▲▲  ●●●●●  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "For each complete column ask two separate questions: how does the bottom count come from the two counts above, and what fixes the bottom shape? Test the natural count operations until one survives every column, then hunt for the shape rule on its own; shapes are often inherited from just one of the two cells above.",
+    "answer": "●●●●",
+    "alt_answers": [
+      "four circles",
+      "4 circles"
+    ],
+    "explanation": "Read each cell as a count and a shape. Counts: column 1 has 4 shapes above 2 and shows 2, and column 2 has 1 above 6 and shows 5. Adding, multiplying, and taking the larger or the smaller count all fail on one of these columns (4+2=6, not 2; the smaller of 1 and 6 is 1, not 5), but taking the smaller count away from the larger fits both: 4 less 2 is 2, and 6 less 1 is 5. So the missing cell holds 6 less 2, which is 4 shapes. Shapes: the bottom cell takes the shape of whichever cell above it holds more shapes; in column 1 the larger cell is the top one (4 triangles), giving triangles, and in column 2 it is the middle one (6 circles), giving circles. In column 3 the larger cell is the top one (6 circles), so the answer is four filled circles: ●●●●.",
+    "tags": [
+      "grid",
+      "combination",
+      "two-rules"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "What number comes next in this sequence?\n\n3, 6, 11, 18, 27, ?",
+    "guidance": "When a sequence has no constant difference or ratio, compute the gaps between consecutive terms and study the gaps themselves — a pattern in the differences is the single most useful next move. Also worth trying: each term as a function of its position (n squared plus a constant is a common family).",
+    "answer": "38",
+    "alt_answers": [],
+    "explanation": "The gaps are 3, 5, 7, 9 — the odd numbers, growing by 2 each step. The next gap is 11, so the next term is 27 + 11 = 38. The same rule reads as 'position squared plus 2': 1+2=3, 4+2=6, 9+2=11, 16+2=18, 25+2=27, and 36+2=38.",
+    "tags": ["sequence", "differences", "squares"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "letter-series",
+    "difficulty": 1,
+    "question": "Which letter comes next?\n\nB, D, F, H, ?",
+    "guidance": "Write out alphabet positions (A=1, B=2, ...) under the letters. A steady jump usually means a fixed step — count the step between letters, then continue it. If the step is not constant, check whether the steps themselves grow.",
+    "answer": "J",
+    "alt_answers": [],
+    "explanation": "The positions are 2, 4, 6, 8 — advancing by 2 along the even-numbered positions. The next position is 10, which is the letter J.",
+    "tags": ["letters", "alphabet", "step"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "A whale's head is 6 feet long. Its tail is as long as its head plus half of its body, and its body is half of its whole length. How long is the whale?",
+    "guidance": "Turn each sentence into an equation in one unknown. Let L be the total length, then express head, body, and tail in terms of L. The three parts must add up to L — solve that equation and check the pieces against the original sentences.",
+    "answer": "48 feet",
+    "alt_answers": ["48"],
+    "explanation": "Let L be the total length. Body = L/2, head = 6, tail = head + half the body = 6 + L/4. The parts sum to L: 6 + L/2 + (6 + L/4) = L, so 12 + 3L/4 = L, giving L/4 = 12 and L = 48. Check: body 24, tail 6 + 12 = 18, and 6 + 24 + 18 = 48.",
+    "tags": ["algebra", "word-problem", "classic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Merry's Book of Puzzles",
+      "author": "J. N. Stearns",
+      "year": null,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "matrix-patterns",
+    "difficulty": 2,
+    "question": "Each cell of a 3x3 grid holds a filled dot or an empty circle. Complete the grid:\n\nRow 1:  ●  ○  ○\nRow 2:  ●  ●  ○\nRow 3:  ●  ●  ?\n\nWhat belongs in the missing cell?",
+    "guidance": "Scan a grid puzzle one direction at a time: read each row as a group, then each column. When one simple rule explains every row (and the columns do not contradict it), you have the answer. Counting how many of each symbol appear per row is often the fastest handle.",
+    "answer": "●",
+    "alt_answers": ["filled dot", "dot"],
+    "explanation": "Each row holds exactly one more filled dot than the row above, always packed to the left: row 1 has one, row 2 has two, so row 3 has three — the missing cell is a filled dot. Column 1 being all filled dots is a useful confirmation that the grid is consistent.",
+    "tags": ["grid", "pattern", "counting"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

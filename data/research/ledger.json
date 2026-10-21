@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.gutenberg.org/ebooks/16713",
+      "title": "Amusements in Mathematics (Dudeney, 1917)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 2,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "title": "Amusements in Mathematics - full text",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 3,
+      "url": "https://www.gutenberg.org/ebooks/27635",
+      "title": "The Canterbury Puzzles (Dudeney, 1907)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 4,
+      "url": "https://www.gutenberg.org/cache/epub/27635/pg27635-images.html",
+      "title": "The Canterbury Puzzles - full text",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 5,
+      "url": "https://www.gutenberg.org/ebooks/28696",
+      "title": "Symbolic Logic (Lewis Carroll)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 6,
+      "url": "https://www.gutenberg.org/ebooks/29042",
+      "title": "A Tangled Tale (Lewis Carroll)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 7,
+      "url": "https://www.gutenberg.org/files/29042/29042-h/29042-h.htm",
+      "title": "A Tangled Tale - full text",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 8,
+      "url": "https://archive.org/details/CyclopediaOfPuzzlesLoyd",
+      "title": "Sam Loyd Cyclopedia of Puzzles (1914)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 9,
+      "url": "https://en.wikisource.org/wiki/Sam_Loyd%27s_Cyclopedia_of_5000_Puzzles_Tricks_and_Conundrums",
+      "title": "Loyd Cyclopedia - Wikisource text",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 10,
+      "url": "https://www.gutenberg.org/ebooks/53847",
+      "title": "Merry's Book of Puzzles (Stearns)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 11,
+      "url": "https://www.gutenberg.org/cache/epub/53847/pg53847-images.html",
+      "title": "Merry's Book of Puzzles - full text",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 12,
+      "url": "https://www.gutenberg.org/ebooks/69528",
+      "title": "Nuts to Crack (1895)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 13,
+      "url": "https://www.gutenberg.org/ebooks/63884",
+      "title": "Twentieth Century Standard Puzzle Book (Pearson)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 14,
+      "url": "https://www.gutenberg.org/ebooks/72129",
+      "title": "Puzzles and Oddities (1876)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 15,
+      "url": "https://www.gutenberg.org/ebooks/47335",
+      "title": "Food for the Mind: A New Riddle-book (1788)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 16,
+      "url": "https://www.gutenberg.org/ebooks/subject/8155",
+      "title": "Gutenberg subject: Puzzles",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 17,
+      "url": "https://www.gutenberg.org/ebooks/subject/7597",
+      "title": "Gutenberg subject: Mathematical recreations",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 18,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "title": "(batch citation)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 19,
+      "url": "https://www.gutenberg.org/cache/epub/63884/pg63884-images.html",
+      "title": "(batch citation)",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": 20,
+      "url": "https://www.gutenberg.org/cache/epub/69528/pg69528-images.html",
+      "title": "(batch citation)",
+      "accessed": "2026-10-20"
+    }
+  ]
+}

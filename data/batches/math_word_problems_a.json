@@ -1,0 +1,268 @@
+[
+  {
+    "category": "math-word-problems",
+    "difficulty": 1,
+    "question": "A father is exactly four times as old as his daughter. The sum of their ages is 50. How old is the daughter?",
+    "guidance": "Give the unknown a letter and translate each sentence into arithmetic. A phrase like 'four times as old as' tells you how to write one person's age using the other's, and a 'sum of ages' sentence hands you the equation to solve.",
+    "answer": "10 years old",
+    "alt_answers": ["10"],
+    "explanation": "Let the daughter's age be d. The father is four times as old, so his age is 4d. The sum of their ages is d + 4d = 5d = 50, so d = 10. The father is 40. Check: 10 + 40 = 50, and 40 = 4 x 10, matching every condition.",
+    "tags": ["algebra", "ages", "word-problem"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 1,
+    "question": "A pen holds only chickens and rabbits. Counting heads, there are 10; counting legs, there are 28. How many rabbits are in the pen?",
+    "guidance": "Make an 'all one kind' assumption: imagine every animal is the kind with fewer legs, count the legs you would expect, and compare with the actual count. Each extra pair of legs tells you exactly one animal of the other kind is present.",
+    "answer": "4",
+    "alt_answers": ["4 rabbits"],
+    "explanation": "If all 10 animals were chickens, there would be 10 x 2 = 20 legs. The pen has 28 legs, which is 8 more. A rabbit has 2 more legs than a chicken, so those 8 extra legs come from 8 / 2 = 4 rabbits. That leaves 6 chickens, and the check works: 6 x 2 + 4 x 4 = 12 + 16 = 28 legs, and 6 + 4 = 10 heads.",
+    "tags": ["heads-and-legs", "counting", "classic"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 1,
+    "question": "A girl is 12 years old and her mother is 45. The mother promises: 'When I am exactly three times as old as you are, I will buy you a bicycle.' How old will the girl be when she gets it?",
+    "guidance": "Let a single letter stand for the number of years until the condition holds, then write both future ages using it. 'Three times as old' becomes one small equation; solve it and add the result to the younger person's current age.",
+    "answer": "16 1/2 years old",
+    "alt_answers": ["16.5 years old", "In 4 1/2 years, at age 16 1/2"],
+    "explanation": "Let x be the number of years from now. The mother will be 45 + x and the girl will be 12 + x. The condition is 45 + x = 3(12 + x), so 45 + x = 36 + 3x, giving 9 = 2x and x = 4 1/2. The girl will be 12 + 4 1/2 = 16 1/2. Check: the mother will then be 49 1/2, and 49 1/2 = 3 x 16 1/2.",
+    "tags": ["ages", "algebra", "years-passed"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "A book and a bookmark together cost $2.20. The book costs $2 more than the bookmark. How much does the bookmark cost?",
+    "guidance": "With a 'total' and a 'difference' clue, resist splitting the total by eye. Assign a letter to the smaller item, express the other price from the difference clue, and let the total form the equation. Always test your result against both clues.",
+    "answer": "$0.10",
+    "alt_answers": ["10 cents"],
+    "explanation": "Let the bookmark cost b dollars. The book costs b + 2. Together they cost b + (b + 2) = 2.20, so 2b = 0.20 and b = 0.10. The book costs $2.10. Check both clues: 2.10 + 0.10 = 2.20, and the book costs 2.10 - 0.10 = $2 more than the bookmark. The tempting answer of $0.20 fails the difference clue, since 2.20 - 0.20 = $2 exactly for the sum but the difference would only be $1.80.",
+    "tags": ["money", "trap", "algebra"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "A couple married 18 years ago. On the wedding day, the husband was exactly three times as old as his bride. Today he is exactly twice as old as she is. How old was the bride on her wedding day?",
+    "guidance": "Anchor one unknown to a fixed moment in the past, then move both people forward by the same number of years. Each ratio gives an equation at one point in time, and the shared 'years passed' is what connects the two moments.",
+    "answer": "18",
+    "alt_answers": ["18 years old"],
+    "explanation": "Let w be the bride's age on the wedding day, so the husband was 3w. Today, 18 years later, she is w + 18 and he is 3w + 18. He is now twice her age: 3w + 18 = 2(w + 18), so 3w + 18 = 2w + 36, giving w = 18. Check: on the wedding day she was 18 and he was 54 (three times); today she is 36 and he is 72 (exactly twice).",
+    "tags": ["ages", "marriage", "algebra"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "A man leaves $7,800 to be divided among his widow, five sons, and four daughters. His will says each son is to receive three times as much as each daughter, and each daughter twice as much as the widow. How much money does the widow receive?",
+    "guidance": "When several people share with fixed ratios, pick the smallest share as your unit and build everyone's share from it. Add up all the shares expressed in that unit, set the total against the stated sum, and the unit falls out.",
+    "answer": "$200",
+    "alt_answers": ["200 dollars"],
+    "explanation": "Let the widow's share be w. Each daughter gets 2w, and each son gets 3 x 2w = 6w. The total is w + 4(2w) + 5(6w) = w + 8w + 30w = 39w. So 39w = 7,800 and w = 200. Check: the widow gets $200, the four daughters get $400 each, and the five sons get $1,200 each; 200 + 1,600 + 6,000 = $7,800.",
+    "tags": ["money", "ratios", "sharing"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 2,
+    "question": "Maya buys a snack that costs $4 and pays with a $5 note. The cashier hands back exactly $1 in change, made up only of quarters (25 cents) and dimes (10 cents) - 7 coins in all. How many dimes does Maya get?",
+    "guidance": "Two counts in the story mean two facts: one equation for the number of coins, one for their total value. Substitute one into the other, or reason how the total value shifts each time a dime is swapped for a quarter.",
+    "answer": "5 dimes",
+    "alt_answers": ["5"],
+    "explanation": "Let q be the number of quarters and d the number of dimes. Then q + d = 7 and, in cents, 25q + 10d = 100. Substitute q = 7 - d: 25(7 - d) + 10d = 100, so 175 - 15d = 100, giving 15d = 75 and d = 5. Then q = 2. Check: 2 quarters and 5 dimes make 7 coins worth 2 x 25 + 5 x 10 = 50 + 50 = 100 cents, exactly $1 of change.",
+    "tags": ["money", "coins", "two-equations"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "A group of friends agrees to split an $80 dinner bill equally. But two of them sneak out before paying, so each friend who remains has to pay $2 more than their fair share would have been. How many friends were in the group at the start?",
+    "guidance": "Write the two 'per person' amounts as fractions of the total - one with the full group, one after the group shrinks - and set their difference equal to the stated gap. Clearing denominators gives a small quadratic that you can also crack by testing divisors of the total.",
+    "answer": "10",
+    "alt_answers": ["10 friends"],
+    "explanation": "Let n be the original number of friends. The fair share is 80/n dollars; after two leave, each of the n - 2 who remain pays 80/(n - 2), which is $2 more: 80/(n - 2) - 80/n = 2. Multiplying through by n(n - 2) gives 80n - 80(n - 2) = 2n(n - 2), so 160 = 2n^2 - 4n, or n^2 - 2n - 80 = 0. This factors as (n - 10)(n + 8) = 0, so n = 10 (the negative root is impossible). Check: 10 friends would pay $8 each; the 8 who stayed paid $10 each - exactly $2 more, and 8 x 10 = $80.",
+    "tags": ["money", "bill-splitting", "quadratic"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "A woman says: 'My husband's age uses the same two digits as my age, but in reverse order. He is older than I am, and the difference between our ages is exactly one-eleventh of the sum of our ages.' How old are they?",
+    "guidance": "For digit-reversal puzzles, write the numbers in terms of their digits: a two-digit number minus its reversal is always 9 times the digit difference, and their sum is always 11 times the digit sum. Let the stated condition finish the job from there.",
+    "answer": "She is 45; he is 54",
+    "alt_answers": ["45 and 54", "Wife 45, husband 54"],
+    "explanation": "Let the husband's age be 10a + b with digits a > b, so the wife's age is 10b + a. Their difference is (10a + b) - (10b + a) = 9(a - b), and their sum is 11(a + b). The condition says the difference is one-eleventh of the sum: 9(a - b) = [11(a + b)] / 11 = a + b. So 9a - 9b = a + b, giving 8a = 10b, or 4a = 5b. The only digits with a > b satisfying this are a = 5 and b = 4. He is 54 and she is 45. Check: difference 9, sum 99, and 99 / 11 = 9.",
+    "tags": ["ages", "digits", "algebra"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 3,
+    "question": "On her way home, a woman helps three people in turn. To the first, she gives 1 cent more than half the money she is carrying. To the second, she gives 2 cents more than half of what she has left. To the third, she gives 3 cents more than half of what then remains. She reaches home with exactly 1 cent. How much money was she carrying at the start?",
+    "guidance": "When every step depends on the result of the step before, work backwards from the final amount: undo one transaction at a time by asking 'what starting amount, when halved and reduced by the stated extra, leaves exactly this much?'",
+    "answer": "42 cents",
+    "alt_answers": ["$0.42", "42"],
+    "explanation": "Work backwards. Before the third gift she had x cents and kept x/2 - 3 = 1, so x = 8. Before the second gift: y/2 - 2 = 8, so y = 20. Before the first gift: z/2 - 1 = 20, so z = 42. Forward check: start with 42 cents; she gives 21 + 1 = 22, leaving 20; then gives 10 + 2 = 12, leaving 8; then gives 4 + 3 = 7, leaving exactly 1 cent.",
+    "tags": ["money", "working-backwards", "halves"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 4,
+    "question": "A family has 15 children, each born exactly 18 months after the one before. Today the eldest child is exactly seven times as old as the youngest. How old is the eldest child?",
+    "guidance": "Translate spacing into a total gap carefully: in a line of people, count the intervals between them, not the people. Once the true age gap between the two named children is fixed, a single equation links their two ages.",
+    "answer": "24 1/2 years old",
+    "alt_answers": ["24.5 years old", "24 years 6 months"],
+    "explanation": "Between the first and the fifteenth child there are 14 gaps of 18 months, so the eldest is 14 x 1.5 = 21 years older than the youngest. Let the youngest be j; the eldest is j + 21, and j + 21 = 7j gives 6j = 21, so j = 3 1/2. The eldest is 3 1/2 + 21 = 24 1/2. Check: 24 1/2 = 7 x 3 1/2, and the two ages are exactly 21 years apart. (Multiplying 15 gaps instead of 14 would give a false 22 1/2-year spread.)",
+    "tags": ["ages", "intervals", "trap"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 4,
+    "question": "Ana is now exactly twice as old as Ben was at the time when Ana was exactly as old as Ben is now. The sum of their ages today is 35. How old is each of them?",
+    "guidance": "For 'when X was as old as Y is now' sentences, first find the year gap between the two people: it tells you how many years ago the referenced moment happened. A small timeline with a 'now' column and a 'then' column keeps each age straight.",
+    "answer": "Ana is 20; Ben is 15",
+    "alt_answers": ["Ana 20, Ben 15", "20 and 15"],
+    "explanation": "Let Ana's age today be A and Ben's be B. The referenced moment is when Ana was Ben's present age: that was A - B years ago, when Ben was B - (A - B) = 2B - A. Ana now is twice that age: A = 2(2B - A), so 3A = 4B. Together with A + B = 35, substitute A = 4B/3: 4B/3 + B = 35, so 7B/3 = 35 and B = 15, hence A = 20. Check: when Ana was 15 (5 years ago), Ben was 10, and Ana is now 20 = 2 x 10; also 20 + 15 = 35.",
+    "tags": ["ages", "timeline", "temporal"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 5,
+    "question": "Three farmers - Ava, Ben, and Cole - meet at a market, each bringing some animals.\n\nAva says to Ben: 'If I gave you 6 of my pigs for one of your horses, you would then have exactly twice as many animals as I would.'\n\nCole says to Ava: 'If I gave you 14 of my sheep for one of your horses, you would then have exactly three times as many animals as I would.'\n\nBen says to Cole: 'If I gave you 4 of my cows for one of your horses, you would then have exactly six times as many animals as I would.'\n\nEach offer is considered on its own, starting from the animals they brought. How many animals did each farmer bring?",
+    "guidance": "Give each person a letter and turn every offer into an equation about totals: swapping k animals for 1 animal changes the giver's count by k - 1 and the receiver's count by the same amount in the other direction. The ratio in each remark fixes one equation; three remarks give a system to solve by substitution.",
+    "answer": "Ava 11, Ben 7, Cole 21",
+    "alt_answers": ["Ava brought 11, Ben 7, Cole 21"],
+    "explanation": "Let Ava, Ben, and Cole bring a, b, and c animals. Offer 1: Ava ends with a - 6 + 1 = a - 5 and Ben with b + 6 - 1 = b + 5, so b + 5 = 2(a - 5), i.e. b = 2a - 15. Offer 2: Ava ends with a + 13 and Cole with c - 13, so a + 13 = 3(c - 13), i.e. a = 3c - 52. Offer 3: Ben ends with b - 3 and Cole with c + 3, so c + 3 = 6(b - 3), i.e. c = 6b - 21. From offer 2, a = 3(6b - 21) - 52 = 18b - 115; substituting into b = 2a - 15 gives b = 36b - 245, so 35b = 245 and b = 7. Then 7 = 2a - 15 gives a = 11, and c = 6(7) - 21 = 21. Verify all offers: (1) Ava 11 to 6, Ben 7 to 12, and 12 = 2 x 6; (2) Ava 11 to 24, Cole 21 to 8, and 24 = 3 x 8; (3) Ben 7 to 4, Cole 21 to 24, and 24 = 6 x 4.",
+    "tags": ["counting", "system-of-equations", "trades"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "math-word-problems",
+    "difficulty": 5,
+    "question": "Priya and Sam play a three-round game. In every round, the loser must pay the winner exactly as much money as the winner already has, so the winner's money doubles. Priya loses round 1, Sam loses round 2, and Priya loses round 3. After round 3, they each have exactly $24. How much money did each of them start with?",
+    "guidance": "Puzzles with pay-to-double steps unravel fastest backwards: undo the last round first by handing back to the loser the amount that was paid - which is exactly half of the winner's current holding. Track the pair of balances through the rounds, then replay forward to confirm.",
+    "answer": "Priya $33, Sam $15",
+    "alt_answers": ["Priya started with $33, Sam with $15", "$33 and $15"],
+    "explanation": "Work backwards from (Priya $24, Sam $24). Round 3 (Priya lost): Sam's $24 was doubled, so Sam had $12 before the round and Priya had 24 + 12 = $36. Round 2 (Sam lost): Priya's $36 was doubled, so Priya had $18 and Sam had 12 + 18 = $30. Round 1 (Priya lost): Sam's $30 was doubled, so Sam had $15 and Priya had 18 + 15 = $33. Forward check: (33, 15) -> Priya pays 15 -> (18, 30) -> Sam pays 18 -> (36, 12) -> Priya pays 12 -> (24, 24). Each round's payment equals the winner's pre-round holding, so the winner's money doubles every time.",
+    "tags": ["money", "working-backwards", "game"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Amusements in Mathematics",
+      "author": "Henry Ernest Dudeney",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/cache/epub/16713/pg16713-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "category": "logical-deduction",
+    "difficulty": 1,
+    "question": "Every rose in this garden is red. The tallest flower in this garden is a rose.\n\nFrom these two statements, what MUST be true?\n\nA) The tallest flower in this garden is red.\nB) Every red flower in this garden is a rose.\nC) The tallest flower is the only rose in this garden.\nD) Every flower in this garden is red.",
+    "guidance": "Turn each sentence into a containment between groups: 'every A is a B' draws the A-circle entirely inside the B-circle. Place the named object in its circle, then read off which circles it must also sit in — sketching nested circles beats trusting how an option sounds.",
+    "answer": "A) The tallest flower in this garden is red",
+    "alt_answers": ["A", "The tallest flower in this garden is red"],
+    "explanation": "The first statement places every rose in this garden inside the red group. The second places the tallest flower inside the rose group. Nesting is transitive, so the tallest flower sits inside the red group and must be red. The other options flip or stretch the containment: red flowers need not be roses, the roses need not number exactly one, and nothing said forces every flower to be red.",
+    "tags": ["syllogism", "containment", "sets"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 1,
+    "question": "All the squares in this quilt pattern are blue. All the blue patches in this quilt are hand-stitched.\n\nFrom these two statements, what MUST be true?",
+    "guidance": "When several 'all' statements share a group, chain them as nested circles and read from the innermost group to the outermost. Label each circle with the exact phrase used, and check the chain covers every group mentioned before concluding anything.",
+    "answer": "All the squares in the pattern are hand-stitched",
+    "alt_answers": ["The squares in this quilt pattern are hand-stitched"],
+    "explanation": "Read the statements as nested groups: squares-in-the-pattern sit inside the blue patches, and the blue patches sit inside the hand-stitched patches. Whatever lies inside the innermost group also lies inside the outermost, so every square in the pattern is hand-stitched. The premises say nothing about patches that are not squares, so no claim about them follows.",
+    "tags": ["syllogism", "transitivity", "sets"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 1,
+    "question": "Marco is inside the art studio. Everyone inside the art studio is wearing a smock.\n\nFrom these two statements, what MUST be true?\n\nA) Marco owns the art studio.\nB) Marco is wearing a smock.\nC) Everyone wearing a smock is inside the art studio.\nD) Nobody outside the art studio is wearing a smock.",
+    "guidance": "Rewrite each premise as an arrow between groups, then start from the named individual and follow the arrows forward only. Options that reverse an arrow — claiming everyone with the property is back in the group — are the classic decoys to eliminate first.",
+    "answer": "B) Marco is wearing a smock",
+    "alt_answers": ["B", "Marco is wearing a smock"],
+    "explanation": "Marco is placed inside the studio group, and the whole studio group is placed inside the smock-wearing group, so Marco is wearing a smock: an individual inherits every property of the group the premises put him in. Option C reverses the containment — smock-wearers elsewhere are perfectly possible — and the premises mention nothing about ownership (A) or about people outside (D).",
+    "tags": ["syllogism", "sets", "deduction"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "Every cat in this house dislikes bath time. Nothing that dislikes bath time stays calm in the tub.\n\nFrom these two statements, what MUST be true?",
+    "guidance": "Convert negative-sounding statements into 'no X are Y' form and shade the forbidden overlap between the two circles. If the group you care about lies inside a shaded region, its own overlap with the far group is impossible too — shade step by step, not in one leap.",
+    "answer": "No cat in this house stays calm in the tub",
+    "alt_answers": ["No cat in this house stays calm in the tub at bath time"],
+    "explanation": "The first statement puts every cat in this house inside the dislikes-bath-time group. The second statement empties the overlap between dislikes-bath-time and stays-calm-in-the-tub: no such thing exists. Since the cats sit fully inside the first group, they can never reach the second — no cat in this house stays calm in the tub. The premises still allow calm cats elsewhere and calm tub-sitters who are not cats.",
+    "tags": ["syllogism", "negation", "sets"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "Consider this argument:\n\nEvery winner of the chess tournament practiced daily.\nJules practiced daily.\nTherefore, Jules won the chess tournament.\n\nIs the conclusion valid? Why or why not?",
+    "guidance": "Test a proposed conclusion by trying to build a small counter-scenario in which both premises hold yet the conclusion fails. Remember that a rule beginning 'every' points one way only — check the direction before concluding anything about a specific case.",
+    "answer": "No — daily practice does not guarantee winning",
+    "alt_answers": [],
+    "explanation": "The first premise is one-way: winning guarantees daily practice, but it never says that practicing guarantees winning. Build a counter-scenario: Jules practiced daily yet lost in the first round, while another player who practiced daily won the tournament. Both premises hold, yet the conclusion fails, so the argument is invalid — the classic trap of running a one-way rule backward (affirming the consequent).",
+    "tags": ["syllogism", "validity", "fallacy"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "Every winner of the raffle received a lantern as a prize. Ana did not receive a lantern.\n\nFrom these two statements, what MUST be true?",
+    "guidance": "When one premise is a rule and the other denies something of a person, ask what would have to be true if the conclusion failed, then check whether a premise blocks it. Contrapositives — flipping a rule and negating both parts — turn a denial into a positive step.",
+    "answer": "Ana did not win the raffle",
+    "alt_answers": ["Ana didn't win the raffle", "Ana is not a winner of the raffle"],
+    "explanation": "If Ana had won, she would have received a lantern, because every winner received one. She received no lantern, so assuming she won contradicts the premises. Equivalently, 'all winners are lantern-receivers' implies its contrapositive, 'anyone without a lantern is not a winner,' and Ana is without a lantern. Therefore Ana did not win. Nothing follows about other entrants who did receive lanterns.",
+    "tags": ["syllogism", "contrapositive", "deduction"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "Some riddles in this book are tricky. Every tricky riddle takes more than a minute to solve.\n\nFrom these two statements, what MUST be true?",
+    "guidance": "A 'some' statement pins down one actual witness: name it. Push that witness through each 'all' rule one at a time, listing every property it must gain. The safe conclusion must describe that witness — never a whole group.",
+    "answer": "Some riddles in this book take over a minute",
+    "alt_answers": ["Some riddles in this book take more than a minute to solve"],
+    "explanation": "The first statement guarantees at least one riddle that is both in this book and tricky — call it R. The second statement places every tricky riddle inside the takes-more-than-a-minute group, so R takes more than a minute. Since R is in the book, some riddle in this book takes more than a minute to solve. Nothing follows about the other riddles: only the tricky ones are constrained.",
+    "tags": ["syllogism", "existential", "deduction"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "Some cats in this alley are gray. Some gray animals are strays.\n\nFrom these two statements, which option MUST be true?\n\nA) Some cats in this alley are strays.\nB) All strays are gray.\nC) No cat in this alley is a stray.\nD) None of these conclusions must be true.",
+    "guidance": "With two 'some' statements, ask whether the two witnesses could be different objects. If a single sketch lets each overlap be witnessed separately, no bridge between the outer terms is forced — test every option against a possible split-scenario before choosing.",
+    "answer": "D) None of these conclusions must be true",
+    "alt_answers": ["D", "None of the listed conclusions must be true"],
+    "explanation": "The two 'some' statements may be witnessed by different animals: picture a gray alley-cat with a home, plus a gray stray dog. Both premises hold, yet no alley-cat is a stray — defeating A — while adding a stray alley-cat would defeat C, and adding a brown stray dog would defeat B. Each option can fail while the premises stand, so none must be true. Two 'some' statements never force a link between their outer terms.",
+    "tags": ["syllogism", "existential", "traps"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "Consider this argument:\n\nAll beginner cooks burn the first pancake.\nPriya is not a beginner cook.\nTherefore, Priya will not burn the first pancake.\n\nIs the conclusion valid? Why or why not?",
+    "guidance": "A rule about one group is silent about everything outside that group. To judge a conclusion about someone outside the group, try placing them there while the conclusion's outcome still happens — if that world is consistent, the conclusion is not valid.",
+    "answer": "No — non-beginners can burn it too",
+    "alt_answers": [],
+    "explanation": "The first premise speaks only about beginner cooks; it says nothing about how experienced cooks behave. Picture a consistent scenario: every beginner burns the first pancake, and Priya — experienced but distracted — burns hers too. Both premises are true while the conclusion is false, so the inference is invalid (denying the antecedent). It would be valid only if the premise said 'only beginners burn the first pancake.'",
+    "tags": ["syllogism", "validity", "fallacy"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "None of the boats at the dock has a red sail. Every boat in the harbor parade has a red sail.\n\nFrom these two statements, what MUST be true?",
+    "guidance": "Sort the statements into membership facts ('every A is a B') and forbidden-overlap facts ('no A are B'), then trace a single typical member: collect every property it must have and test each against the forbidden list.",
+    "answer": "No boat in the parade is at the dock",
+    "alt_answers": ["No parade boat is docked", "No docked boat is in the parade"],
+    "explanation": "Take any boat in the parade: by the second statement it has a red sail. By the first statement, no boat at the dock has a red sail, so a red-sail boat can never be a docked boat. The parade boat therefore cannot be at the dock. Boats without red sails may still sit at the dock; the premises simply do not track them otherwise.",
+    "tags": ["syllogism", "negation", "chain"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 4,
+    "question": "Every trail marked with red tape loops back to the lodge. Some trails marked with red tape pass the waterfall. No trail that passes the waterfall is paved.\n\nFrom these three statements, what MUST be true?",
+    "guidance": "When 'some' and 'all' statements mix, first identify the guaranteed witness, then march it through every rule, updating its property list after each step. Long chains stay reliable only if you re-check the full list before drawing the final conclusion.",
+    "answer": "Some lodge-loop trails are not paved",
+    "alt_answers": ["At least one trail that loops back to the lodge is not paved", "Some trails that loop back to the lodge are unpaved"],
+    "explanation": "The second statement guarantees at least one red-tape trail past the waterfall — call it T. By the first statement, T loops back to the lodge. By the third statement, no trail past the waterfall is paved, so T is unpaved. T therefore both loops to the lodge and is unpaved, which is exactly the conclusion that some lodge-looping trails are not paved. Nothing follows about lodge-looping trails that avoid the waterfall.",
+    "tags": ["syllogism", "existential", "chain"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 4,
+    "question": "Consider this argument:\n\nSome metal beads are shiny.\nNo wooden beads are magnetic.\nTherefore, some shiny beads are not magnetic.\n\nIs the conclusion valid? Why or why not?",
+    "guidance": "For a validity check, build the smallest world you can — one or two objects that satisfy every premise. If that miniature world already breaks the conclusion, the argument is invalid; if every miniature world preserves it, hunt for the premise link that forces it.",
+    "answer": "No — all shiny beads could be magnetic",
+    "alt_answers": [],
+    "explanation": "Build a two-bead world: bead x is metal, shiny, and magnetic; bead w is wooden and non-magnetic. The first premise holds (x is a shiny metal bead) and the second holds (w, the only wooden bead, is not magnetic). Yet the only shiny bead is magnetic, so 'some shiny beads are not magnetic' is false. Premises true, conclusion false: the argument is invalid, because the two premises never connect shininess with magnetism — they talk past each other.",
+    "tags": ["syllogism", "validity", "countermodel"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 5,
+    "question": "All unripe fruit is unwholesome. Every apple in this basket is wholesome. No fruit grown in the shade ever ripens.\n\nFrom these three statements, what MUST be true about the apples in this basket?",
+    "guidance": "Chain the premises one link at a time, writing each derived link down. When a link uses an 'un-' word, also write its contrapositive — the useful bridge in a long chain is usually a flipped link, not the premise exactly as stated.",
+    "answer": "None of them was grown in the shade",
+    "alt_answers": ["No apple in this basket grew in the shade", "None of the apples in this basket was grown in the shade"],
+    "explanation": "Work link by link. From 'all unripe fruit is unwholesome,' any wholesome fruit must be ripe — the contrapositive. Every apple in this basket is wholesome, so every basket apple is ripe. From 'no shade-grown fruit ripens,' every shade-grown fruit is unripe. A basket apple is ripe, hence not unripe, hence cannot be shade-grown. So no apple in this basket was grown in the shade. The hidden contrapositive of the first premise is why the conclusion feels surprising.",
+    "tags": ["sorites", "contrapositive", "chain"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 5,
+    "question": "No scarecrow dances. Every festival mascot dances. Everything standing in the north field is a scarecrow.\n\nFrom these three statements, what MUST be true?",
+    "guidance": "Reduce every sentence to a letter-coded fact about sets ('no A are B' means the two circles cannot overlap), then follow the chain outward from the conclusion's subject until you hit a forbidden overlap or a gap. If the middle term never clashes, nothing is forced.",
+    "answer": "Nothing in the north field is a festival mascot",
+    "alt_answers": ["No festival mascot stands in the north field", "Nothing standing in the north field is a festival mascot"],
+    "explanation": "Everything in the north field is a scarecrow, and no scarecrow dances, so nothing in the north field dances. But every festival mascot dances, so a mascot can never be among the things that do not dance. If anything in the north field were a festival mascot, it would have to dance (as a mascot) and not dance (as a scarecrow) at once — impossible. Therefore nothing standing in the north field is a festival mascot. Two negative-sounding premises met through the middle term 'dances' to force the gap.",
+    "tags": ["sorites", "negation", "chain"],
+    "source": {
+      "kind": "public-domain",
+      "title": "Symbolic Logic",
+      "author": "Lewis Carroll",
+      "year": 1896,
+      "url": "https://www.gutenberg.org/cache/epub/28696/pg28696-images.html",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "category": "numeric-sequences",
+    "difficulty": 1,
+    "question": "What number comes next in the sequence?\n\n6, 15, 24, 33, ?",
+    "guidance": "Start with the simplest test: subtract each term from the next. If every gap comes out the same, the sequence is a steady climb and the next term sits exactly one more gap away. Rule out a constant gap before trying anything fancier.",
+    "answer": "42",
+    "alt_answers": [],
+    "explanation": "The gaps are 15 - 6 = 9, 24 - 15 = 9, and 33 - 24 = 9, so the rule is 'add 9 each time'. The next term is therefore 33 + 9 = 42. Read as a whole, the sequence starts at 6 and adds 9 repeatedly: 6, 15, 24, 33, 42.",
+    "tags": ["sequence", "arithmetic", "addition"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 1,
+    "question": "What number comes next in the sequence?\n\n5, 15, 45, 135, ?",
+    "guidance": "When the gaps between terms keep growing, test whether each term is a fixed multiple of the one before it. Divide consecutive terms; if you get the same quotient every time, extend the sequence by multiplying once more by that number.",
+    "answer": "405",
+    "alt_answers": [],
+    "explanation": "Each term is 3 times the term before it: 5 × 3 = 15, 15 × 3 = 45, 45 × 3 = 135. The ratio never changes, so the next term is 135 × 3 = 405.",
+    "tags": ["sequence", "geometric", "multiplication"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 1,
+    "question": "Find the number that completes the relation:\n\n5 is to 20 as 9 is to ?",
+    "guidance": "Ask how the first pair is linked — by addition, by multiplication, or something else — then apply exactly the same link to the second pair. Test the simplest relations first; the cleanest rule that explains the given pair is almost always the intended one.",
+    "answer": "36",
+    "alt_answers": [],
+    "explanation": "The relation between 5 and 20 is multiplication by 4. Applying the same multiplier to 9 gives 9 × 4 = 36. Multiplication is the simplest link connecting 5 to 20, and it produces a whole number for the second pair as well.",
+    "tags": ["analogy", "multiplication"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "What number comes next in the sequence?\n\n3, 30, 5, 26, 7, 22, ?",
+    "guidance": "If a sequence will not settle into one rule, try splitting it into two interleaved strands: read the 1st, 3rd, and 5th terms as one mini-sequence and the 2nd, 4th, and 6th as another. Each strand often then reveals a very simple rule of its own.",
+    "answer": "9",
+    "alt_answers": [],
+    "explanation": "The odd-position terms are 3, 5, 7 — an arithmetic strand that adds 2 each step. The even-position terms are 30, 26, 22 — an arithmetic strand that subtracts 4 each step. The blank is the 7th term, which belongs to the odd strand, so it is 7 + 2 = 9.",
+    "tags": ["sequence", "interleaved", "alternating"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "What number comes next in the sequence?\n\n16, 24, 36, 54, ?",
+    "guidance": "When there is no constant gap, divide neighboring terms to hunt for a constant ratio. The ratio need not be a whole number: check whether each term might be 3/2 or 4/3 of the one before it before assuming a more complicated rule.",
+    "answer": "81",
+    "alt_answers": [],
+    "explanation": "Each term is 3/2 of the one before it: 16 × 3/2 = 24, 24 × 3/2 = 36, and 36 × 3/2 = 54. Continuing the same ratio, the next term is 54 × 3/2 = 81. As a check, the terms are 16 multiplied by 3/2 four times: 16, 24, 36, 54, 81.",
+    "tags": ["sequence", "geometric", "ratios"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "Find the number that completes the relation:\n\n37 is to 10 as 68 is to ?",
+    "guidance": "When no plain addition or multiplication links the first pair, look inside the digits: the sum of the digits, the product of the digits, or the digits reversed often carry the relation. Test the digit sum first — it is the most common of these.",
+    "answer": "14",
+    "alt_answers": [],
+    "explanation": "The digits of 37 sum to 3 + 7 = 10. Applying 'add the digits' to 68 gives 6 + 8 = 14. No simple multiplier or fixed addition connects 37 to 10, but the digit sum works exactly and is a standard relation for this puzzle type.",
+    "tags": ["analogy", "digits", "number-sense"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 2,
+    "question": "Which number is missing?\n\n95, ?, 71, 59, 47",
+    "guidance": "With a blank in the middle, build the rule from the terms you can see: compute the step between consecutive visible terms. If that step is constant, march it backward from the term just after the blank to recover the hidden number.",
+    "answer": "83",
+    "alt_answers": [],
+    "explanation": "The visible steps are 71 - 59 = 12 and 59 - 47 = 12, so every step subtracts 12. Stepping backward from 71 gives 71 + 12 = 83, and this fits the left side too: 95 - 12 = 83. The complete sequence is 95, 83, 71, 59, 47.",
+    "tags": ["sequence", "arithmetic", "missing-term"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "What number comes next in the sequence?\n\n3, 4, 6, 10, 18, ?",
+    "guidance": "Compute the gaps between terms; if they are not constant, study how the gaps themselves change from one to the next. A sequence whose gaps double, or grow by a fixed amount, can be extended once you can state the gaps' own rule.",
+    "answer": "34",
+    "alt_answers": [],
+    "explanation": "The gaps are 1, 2, 4, 8 — each gap is double the gap before it — so the next gap is 16 and the next term is 18 + 16 = 34. Equivalently, each term is twice the previous term minus 2: 3, 4, 6, 10, 18, 34.",
+    "tags": ["sequence", "differences", "doubling"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "What number comes next in the sequence?\n\n7, 5, 12, 10, 17, 20, ?",
+    "guidance": "Split a stubborn sequence into odd and even positions and analyze each strand on its own — the two strands need not follow the same kind of rule. One may grow by adding a fixed amount while the other grows by multiplying.",
+    "answer": "22",
+    "alt_answers": [],
+    "explanation": "The odd-position terms are 7, 12, 17 — each 5 more than the one before. The even-position terms are 5, 10, 20 — each double the one before. The blank is the 7th term, in the additive strand, so the answer is 17 + 5 = 22.",
+    "tags": ["sequence", "interleaved", "mixed-rules"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 3,
+    "question": "The same rule links every pair:\n\n7 is to 39 as 8 is to 44 as 12 is to ?",
+    "guidance": "Treat every given pair as evidence: a rule that fits one pair can be coincidence, so check your candidate against the other pair before applying it. Two sample pairs usually pin down a multiply-then-add rule exactly.",
+    "answer": "64",
+    "alt_answers": [],
+    "explanation": "The rule is 'multiply by 5, then add 4': 7 × 5 + 4 = 39 and 8 × 5 + 4 = 44, so 12 gives 12 × 5 + 4 = 64. The two pairs actually force this rule: writing it as 'multiply by p then add q', the pairs give 7p + q = 39 and 8p + q = 44, whose only solution is p = 5, q = 4.",
+    "tags": ["analogy", "two-step", "linear-rule"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 4,
+    "question": "Which number is missing?\n\n4, 2, 10, 6, 16, ?, 22, 54",
+    "guidance": "When a blank hides one strand of an interleaved sequence, separate the two strands fully and find each strand's rule from its own visible terms. Decide which strand owns the blank's position before computing anything — never guess from the blank's immediate neighbors.",
+    "answer": "18",
+    "alt_answers": [],
+    "explanation": "Odd positions give 4, 10, 16, 22 — an arithmetic strand adding 6. Even positions give 2, 6, ?, 54 — a geometric strand: 2 × 3 = 6, 6 × 3 = 18, and 18 × 3 = 54. The blank is the 6th term, in the geometric strand, so it is 18. (An additive reading of the even strand fails: 2, 6, 10, 14 never reaches 54.)",
+    "tags": ["sequence", "interleaved", "missing-term"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 4,
+    "question": "Which number is missing?\n\n2, 64, 5, 32, ?, 16, 17",
+    "guidance": "Give each strand its own analysis: one strand may follow a simple ratio while the other hides a growing-gap pattern. For a stubborn strand, list its gaps and check whether they increase steadily, then use the strand's far end to confirm.",
+    "answer": "10",
+    "alt_answers": [],
+    "explanation": "Even positions give 64, 32, 16 — a geometric strand that halves each time. Odd positions give 2, 5, ?, 17; their gaps are 3, 5, 7, growing by 2 each step, so the strand runs 2, 5, 10, 17 — each term is one more than a perfect square (2 = 1×1 + 1, 5 = 2×2 + 1, 10 = 3×3 + 1, 17 = 4×4 + 1). The missing term is 10.",
+    "tags": ["sequence", "interleaved", "differences"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 5,
+    "question": "What number comes next in the sequence?\n\n6, 5, 12, 11, 24, 23, 48, ?",
+    "guidance": "Try reading an interleaved sequence as adjacent pairs as well as odd/even strands: sometimes the cleanest description is how each pair relates to the next pair. Put the whole structure into words before computing the final term.",
+    "answer": "47",
+    "alt_answers": [],
+    "explanation": "The terms form pairs: (6, 5), (12, 11), (24, 23), (48, ?). Each pair doubles the pair before it, and within each pair the second number is one less than the first. Doubling (24, 23) gives (48, 47), so the answer is 48 - 1 = 47. Equivalently, the even-position strand 5, 11, 23, ? follows 'double and add one': 5 × 2 + 1 = 11, 11 × 2 + 1 = 23, and 23 × 2 + 1 = 47.",
+    "tags": ["sequence", "interleaved", "pairs"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "numeric-sequences",
+    "difficulty": 5,
+    "question": "Which number is missing?\n\n5, 320, 15, 80, ?, 20, 135",
+    "guidance": "When both strands look multiplicative, find each strand's ratio from its own consecutive terms and verify with the strand's far end. A blank sandwiched between two numbers of the opposite strand is the strongest signal that splitting the sequence — not comparing neighbors — is the way in.",
+    "answer": "45",
+    "alt_answers": [],
+    "explanation": "The odd-position terms are 5, 15, ?, 135 — a geometric strand in which each term is tripled: 5 × 3 = 15, 15 × 3 = 45, and indeed 45 × 3 = 135. The even-position terms are 320, 80, 20 — an independent strand that divides by 4 each step. The blank is the 5th term, which belongs to the tripling strand, so it is 45.",
+    "tags": ["sequence", "interleaved", "geometric"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "category": "lateral-thinking",
+    "difficulty": 1,
+    "question": "Twelve paper lanterns hang along a garden path, ready for the evening festival. Ren unhooks four of them and carries them toward the stage. On the way, a friend asks him: 'How many lanterns do you have with you?' What should Ren answer?",
+    "guidance": "Before reaching for arithmetic, pin down which quantity the question actually asks for and who holds what. Story puzzles often state the needed number inside the scenario itself, so if a subtraction feels automatic, re-read the final sentence and check whose items are being counted.",
+    "answer": "Four",
+    "alt_answers": ["4", "Four lanterns"],
+    "explanation": "Ren is carrying the four lanterns he unhooked, so the honest answer is four. The tempting subtraction, 12 - 4 = 8, counts the lanterns still hanging along the path, but the friend asked what Ren has with him, not what remains on display. The needed number was stated outright in the scenario; no arithmetic was ever required.",
+    "tags": ["wording", "hidden-info", "reading"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 1,
+    "question": "Two bundles sit side by side on a market stall. The left bundle is dry forest moss, and it weighs exactly one kilogram. The right bundle is moss soaked through with river water, and it too weighs exactly one kilogram. Which bundle is heavier?",
+    "guidance": "State precisely what each number in the wording is attached to before comparing anything. When the text itself fixes a weight or an amount, that fixed value is the fact to use; instincts about materials, wetness, or size are not evidence. Trust the guarantees in the sentences over first impressions.",
+    "answer": "Neither; both weigh one kilogram",
+    "alt_answers": ["They weigh the same", "Neither one"],
+    "explanation": "Each bundle is stated to weigh exactly one kilogram, so neither is heavier. The soaked bundle is not a kilogram of moss plus extra water; its water is part of its single kilogram, so it simply contains less moss than the dry bundle does. A kilogram of anything outweighs nothing and is outweighed by nothing. The 'wet feels heavier' instinct is exactly the assumption the wording quietly defeats.",
+    "tags": ["assumption", "weight", "comparison"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "A hiking trail runs exactly 3 kilometers from the trailhead to the waterfall. Stone markers stand at the trailhead, at the waterfall, and at every whole kilometer point in between. In total, how many stone markers line this trail?",
+    "guidance": "When objects sit at regular points along a distance, sketch the line and mark every position instead of trusting the distance total. A stretch of n units always has n + 1 dividing points, and each end point needs its own object. Testing the smallest case, such as a 1-kilometer trail, exposes the pattern instantly.",
+    "answer": "4",
+    "alt_answers": ["Four"],
+    "explanation": "The markers stand at 0, 1, 2, and 3 kilometers: the trailhead, the 1-kilometer point, the 2-kilometer point, and the waterfall. That is four markers in total. The trap is answering 3 because the trail is 3 kilometers long, but the distance names three segments, and three segments are separated by four boundary points. A quick sketch of the trail with a dot at each marker makes the count visible at once.",
+    "tags": ["counting", "fencepost", "sketching"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 2,
+    "question": "A festival banner hangs over the square. It reads:\n\nSPRING FESTIVAL TODAY! MUSIC BY THE NOON FAMILY, RIVER GAMES, GRAND PRIZE FOR BEST COSTUME - GATES OPEN AT THE HOUR NAMED BY THE ONLY WORD ON THIS BANNER THAT READS THE SAME BACKWARD AS FORWARD.\n\nAccording to the banner, at what hour do the gates open?",
+    "guidance": "When a puzzle says its own text contains the answer, test every single word mechanically instead of hunting only for likely candidates; names, decorations, and headings count as words. For 'reads the same backward as forward', write each word and its reversal and compare them. A systematic scan always beats intuition here.",
+    "answer": "Noon",
+    "alt_answers": ["12:00", "midday", "twelve o'clock"],
+    "explanation": "Check each word on the banner against its reversal: SPRING, FESTIVAL, TODAY, MUSIC, FAMILY, RIVER, GAMES, PRIZE, COSTUME, GATES, HOUR, BACKWARD, FORWARD, and every other word all fail. The only word that reads the same backward as forward is NOON. By the banner's own rule, the gates open at the hour named by that word: noon. The near miss is skimming past 'NOON' because it looks like part of a family's name rather than a clue.",
+    "tags": ["palindrome", "wording", "hidden-info"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "A river ferry charges every passenger 2 coins per crossing. Yet an old man takes the ferry across every morning, and every evening he rows the ferry back across himself, and he has never once paid the fare. The ferry's owners are always glad to see him, no rule is bent for him, and nobody ever asks him for coins. How can all of this be true?",
+    "guidance": "List every role a person could hold in a scene before accepting the default one, such as passenger or customer. Then re-read for operational clues: who rows, drives, owns, or is welcomed without paying. Evidence that someone handles the equipment points to their role, not to a special favor being bent for them.",
+    "answer": "He is the ferryman himself",
+    "alt_answers": ["He is the ferry's pilot", "He operates the ferry"],
+    "explanation": "The story never says he is a passenger. 'He rows the ferry back' every evening means he is the person operating the boat: the ferryman. Passengers pay their 2 coins to him, so he collects fares rather than paying one, and the owners are delighted to see him because he is the one doing the work. Every statement is true once you drop the automatic assumption that anyone crossing the river must be a paying customer.",
+    "tags": ["assumption", "identity", "roles"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "Two neighboring stalls sell the same woven rug, and both charge 150 coins. During a slow month, Merchant A cuts her price by 20 percent. Later, when the crowds return, she raises her new price by 20 percent. Merchant B does the reverse: he raises his 150-coin price by 20 percent first, and later cuts his new price by 20 percent. By the end, who is charging less?",
+    "guidance": "Convert percentage changes into multipliers (a 20 percent cut is 0.80, a 20 percent raise is 1.20) and chain them in the order the story gives. Then ask whether the order could matter at all: multiplying numbers in a different order never changes the product, which settles many 'who ends up cheaper' puzzles in two short lines.",
+    "answer": "Neither; both charge 144 coins",
+    "alt_answers": ["They are tied at 144 coins", "Neither (both at 144)"],
+    "explanation": "Merchant A: 150 x 0.80 = 120 after the cut, then 120 x 1.20 = 144 after the raise. Merchant B: 150 x 1.20 = 180 after the raise, then 180 x 0.80 = 144 after the cut. Both end at 144 coins because the order of multiplication never changes the product: 0.80 x 1.20 = 1.20 x 0.80 = 0.96, and 150 x 0.96 = 144. Both merchants finish four percent below the original price and exactly even with each other.",
+    "tags": ["percent", "multipliers", "arithmetic"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 3,
+    "question": "A mountain trail climbs exactly 6 kilometers from a valley lodge up to a high lake. Ana hikes up at a steady 2 kilometers per hour, rests at the lake, then walks back down the same 6 kilometers at a steady 6 kilometers per hour. What is her average speed for the whole up-and-down round trip, not counting the rest?",
+    "guidance": "For trips made of legs at different speeds, always compute total distance divided by total time, writing each leg's time as its distance divided by its speed. Averaging the speeds directly is safe only when the legs take equal time; equal distances instead hand extra weight to the slower leg and wreck the midpoint guess.",
+    "answer": "3 km/h",
+    "alt_answers": ["3 kilometers per hour"],
+    "explanation": "Average speed is total distance divided by total time. The climb takes 6 / 2 = 3 hours and the descent takes 6 / 6 = 1 hour, so the 12-kilometer round trip takes 4 hours altogether: 12 / 4 = 3 kilometers per hour. The tempting midpoint, (2 + 6) / 2 = 4, is wrong because it treats the two speeds as equally weighted, while Ana actually spends three times as long at the slow speed; time, not distance, is what weights an average.",
+    "tags": ["average-speed", "rates", "travel"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 4,
+    "question": "A locked drawer in a clockmaker's workshop opens to a three-digit code. Taped to the drawer is a note:\n\n'Welcome, apprentice. The lock opens to three digits, and all three sit in this note. The FIRST digit is the count of letter B across this note, capital or small. The SECOND digit is the count of letter W across this note, capital or small. The THIRD digit is the count of letter Y across this note, capital or small. Be quick, be quiet, be wise.'\n\nWhat is the code?",
+    "guidance": "When a puzzle tells you to count something inside its own text, do one slow full re-read and mark each occurrence: greetings, sign-offs, and even the letters used to state the rules all count. Hidden answers live in the parts of a text that feel like decoration, so never trim the text before counting it, and always include the rule's own wording.",
+    "answer": "431",
+    "alt_answers": [],
+    "explanation": "Count every occurrence of each letter across the whole note, capital or small. The letter B appears four times: in 'letter B' and in 'Be quick, be quiet, be wise' (Be, be, be). The letter W appears three times: in 'Welcome', in 'letter W', and in 'wise'. The letter Y appears exactly once, in 'letter Y' itself. The code is therefore 4, then 3, then 1: 431. The most common slips are skipping the greeting and closing line as decoration, or forgetting that the capital letters naming the rules appear in the note like any other letters.",
+    "tags": ["self-reference", "counting", "code"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 4,
+    "question": "A small village school has exactly two classes. Class A has 10 students, and their average score on the big test was 90 points. Class B has 90 students, and their average score on the same test was 10 points. The head teacher is about to announce the average for the whole school. A parent interrupts: 'No arithmetic needed - the two class averages are 90 and 10, so the school-wide average is obviously 50.' What is the correct school-wide average?",
+    "guidance": "Never combine group averages without their sizes: rebuild the hidden total behind each average (average times count), add the totals, then divide by the combined count. Whenever the groups differ in size, the plain midpoint of the two averages is a trap worth double-checking, usually tilting toward the larger group's value.",
+    "answer": "18 points",
+    "alt_answers": ["18"],
+    "explanation": "Convert each class average back into its hidden total. Class A scored 10 x 90 = 900 points; Class B scored 90 x 10 = 900 points. The school's 100 students therefore scored 1800 points in all, and the school-wide average is 1800 / 100 = 18. The parent's 50 comes from averaging the two averages as though the classes matched in size, but the weak class holds nine times as many students, which pulls the true average far down toward 10.",
+    "tags": ["averages", "weighted", "groups"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 4,
+    "question": "It is the busiest hour of market day, and the parking lot is jammed: every single car space is taken, and drivers circle the block hunting for openings. At that very moment Tomas arrives and is parked within seconds, perfectly legally, in a marked space near the gate that is far too narrow for any car. Nobody left the lot, and no one did him any favors. What was Tomas riding?",
+    "guidance": "When a scene seems impossible, list what the text never actually states about the main character: vehicle, role, size, equipment. Words like 'arrives' and 'is parked' quietly assume a car. Then match the leftover details, such as a marked space too narrow for any car, against the unstated alternatives one by one.",
+    "answer": "A bicycle",
+    "alt_answers": ["A motorcycle", "A motor scooter", "Any narrow two-wheeler"],
+    "explanation": "Nothing in the story says Tomas arrived by car. The one marked space still available is one no car could fit into, which only makes sense as a bay for something slimmer, and Tomas, riding a bicycle, parks there instantly and legally. Every detail fits: every car space is full, a bicycle needs no favor to park, and the question was answerable all along because the text never actually put Tomas in a car.",
+    "tags": ["assumption", "vehicle", "reading"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 5,
+    "question": "An empty bus leaves the depot. At the first stop, 8 people get on. At the second stop, 3 people get off and 5 get on. At the third stop, 6 people get off and 4 get on. At the fourth stop, 8 people get off and 3 get on. As the bus rolls away from the fourth stop, the driver, who is famously honest, looks in her mirror and tells one passenger: 'Of all my passengers right now, you are the only one who has been riding with me since the very first stop.' How many of her passengers right now have been riding since the very first stop?",
+    "guidance": "Read every quoted statement as hard evidence before grinding any arithmetic: puzzles sometimes hand you the exact number in dialogue. Ask which question the quote answers and whether it is the same question being asked. Long number chains are classic decoys when the answer is stated plainly elsewhere in the text.",
+    "answer": "1",
+    "alt_answers": ["One", "One passenger"],
+    "explanation": "The driver, who is famously honest, states the answer outright: of all her current passengers, exactly one has been riding since the very first stop. The boarding and leaving counts answer a different question - how many people are aboard in all (20 got on, 17 got off, so 3 remain) - and they even agree with her remark: one of those three boarded back at the first stop, while the other two boarded later. The quote is not flavor text; it is the given fact that settles exactly what was asked.",
+    "tags": ["misdirection", "hidden-info", "quotes"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 5,
+    "question": "In the orchard grows an old pear tree. The gardener tells the visitors: 'Yesterday this tree turned exactly 8 years old - we planted it 8 years before that day, and its planting day is marked every single year. Next year, this same tree will be 10 years old. Every word I have said is true.' What is today's date, and on what month and day was the tree planted?",
+    "guidance": "Put calendar puzzles on an actual two-year timeline and place every dated event on it. When an age jumps two years within a single year of story time, look for anniversaries clustered at a year boundary: what matters is when the anniversary lands, not how much time passes. Enumerate candidate dates and test each statement against them.",
+    "answer": "Today is January 1; planted December 31",
+    "alt_answers": ["Today is New Year's Day; planting day is December 31"],
+    "explanation": "Because the tree turned 8 yesterday, its planting anniversary is yesterday's date. For the tree to be 10 next year, it must turn 9 this year and 10 next year, so two anniversaries must land in two consecutive calendar years. That is only possible if yesterday's anniversary fell at the very end of last year: yesterday was December 31 and today is January 1. So the tree was planted on December 31. Concretely: it turned 8 yesterday, on December 31 of last year; it turns 9 this December 31; and it turns 10 on December 31 of next year. No particular calendar year is forced - the statements pin down only the month and day.",
+    "tags": ["calendar", "dates", "timeline"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  },
+  {
+    "category": "lateral-thinking",
+    "difficulty": 5,
+    "question": "A hiking club holds one secret evening gathering each spring. The only invitation is a four-line note passed from hand to hand:\n\nCome after dark.\nAll lanterns stay unlit.\nVoices carry; stay silent.\nExpect the signal at moonrise.\n\nA new member is told: 'Every line is an instruction. No place is named anywhere on the surface of this note, and the exact hour is named in one line only.' Where does the club meet, and at exactly what hour?",
+    "guidance": "When a puzzle guarantees the answer is present but the surface meaning holds nothing, look for a channel other than meaning: first letters, last letters, counts, or capitalization. Acrostics, which read the initial letters of successive lines, are one of the oldest hiding places, so always test the first and last letters of each line before concluding that anything is missing.",
+    "answer": "In the cave, at moonrise",
+    "alt_answers": ["The cave, at moonrise", "Cave; moonrise"],
+    "explanation": "The note names no place, so the meeting spot must travel by a hidden channel. Reading the first letter of each of the four lines gives C, A, V, E: the note spells out CAVE, and that is where the club meets. For the hour, 'after dark' is not a precise time, while the fourth line names an exact moment: moonrise. So the club gathers in the cave at moonrise. The acrostic works because every line genuinely reads as an instruction; the hiding place is the one part of each line that nobody reads as content.",
+    "tags": ["acrostic", "initials", "hidden-info"],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-21"
+    }
+  }
+]

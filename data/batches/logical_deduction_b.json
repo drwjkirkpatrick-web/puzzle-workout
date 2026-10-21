@@ -1,0 +1,322 @@
+[
+  {
+    "category": "logical-deduction",
+    "difficulty": 1,
+    "question": "On a certain island, every person is either a knight, who always tells the truth, or a knave, who always lies. A traveler meets a local who solemnly declares: 'I am a knave.' What can the traveler conclude about the local?",
+    "guidance": "Pin down a speaker's type by testing each case: assume the islander is a knight and check what the sentence's truth would force; then assume a knave and check the same. Whatever case survives must agree with the island's honesty rules, so always finish by confirming that the case you keep obeys every part of the rule.",
+    "answer": "The claim is impossible; no islander could say it",
+    "alt_answers": [
+      "Neither a knight nor a knave could say it",
+      "No such islander exists"
+    ],
+    "explanation": "Test both possible types. If the local is a knight, the sentence would be true, but then the local would be a knave, contradicting a knight's honesty. If the local is a knave, the sentence would be false, but then the local would be a knight, contradicting a knave's habit of lying. Both cases collapse in on themselves, so nobody on this island can utter that sentence: the traveler must have misheard, or the speaker is not really from the island.",
+    "tags": [
+      "knights-knaves",
+      "self-reference"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 1,
+    "question": "Iris, Jules, and Kim ran a sprint with no ties. Jules finished ahead of Kim, and Kim finished ahead of Iris. In what order did they finish (first to last)?",
+    "guidance": "Line up 'ahead of' clues into a single comparison chain. When every person connects into one unbroken chain, the ranking is forced and no other arrangement can work; read the order straight off the chain, then verify it satisfies each clue once more.",
+    "answer": "Jules, then Kim, then Iris",
+    "alt_answers": [
+      "Jules first, Kim second, Iris third",
+      "Jules, Kim, Iris"
+    ],
+    "explanation": "The two clues chain together: Jules is ahead of Kim, and Kim is ahead of Iris. With only three runners and no ties, that single chain pins the whole order: Jules first, Kim second, Iris third. Checking the answer: Jules is indeed ahead of Kim, and Kim is indeed ahead of Iris, so the order satisfies both clues.",
+    "tags": [
+      "ordering",
+      "comparison-chain"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "On an island where everyone is either a knight, who always tells the truth, or a knave, who always lies, you meet two locals, Len and Mira. Len says: 'Mira and I are both knaves.' Who is the knight and who is the knave?",
+    "guidance": "When one statement covers several people, test the speaker's type first, because that decides whether the statement must be true or must be false. Then work with the statement's negation, and remember that 'not both of us' still allows several splits, so let the speaker's settled type finish the job.",
+    "answer": "Mira is the knight; Len is the knave",
+    "alt_answers": [
+      "Len: knave; Mira: knight"
+    ],
+    "explanation": "Suppose Len is a knight. His statement would then be true, making him a knave, which is impossible. So Len is a knave and his statement is false: it is not the case that both locals are knaves. Since Len is a knave, the only way for 'both are knaves' to fail is that Mira is a knight. Final check: Len, a knave, said something false, exactly as a knave must.",
+    "tags": [
+      "knights-knaves",
+      "two-speakers"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 2,
+    "question": "Dai, Eve, Fyn, and Gil finished a race with no ties. Gil finished exactly two places behind Eve. Fyn finished behind Eve but ahead of Dai. Who won the race?",
+    "guidance": "Turn a phrase like 'exactly two places behind' into the short list of position pairs it allows, then test each pair against the remaining people. A placement that breaks any other clue kills the whole branch, so cross it off and let the surviving branch finish the puzzle.",
+    "answer": "Eve",
+    "alt_answers": [
+      "Eve won"
+    ],
+    "explanation": "'Exactly two places behind' allows two options: Eve 1st with Gil 3rd, or Eve 2nd with Gil 4th. Test the second option: the open positions are 1st and 3rd for Fyn and Dai, and Fyn must be behind Eve and ahead of Dai. Fyn would need 3rd, but then Dai at 1st would be ahead of Fyn, a contradiction. So Eve was 1st and Gil 3rd; Fyn takes 2nd, which is behind Eve and ahead of Dai, and Dai takes 4th. Eve won.",
+    "tags": [
+      "ordering",
+      "race"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "On an island where every person is either a knight, who always tells the truth, or a knave, who always lies, three locals speak. Ned says: 'Ora is a knave.' Ora says: 'Pax is a knave.' Pax says: 'Ned and Ora are both knaves.' Who is the knight, and who are the knaves?",
+    "guidance": "Start from one statement and propagate: assume a type for its speaker, follow what the statement's truth forces about the next speaker, and keep going until you finish or hit a contradiction. If a starting case dies, flip the speaker's type and run the chain again; verify the surviving case against every statement.",
+    "answer": "Ora is the knight; Ned and Pax are knaves",
+    "alt_answers": [
+      "Ned: knave; Ora: knight; Pax: knave"
+    ],
+    "explanation": "Suppose Ned is a knight. Then Ora is a knave, so Ora's claim about Pax is false and Pax is a knight. Pax then truthfully says that Ned and Ora are both knaves, but Ned was assumed a knight, a contradiction. So Ned is a knave, and his claim is false: Ora is a knight. Ora truthfully says Pax is a knave, and Pax's claim must then be false, which fits, because 'Ned and Ora are both knaves' fails when Ora is a knight. Types: Ned knave, Ora knight, Pax knave.",
+    "tags": [
+      "knights-knaves",
+      "case-elimination"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "Three neighbors named Ash, Birch, and Cedar each keep exactly one pet, and the three pets are a cat, a dog, and a parrot (all different).\n\n(1) Cedar's pet is not the parrot.\n(2) If Cedar owns the cat, then Birch owns the dog.\n(3) Ash's pet is not the cat.\n(4) Birch's pet is not the dog.\n\nWho keeps which pet?",
+    "guidance": "Handle an 'if X then Y' clue by cases: assume the if-part and follow what it forces until you either confirm it or reach a contradiction. Combined with plain exclusions, one branch usually collapses quickly, and the survivor pins the grid. Re-check every clue against your final assignment before answering.",
+    "answer": "Ash: parrot; Birch: cat; Cedar: dog",
+    "alt_answers": [
+      "Ash parrot, Birch cat, Cedar dog"
+    ],
+    "explanation": "Suppose Cedar owns the cat. Then clue 2 forces Birch to own the dog, which contradicts clue 4. So Cedar does not own the cat, and by clue 1 not the parrot either, leaving the dog for Cedar. Ash cannot own the cat (clue 3) and cannot own the dog (Cedar has it), so Ash owns the parrot. Birch takes the remaining pet, the cat, which agrees with clue 4. All four clues hold.",
+    "tags": [
+      "grid",
+      "elimination",
+      "conditional"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 3,
+    "question": "Five friends named Ada, Bea, Cy, Dee, and Eli ran a cross-country race with no ties. Bea finished immediately after Cy. Dee finished immediately behind Eli. Ada finished ahead of Cy. Bea finished ahead of Eli. In what order did they finish (first to last)?",
+    "guidance": "Treat 'immediately after' pairs as glued blocks, then slide the blocks over the possible starting positions instead of testing every order one by one. The leftover person and the remaining clues kill most placements at a glance; keep counting as you prune so you know when exactly one arrangement survives.",
+    "answer": "Ada, Cy, Bea, Eli, Dee",
+    "alt_answers": [
+      "Ada first, Cy second, Bea third, Eli fourth, Dee fifth"
+    ],
+    "explanation": "Glue the adjacent pairs into the blocks [Cy, Bea] and [Eli, Dee], leaving Ada loose. Ada must finish ahead of Cy. If [Cy, Bea] starts at position 1, Ada has no earlier slot; if it starts at position 4, Bea lands 5th and cannot be ahead of Eli. If it starts at position 3, then [Eli, Dee] must start at 1, forcing Ada to 5th, behind Cy, a contradiction. So [Cy, Bea] starts at 2: Cy is 2nd and Bea 3rd. Bea ahead of Eli forces [Eli, Dee] to start at 4: Eli 4th, Dee 5th. Ada takes 1st. Final order: Ada, Cy, Bea, Eli, Dee. Every clue checks out.",
+    "tags": [
+      "ordering",
+      "adjacency"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 4,
+    "question": "On an island where every person is either a knight, who always tells the truth, or a knave, who always lies, four islanders stand together. Quin says: 'Sol is a knave.' Rika says: 'Quin and Sol are the same type.' Sol says: 'Tam is a knight.' Tam says: 'At least one of the four of us is a knave.' Who are the knights?",
+    "guidance": "Hunt for a statement whose truth you can settle before knowing anyone's type: a claim that would contradict itself if its speaker were a liar. That speaker must be a knight, and the puzzle then unravels statement by statement; keep checking each new claim against the types you have already fixed.",
+    "answer": "Sol and Tam are the knights",
+    "alt_answers": [
+      "Tam and Sol (Quin and Rika are knaves)"
+    ],
+    "explanation": "Start with Tam. If Tam were a knave, his statement would be false, meaning all four are knights, which would make Tam a knight, a contradiction. So Tam is a knight, and his statement is true: at least one knave stands among them. Sol's claim that Tam is a knight is true, so Sol is a knight. Quin's claim that Sol is a knave is false, so Quin is a knave. Rika's claim that Quin and Sol are the same type is false, since one is a knave and the other a knight, so Rika is a knave. Check: knights Sol and Tam, knaves Quin and Rika, and indeed at least one knave exists, exactly as Tam truthfully said.",
+    "tags": [
+      "knights-knaves",
+      "self-reference"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 4,
+    "question": "Four friends named Fay, Hugh, Ida, and Jo each play exactly one instrument, and the four instruments are a drum, a flute, a harp, and a violin (all different).\n\n(1) Fay plays either the harp or the violin.\n(2) Hugh plays either the flute or the violin.\n(3) Jo plays either the drum or the violin.\n(4) If Hugh plays the flute, then Fay plays the violin.\n(5) If Fay plays the violin, then Hugh plays the drum.\n\nWhich instrument does each friend play?",
+    "guidance": "When a puzzle mixes either-or clues with if-then clues, branch on an either-or and let the conditionals prune: assume one branch, chase every consequence, and watch for two clues forcing the same person into conflicting roles. When a branch dies, the other branch plus simple elimination usually finishes the grid.",
+    "answer": "Fay: harp; Hugh: violin; Ida: flute; Jo: drum",
+    "alt_answers": [
+      "Fay harp, Hugh violin, Ida flute, Jo drum"
+    ],
+    "explanation": "Test clue 2's first branch: suppose Hugh plays the flute. Clue 4 then forces Fay onto the violin, and clue 5 forces Hugh onto the drum, but one person cannot play two instruments, a contradiction. So Hugh plays the violin. That removes the violin from Fay's and Jo's options: Fay plays the harp (clue 1) and Jo plays the drum (clue 3). The only instrument left for Ida is the flute. All five clues hold: the conditionals never fire, and each either-or contains the person's actual instrument.",
+    "tags": [
+      "grid",
+      "elimination",
+      "conditional"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 4,
+    "question": "Planning a dinner, a host announces: 'I have invited my father's brother-in-law, my brother's father-in-law, my father-in-law's brother, and my brother-in-law's father.' Use the standard meanings: a father-in-law is the father of one's spouse, and a brother-in-law is the husband of one's sister or the brother of one's spouse. If any consistent family tree is allowed, what is the smallest number of distinct guests that could be coming to dinner?",
+    "guidance": "Treat each description as a role that one person might fill several times over. Sketch the host's nearest relatives first (father, siblings, spouse), then try to make one marriage or birth serve two descriptions at once; each time two roles merge, the guest list shrinks. Finish by re-reading all four descriptions against your diagram.",
+    "answer": "One; all four descriptions could name the same man",
+    "alt_answers": [
+      "One guest",
+      "1"
+    ],
+    "explanation": "Build a family tree in which one man C fills every role. Give the host a father F, an aunt A (F's sister), a brother B, and a sister S. Let C marry A, which makes C the host's father's brother-in-law. Let C have a daughter D from an earlier marriage, and let B marry D, which makes C the brother's father-in-law. Give C a brother FW whose daughter W marries the host: then FW is the host's father-in-law and C is FW's brother. Finally let C have a son N and let S marry N, making N the host's brother-in-law and C his father. Every invitation names the very same man C, so a single guest can fill all four descriptions, and since at least one person is invited, the smallest possible number is one.",
+    "tags": [
+      "family-relations",
+      "in-laws",
+      "deduction"
+    ],
+    "source": {
+      "kind": "public-domain",
+      "title": "A Tangled Tale",
+      "author": "Lewis Carroll",
+      "year": 1886,
+      "url": "https://www.gutenberg.org/files/29042/29042-h/29042-h.htm",
+      "license": "Public domain (US)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 5,
+    "question": "On an island where every person is either a knight, who always tells the truth, or a knave, who always lies, four islanders are interviewed. Uma says: 'Exactly one of us four is a knave.' Vic says: 'Uma is a knave.' Wat says: 'Vic and Uma are the same type.' Yel says: 'At least two of us are knaves.' How many knights are there, and who are they?",
+    "guidance": "When speakers describe how many of them are knights or knaves, enumerate on that number itself: suppose the count is 0, 1, 2, 3, or 4 and check every speaker's statement against their type in each world. Most worlds die within a line or two, and exactly one should survive, so verify the survivor once more before answering.",
+    "answer": "Two knights: Vic and Yel",
+    "alt_answers": [
+      "Vic and Yel are the knights; Uma and Wat are knaves"
+    ],
+    "explanation": "Enumerate by the number of knights. Zero: all are knaves, but Vic's 'Uma is a knave' would then be true, and a knave cannot say something true. Dead. Four: all are knights, but Uma's claim of exactly one knave would be false. Dead. Three: Uma's claim would be true, so Uma is a knight; but Vic's 'Uma is a knave' would then be false, making Vic a knave, so the count could not be three. Dead. One: Uma's claim is false, so Uma is a knave; Yel's 'at least two are knaves' would be true, forcing Yel to be the only knight; then Vic, a knave, would be saying 'Uma is a knave', which is true. Dead. Two: Uma's claim is false (there are two knaves, not one), so Uma is a knave. Vic truthfully calls Uma a knave, so Vic is a knight. Wat's claim that Vic and Uma share a type is false, so Wat is a knave. Yel's claim that at least two are knaves is true, so Yel is a knight. That gives exactly two knights, Vic and Yel, and everything is consistent.",
+    "tags": [
+      "knights-knaves",
+      "counting",
+      "enumeration"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 5,
+    "question": "Five friends named Nell, Otto, Pia, Ravi, and Sula finished a trail race with no ties.\n\n(1) Nell finished immediately ahead of Ravi.\n(2) Exactly one person finished between Sula and Ravi.\n(3) Nell finished exactly two places ahead of Pia.\n(4) Sula finished somewhere behind Ravi.\n(5) Otto did not finish last.\n\nIn what order did they finish (first to last)?",
+    "guidance": "Turn each clue into slot arithmetic: 'immediately ahead' means adjacent positions, and 'exactly one person between' means a gap of two. Then branch on the few placements that remain, usually where a run of consecutive people starts, and prune a branch the instant it violates any clue. Re-read every clue against your final order before answering.",
+    "answer": "Otto, Nell, Ravi, Pia, Sula",
+    "alt_answers": [
+      "Otto first, Nell second, Ravi third, Pia fourth, Sula fifth"
+    ],
+    "explanation": "From clues 1 and 3, Ravi is one place behind Nell and Pia two places behind Nell, so Nell, Ravi, and Pia occupy consecutive positions k, k+1, k+2. Clues 2 and 4 pin Sula: one person between her and Ravi, and behind him, so Sula takes k+3. The four friends hold consecutive slots k through k+3, and Otto takes the single leftover position: 5th if k=1, or 1st if k=2 (k=3 is impossible, since Sula would need slot 6). If k=1, Otto would be 5th, contradicting clue 5, so k=2. Final order: Otto 1st, Nell 2nd, Ravi 3rd, Pia 4th, Sula 5th. Check: Nell is immediately ahead of Ravi; exactly one person (Pia) is between Sula and Ravi; Nell is exactly two places ahead of Pia; Sula is behind Ravi; Otto is not last.",
+    "tags": [
+      "ordering",
+      "enumeration"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  },
+  {
+    "category": "logical-deduction",
+    "difficulty": 5,
+    "question": "Four neighbors named Ari, Bea, Cy, and Dov each keep exactly one pet and live in one house. The four pets are a cat, a dog, a parrot, and a fish (all different), and the four house colors are blue, green, red, and yellow (all different).\n\n(1) Cy owns either the cat or the fish.\n(2) Dov owns either the parrot or the fish.\n(3) Bea owns either the parrot or the fish.\n(4) The cat's owner lives in the blue house.\n(5) The dog's owner lives in the yellow house.\n(6) The parrot's owner lives in the green house.\n(7) Dov does not live in the green house.\n\nWho keeps which pet, and in which house does each person live?",
+    "guidance": "Solve a two-attribute puzzle with two aligned grids and let cross-clues ferry information between them: settle one attribute first if the clues allow, then use links like 'the parrot's owner lives in green' to transfer what you know. Recheck every clue after each wave of eliminations, since later deductions often revive earlier ones.",
+    "answer": "Ari dog/yellow, Bea parrot/green, Cy cat/blue, Dov fish/red",
+    "alt_answers": [
+      "Ari: dog, yellow; Bea: parrot, green; Cy: cat, blue; Dov: fish, red"
+    ],
+    "explanation": "Start with pets. Clues 1 to 3 restrict Cy to the cat or the fish, and Dov and Bea to the parrot or the fish. If Cy owned the fish, both Dov and Bea would be forced onto the parrot, which is impossible with all-different pets, so Cy owns the cat, and Ari, who appears in no pet clue, takes the leftover pet: the dog. Dov and Bea split the parrot and the fish. Now colors: clue 4 puts Cy (the cat) in blue and clue 5 puts Ari (the dog) in yellow, while clue 6 sends the parrot's owner to green. If Dov owned the parrot, Dov would live in green, which clue 7 forbids, so Bea owns the parrot and lives in green. Dov owns the fish and takes the one remaining house: red. All seven clues hold.",
+    "tags": [
+      "grid",
+      "two-attributes",
+      "elimination"
+    ],
+    "source": {
+      "kind": "original",
+      "title": "Original composition for fun-problem-26",
+      "author": null,
+      "year": null,
+      "url": null,
+      "license": "MIT (project original)",
+      "accessed": "2026-10-20"
+    }
+  }
+]
