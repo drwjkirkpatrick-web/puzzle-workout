@@ -12,6 +12,16 @@ explanation**, a **difficulty level** from Foundational to Expert, and a
 It is not a test, and it measures nobody. It is a *workout*: warm up at level 1,
 drill the moves that make new puzzles less scary, and level up at your own pace.
 
+## Try it in your browser
+
+No install, no account, no tracking — the whole gym runs in your browser:
+
+**→ [puzzle-workout.vercel.app](https://puzzle-workout.vercel.app)**
+
+The site is the same bank (270 puzzles), the same three training modes —
+random, leveled, adaptive — the same coach's hints and cited explanations,
+served as a zero-dependency static page. Prefer a terminal? Read on.
+
 ## What's inside
 
 - **270 puzzles across 10 categories** — balanced from Foundational to Expert
@@ -71,6 +81,8 @@ data/questions.db        the shipped database (build artifact)
 scripts/build_db.py      revalidates every batch, dedupes, assigns stable
                         IDs (NS-014, LS-003, ...), rebuilds the DB and
                         regenerates docs/DATA_SOURCES.md
+scripts/build_web.py     serializes the bank to web/puzzles.json — the site's copy
+web/                    the puzzle-workout.vercel.app static site (no build step)
 scripts/validate_one.py  the content gate every entry must pass
 ```
 

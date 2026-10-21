@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puzzle Workout — an open puzzle gym</title>
+<meta name="description" content="270 reasoning puzzles with a coach's hint, a verified answer, a worked explanation, and a citation you can follow. Free, open source, no signup.">
+<meta name="theme-color" content="#FAF5EB">
+<meta property="og:title" content="Puzzle Workout — an open puzzle gym">
+<meta property="og:description" content="270 reasoning puzzles. Warm up at level 1, drill the moves, level up at your own pace. Every answer explained and cited.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23241B0F'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Georgia, serif' font-weight='700' text-anchor='middle' fill='%23FAF5EB'%3E%3F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<a class="skip" href="#workout">Skip to the workout</a>
+
+<header class="site-head">
+  <a class="wordmark" href="#top">
+    <span class="mark" aria-hidden="true">?</span>
+    <span>Puzzle&nbsp;Workout</span>
+  </a>
+  <nav class="site-nav">
+    <a href="#workout">Workout</a>
+    <a href="#provenance">Sources</a>
+    <a href="https://github.com/drwjkirkpatrick-web/puzzle-workout">GitHub</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">An open puzzle gym · MIT · no signup, no tracking</p>
+      <h1>Warm up your <em>thinking</em>.</h1>
+      <p class="lede">270 reasoning puzzles — sequences, logic, lateral thinking,
+      word arithmetic and more. Every one comes with a coach&rsquo;s hint, a verified
+      answer, a worked explanation, and a citation you can follow. It&rsquo;s not a
+      test; it&rsquo;s a workout. Warm up at level&nbsp;1, drill the moves, and level up
+      at your own pace.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#workout">Start a workout</a>
+        <a class="btn ghost" href="#provenance">Where the puzzles come from</a>
+      </div>
+      <ul class="stat-strip" aria-label="The bank at a glance">
+        <li><strong>270</strong>puzzles</li>
+        <li><strong>10</strong>categories</li>
+        <li><strong>5</strong>levels</li>
+        <li><strong>100%</strong>answers cited</li>
+      </ul>
+    </div>
+
+    <aside class="warmup" id="warmup" aria-label="Try one puzzle right now">
+      <div class="warmup-head">
+        <p class="card-label">Try one right now</p>
+        <p class="warmup-sub">A Foundational puzzle from the bank. No timer, no score.</p>
+      </div>
+      <div class="warmup-body" id="warmupBody">
+        <p class="loading">Warming up&hellip;</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="bench" id="workout" aria-label="The workout bench">
+    <h2 class="bench-title">The bench</h2>
+
+    <!-- ── Setup ─────────────────────────────────────────── -->
+    <div class="card bench-card" id="setupView">
+      <p class="card-label">Configure your session</p>
+
+      <fieldset class="mode-field">
+        <legend class="field-label">How do you want to train?</legend>
+        <div class="mode-cards" role="radiogroup" aria-label="Training mode">
+          <label class="mode-card">
+            <input type="radio" name="mode" value="random" checked>
+            <span class="mode-name">Random</span>
+            <span class="mode-desc">A shuffled draw across the whole bank. Fresh every session.</span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="mode" value="leveled">
+            <span class="mode-name">Leveled</span>
+            <span class="mode-desc">Fix a level from Foundational to Expert and drill exactly there.</span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="mode" value="adaptive">
+            <span class="mode-name">Adaptive</span>
+            <span class="mode-desc">Starts at level&nbsp;2. Each hit moves you up, each miss eases you down. It finds your edge.</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="field" id="levelField" hidden>
+        <p class="field-label" id="levelFieldLabel">Drill level</p>
+        <div class="segmented" role="radiogroup" aria-labelledby="levelFieldLabel" id="levelPicker">
+          <button type="button" class="seg" data-level="1" aria-pressed="false">1<span>Foundational</span></button>
+          <button type="button" class="seg" data-level="2" aria-pressed="false">2<span>Developing</span></button>
+          <button type="button" class="seg" data-level="3" aria-pressed="true">3<span>Proficient</span></button>
+          <button type="button" class="seg" data-level="4" aria-pressed="false">4<span>Advanced</span></button>
+          <button type="button" class="seg" data-level="5" aria-pressed="false">5<span>Expert</span></button>
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="field-label" id="catLabel">Category</p>
+        <div class="chips" role="group" aria-labelledby="catLabel" id="catPicker"></div>
+      </div>
+
+      <div class="field">
+        <p class="field-label" id="lenLabel">Session length</p>
+        <div class="segmented" role="radiogroup" aria-labelledby="lenLabel" id="lenPicker">
+          <button type="button" class="seg" data-len="5" aria-pressed="false">5</button>
+          <button type="button" class="seg" data-len="10" aria-pressed="true">10</button>
+          <button type="button" class="seg" data-len="20" aria-pressed="false">20</button>
+        </div>
+      </div>
+
+      <p class="setup-note" id="setupNote" role="status" hidden></p>
+
+      <button class="btn primary big" id="startBtn" disabled>Loading the bank&hellip;</button>
+    </div>
+
+    <!-- ── Play ───────────────────────────────────────────── -->
+    <div class="card bench-card" id="playView" hidden>
+      <div class="play-meta">
+        <p class="q-progress" id="qProgress">Question 1 of 10</p>
+        <div class="dots" id="qDots" aria-hidden="true"></div>
+        <div class="level-meter" id="levelMeter" hidden>
+          <span class="meter-label" id="meterLabel">Level 2</span>
+          <span class="meter-track" aria-hidden="true"><span class="meter-fill" id="meterFill"></span></span>
+        </div>
+      </div>
+
+      <div class="q-chips">
+        <span class="chip cat" id="qCat"></span>
+        <span class="chip diff" id="qDiff"></span>
+        <span class="chip qid" id="qId"></span>
+      </div>
+
+      <div class="question" id="qText"></div>
+
+      <div class="answer-row" id="answerRow">
+        <label class="visually-hidden" for="answerInput">Your answer</label>
+        <input id="answerInput" type="text" autocomplete="off" autocapitalize="off"
+               spellcheck="false" placeholder="Type your answer&hellip;">
+        <button class="btn primary" id="checkBtn">Check</button>
+      </div>
+      <p class="input-hint">Press <kbd>Enter</kbd> to check · <kbd>H</kbd> hint · <kbd>S</kbd> skip</p>
+
+      <button class="textbtn" id="hintBtn" hidden>&#9432; Show the coach&rsquo;s hint</button>
+      <div class="hint-panel" id="hintPanel" hidden>
+        <p class="card-label">Coach&rsquo;s hint</p>
+        <p id="hintText"></p>
+      </div>
+
+      <div class="verdict" id="verdict" hidden>
+        <p class="verdict-line" id="verdictLine"></p>
+        <div class="answer-block">
+          <p class="card-label">Answer</p>
+          <p class="the-answer" id="theAnswer"></p>
+        </div>
+        <div class="explain-block">
+          <p class="card-label">How it works</p>
+          <p id="theExplanation"></p>
+        </div>
+        <p class="source-line" id="theSource"></p>
+      </div>
+
+      <div class="play-actions" id="playActions">
+        <button class="btn ghost" id="skipBtn">Skip</button>
+        <button class="textbtn" id="revealBtn">Reveal the answer</button>
+        <button class="btn primary" id="nextBtn" hidden>Next &rarr;</button>
+      </div>
+    </div>
+
+    <!-- ── Results ───────────────────────────────────────── -->
+    <div class="card bench-card" id="doneView" hidden>
+      <p class="card-label">Session complete</p>
+      <div class="results-top">
+        <h3 class="results-head" id="resultsHead">Workout done.</h3>
+        <p class="accuracy-big"><span id="accuracyNum">—</span><span class="accuracy-unit">% accuracy</span></p>
+      </div>
+      <dl class="results-grid" id="resultsGrid"></dl>
+      <p class="alltime" id="allTimeNote" hidden></p>
+      <div class="cta-row">
+        <button class="btn primary" id="againBtn">Run it back</button>
+        <button class="btn ghost" id="newSettingsBtn">Change the setup</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="provenance" id="provenance">
+    <p class="card-label">Honest by design</p>
+    <h2>Every answer earns its keep</h2>
+    <p class="prov-lede">Every puzzle shows its full reasoning — and where it came
+    from. Original puzzles are composed for this project and released under MIT.
+    Adapted puzzles are drawn from public-domain classics and cite the exact
+    edition the authors fetched, in a ledger generated mechanically from the
+    data, never hand-typed.</p>
+    <ul class="prov-list" id="provList"></ul>
+    <p class="prov-more">
+      <a href="https://github.com/drwjkirkpatrick-web/puzzle-workout/blob/main/docs/DATA_SOURCES.md">Read the full source ledger &rarr;</a>
+    </p>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p><strong>Puzzle Workout</strong> is open source under MIT. This page is a
+  static site with no cookies and no tracking — every workout runs entirely in
+  your browser, even offline once loaded.</p>
+  <p class="foot-links">
+    <a href="https://github.com/drwjkirkpatrick-web/puzzle-workout">GitHub</a>
+    <a href="https://github.com/drwjkirkpatrick-web/puzzle-workout#readme">The CLI</a>
+    <a href="https://github.com/drwjkirkpatrick-web/puzzle-workout/blob/main/docs/DATA_SOURCES.md">Sources</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

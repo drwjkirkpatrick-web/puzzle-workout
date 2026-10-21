@@ -25,12 +25,15 @@ leveled, or adaptive order from a small CLI.
 - [x] Full test suite green (schema parametrized over every row, trademark scan, rebuild determinism, citation coverage, CLI)
 - [x] README (community voice) + docs + CI + examples
 - [x] Published to GitHub as drwjkirkpatrick-web/puzzle-workout
+- [x] Web UI: zero-dependency static site (web/), all three training modes,
+      coach's hints and cited explanations, deployed via Vercel CLI to
+      https://puzzle-workout.vercel.app (2026-10-21)
 
 ### In Progress
 - [ ] (none)
 
 ### Not Started
-- [ ] Future: more categories, spaced-repetition scheduling, web UI
+- [ ] Future: more categories, spaced-repetition scheduling
 
 ## 3. Architecture & Key Decisions
 
@@ -42,6 +45,8 @@ leveled, or adaptive order from a small CLI.
 | No organization/trademark names anywhere (validator + tests enforce; token assembled at runtime) | project stance; welcoming to everyone | 2026-10-20 |
 | Public-domain adaptations + original composition only | clean, verifiable licensing | 2026-10-20 |
 | Near-dupe detection via token bigrams + document-frequency filter | plain token sets false-positived on grid boilerplate (dropped 8 legit matrix puzzles before the fix) | 2026-10-21 |
+| Static site ships answers client-side; JS is a faithful port of quiz.py (modes + lenient matcher) | offline-first, zero-backend; parity-tested 23/23 against Python answers_match | 2026-10-21 |
+| web/puzzles.json generated only by scripts/build_web.py from the SQLite bank | never hand-typed; site can't drift from the data | 2026-10-21 |
 | Re-dispatch waves in smaller sizes after provider 429 usage-cap failures | full 6-child wave lost to Ollama Cloud 5-hour cap; 3-child waves after window roll succeeded | 2026-10-21 |
 
 ## 4. Blockers & Risks
@@ -62,6 +67,7 @@ None — first push complete. Future expansion ideas live in section 2.
 
 - 2026-10-20: Project created; 17 sources verified; schema/validator/map/exemplar; waves 1-2 dispatched and verified (13 batches).
 - 2026-10-21: Waves 3-4 completed (429 outage on first wave-4 attempt — re-dispatched in smaller waves); all 20 batches done; dedupe fixed (bigram+df); final build; tests green; published as puzzle-workout.
+- 2026-10-21: Web UI built (web/: index.html, style.css, app.js + generated puzzles.json), deployed to puzzle-workout.vercel.app; fixed mid-question advance bug found by browser test; mobile grid blowout hardened; answer matcher parity-tested vs Python.
 
 ## 8. References
 
